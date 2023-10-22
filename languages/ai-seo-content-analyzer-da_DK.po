@@ -1,0 +1,762 @@
+# Copyright (C) 2023 BuyReadySite.com
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AI SEO Content Analyzer 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ai-seo-content-"
+"analyzer\n"
+"Last-Translator: \n"
+"Language-Team: Danish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-04T13:03:20+00:00\n"
+"PO-Revision-Date: 2023-09-04 13:11+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: ai-seo-content-analyzer\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.4; wp-6.3.1"
+
+#. Plugin Name of the plugin
+#: admin/console/mass-analysis.php:71
+msgid "AI SEO Content Analyzer"
+msgstr "AI SEO indholdsanalysator"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://aiseoautooptimize.pro"
+msgstr "https://aiseoautooptimize.pro"
+
+#. Description of the plugin
+msgid ""
+"AI SEO Content Analyzer is a comprehensive SEO tool designed to scan and "
+"evaluate your content for potential SEO issues. By examining your content "
+"based on predefined parameters, it provides actionable recommendations and "
+"insights to improve its SEO optimization. Whether you're looking to increase "
+"your content's visibility, address common SEO mistakes, or just ensure that "
+"your website is on the right track, this plugin offers a streamlined and "
+"user-friendly solution."
+msgstr ""
+"AI SEO Content Analyzer er et omfattende SEO-værktøj designet til at scanne "
+"og evaluere dit indhold for potentielle SEO-problemer. Ved at undersøge dit "
+"indhold baseret på foruddefinerede parametre giver det praktiske "
+"anbefalinger og indsigt til at forbedre SEO-optimeringen. Uanset om du "
+"ønsker at øge dit indholds synlighed, adressere almindelige SEO-fejl eller "
+"bare sikre, at din hjemmeside er på rette vej, tilbyder dette plugin en "
+"strømlinet og brugervenlig løsning."
+
+#. Author of the plugin
+msgid "BuyReadySite.com"
+msgstr "BuyReadySite.com"
+
+#: admin/ai_seo_optimization_score.php:129
+msgid "Keyword presence in title"
+msgstr "Nøgleords tilstedeværelse i titlen"
+
+#: admin/ai_seo_optimization_score.php:134
+msgid "Keyword absence in title"
+msgstr "Nøgleord mangler i titlen"
+
+#. translators: 1: Keyword used, 2: Title with highlighted keyword
+#: admin/ai_seo_optimization_score.php:137
+msgid ""
+"Keyword used: %1$s<strong>%1$s</strong><br>Missing keyword in the title can "
+"affect search engine visibility. Implementing the keyword can enhance "
+"ranking.<br>Title: %2$s"
+msgstr ""
+"Anvendt søgeord: %1$s<strong>%1$s</strong><br>Manglende søgeord i titlen kan "
+"påvirke søgemaskinens synlighed. Implementering af søgeordet kan forbedre "
+"rangeringen.<br>Titel: %2$s"
+
+#: admin/ai_seo_optimization_score.php:149
+msgid "Optimal title length"
+msgstr "Optimal titellængde"
+
+#: admin/ai_seo_optimization_score.php:154
+msgid "Non-optimal title length"
+msgstr "Ikke-optimal titellængde"
+
+#: admin/ai_seo_optimization_score.php:166
+msgid "Keyword at the beginning of the title"
+msgstr "Søgeord i begyndelsen af titlen"
+
+#: admin/ai_seo_optimization_score.php:171
+msgid "Keyword not at the beginning of the title"
+msgstr "Søgeord ikke i begyndelsen af titlen"
+
+#. translators: 1: Keyword used, 2: Beginning of the title, 3: Remaining part of the title
+#: admin/ai_seo_optimization_score.php:174
+msgid "Keyword used: %1$s<strong>%1$s</strong><br>Title: %2$s%3$s"
+msgstr "Anvendt søgeord: %1$s<strong>%1$s</strong><br>Titel: %2$s%3$s"
+
+#: admin/ai_seo_optimization_score.php:182
+#: admin/ai_seo_optimization_score.php:246
+#: admin/ai_seo_optimization_score.php:328
+msgid "Keyword is not set. Please provide a keyword for SEO analysis."
+msgstr "Søgeord er ikke angivet. Angiv venligst et søgeord til SEO-analyse."
+
+#: admin/ai_seo_optimization_score.php:192
+msgid "Presence of numbers, special Unicode characters, or emojis in title"
+msgstr "Tilstedeværelse af tal, specielle Unicode-tegn eller emojis i titlen"
+
+#: admin/ai_seo_optimization_score.php:197
+msgid "Absence of numbers, special Unicode characters, or emojis in title"
+msgstr "Fravær af tal, specielle Unicode-tegn eller emojis i titlen"
+
+#: admin/ai_seo_optimization_score.php:230
+msgid "Keyword presence in meta description"
+msgstr "Nøgleords tilstedeværelse i metabeskrivelse"
+
+#: admin/ai_seo_optimization_score.php:235
+msgid "Keyword absence in meta description"
+msgstr "Nøgleordsfravær i metabeskrivelse"
+
+#. translators: 1: Keyword used, 2: Meta description
+#: admin/ai_seo_optimization_score.php:238
+msgid ""
+"The keyword was not found in the meta description. It's recommended to "
+"include the keyword for better SEO performance.<br>Keyword used: %1$s<strong>"
+"%1$s</strong><br>Meta Description: %2$s"
+msgstr ""
+"Søgeordet blev ikke fundet i metabeskrivelsen. Det anbefales at inkludere "
+"søgeordet for bedre SEO-ydeevne.<br>Anvendt søgeord: %1$s<strong>"
+"%1$s</strong><br>Metabeskrivelse: %2$s"
+
+#: admin/ai_seo_optimization_score.php:254
+msgid "Optimal meta description length"
+msgstr "Optimal metabeskrivelseslængde"
+
+#: admin/ai_seo_optimization_score.php:259
+msgid "Non-optimal meta description length"
+msgstr "Ikke-optimal metabeskrivelseslængde"
+
+#. translators: 1: Current meta description length
+#: admin/ai_seo_optimization_score.php:262
+msgid ""
+"The length of the meta description is not optimal. It's recommended to keep "
+"the meta description between 130-160 characters.<br>Current Length: %d"
+msgstr ""
+"Længden af metabeskrivelsen er ikke optimal. Det anbefales at holde "
+"metabeskrivelsen mellem 130-160 tegn.<br>Aktuel længde: %d"
+
+#: admin/ai_seo_optimization_score.php:311
+msgid "Keyword presence in URL"
+msgstr "Søgeords tilstedeværelse i URL"
+
+#: admin/ai_seo_optimization_score.php:317
+msgid "Keyword absence in URL"
+msgstr "Nøgleord fravær i URL"
+
+#. translators: 1: URL
+#: admin/ai_seo_optimization_score.php:320
+msgid ""
+"The keyword is not found in the URL. It's recommended to include the keyword "
+"in the URL for better SEO performance.<br>URL: %s"
+msgstr ""
+"Søgeordet findes ikke i URL'en. Det anbefales at inkludere søgeordet i "
+"URL'en for bedre SEO-ydeevne.<br>URL: %s"
+
+#: admin/ai_seo_optimization_score.php:335
+msgid "Clean and short URL"
+msgstr "Ren og kort URL"
+
+#. translators: 1: URL length, 2: URL
+#: admin/ai_seo_optimization_score.php:338
+msgid ""
+"The URL is clean and short (length: %1$s characters). Recommended URL length "
+"is less than 80 characters. You can modify the URL structure in <a "
+"href='options-permalink.php'>Permalink Settings</a>.<br>Current URL: %2$s"
+msgstr ""
+"URL&#39;en er ren og kort (længde: %1$s tegn). Den anbefalede URL-længde er "
+"mindre end 80 tegn. Du kan ændre URL-strukturen i <a href='options-permalink."
+"php'>Permalink Settings</a> .<br> Nuværende URL: %2$s"
+
+#: admin/ai_seo_optimization_score.php:343
+msgid "URL not clean or too long"
+msgstr "URL ikke ren eller for lang"
+
+#: admin/ai_seo_optimization_score.php:378
+msgid "Only one H1"
+msgstr "Kun en H1"
+
+#. translators: 1: H1 content
+#: admin/ai_seo_optimization_score.php:381
+msgid "The content has only one H1 tag: %s."
+msgstr "Indholdet har kun ét H1-tag: %s."
+
+#: admin/ai_seo_optimization_score.php:385
+msgid "Multiple or no H1 tags"
+msgstr "Flere eller ingen H1-tags"
+
+#: admin/ai_seo_optimization_score.php:397
+msgid "Keyword presence in H1"
+msgstr "Nøgleords tilstedeværelse i H1"
+
+#: admin/ai_seo_optimization_score.php:404
+msgid "Keyword absence in H1"
+msgstr "Nøgleordsfravær i H1"
+
+#: admin/ai_seo_optimization_score.php:406
+msgid "The keyword is not present in the H1 tag."
+msgstr "Nøgleordet er ikke til stede i H1-tagget."
+
+#: admin/ai_seo_optimization_score.php:424
+msgid "Keyword presence in subheadings"
+msgstr "Nøgleords tilstedeværelse i underoverskrifter"
+
+#: admin/ai_seo_optimization_score.php:433
+msgid "Keyword absence in subheadings"
+msgstr "Nøgleordsfravær i underoverskrifter"
+
+#: admin/ai_seo_optimization_score.php:435
+msgid "The keyword is not present in any of the subheadings."
+msgstr "Nøgleordet findes ikke i nogen af underoverskrifterne."
+
+#: admin/ai_seo_optimization_score.php:475
+msgid "Correct nesting of subheadings"
+msgstr "Korrekt indlejring af underoverskrifter"
+
+#. translators: 1: Heading structure
+#: admin/ai_seo_optimization_score.php:478
+msgid ""
+"The subheadings are correctly nested. Correctly nested subheadings help in "
+"organizing the content and improving readability."
+msgstr ""
+"Underoverskrifterne er korrekt indlejret. Korrekt indlejrede "
+"underoverskrifter hjælper med at organisere indholdet og forbedre "
+"læsbarheden."
+
+#: admin/ai_seo_optimization_score.php:482
+msgid "Incorrect nesting of subheadings"
+msgstr "Forkert indlejring af underoverskrifter"
+
+#: admin/ai_seo_optimization_score.php:513
+msgid "Presence of alt text for all images"
+msgstr "Tilstedeværelse af alt-tekst for alle billeder"
+
+#. translators: 1: Count of images with alt text
+#: admin/ai_seo_optimization_score.php:516
+msgid "All %1$s images have alt text. This is good for SEO and accessibility."
+msgstr ""
+"Alle %1$s billeder har alt-tekst. Dette er godt for SEO og tilgængelighed."
+
+#: admin/ai_seo_optimization_score.php:521
+msgid "Missing alt text for some images"
+msgstr "Mangler alternativ tekst til nogle billeder"
+
+#: admin/ai_seo_optimization_score.php:537
+msgid "Keyword presence in alt text of main image"
+msgstr "Nøgleords tilstedeværelse i alt-teksten på hovedbilledet"
+
+#: admin/ai_seo_optimization_score.php:542
+msgid "Keyword absence in alt text of main image"
+msgstr "Nøgleordsfravær i alt-teksten på hovedbilledet"
+
+#: admin/ai_seo_optimization_score.php:544
+msgid ""
+"The keyword is not present in the alt text of the main image. Consider "
+"including the keyword."
+msgstr ""
+"Nøgleordet er ikke til stede i alt-teksten i hovedbilledet. Overvej at "
+"inkludere søgeordet."
+
+#: admin/ai_seo_optimization_score.php:563
+msgid "Keyword presence in alt text of other images"
+msgstr "Nøgleords tilstedeværelse i alt-tekst af andre billeder"
+
+#: admin/ai_seo_optimization_score.php:568
+msgid "Keyword absence in alt text of other images"
+msgstr "Nøgleordsfravær i alt-tekst på andre billeder"
+
+#: admin/ai_seo_optimization_score.php:570
+msgid ""
+"The keyword is not present in the alt text of other images. Consider "
+"including the keyword."
+msgstr ""
+"Nøgleordet er ikke til stede i alt-teksten på andre billeder. Overvej at "
+"inkludere søgeordet."
+
+#: admin/ai_seo_optimization_score.php:579
+msgid "Good ratio of images/media to text volume"
+msgstr "Godt forhold mellem billeder/medier og tekstvolumen"
+
+#: admin/ai_seo_optimization_score.php:584
+msgid "Poor ratio of images/media to text volume"
+msgstr "Dårligt forhold mellem billeder/medier og tekstvolumen"
+
+#. translators: 1: Count of images, 2: Content length
+#: admin/ai_seo_optimization_score.php:587
+msgid ""
+"The content has %1$s images and %2$s characters. Consider adding more images "
+"to achieve the recommended ratio of at least 1 image per 3000 characters."
+msgstr ""
+"Indholdet har %1$s billeder og %2$s tegn. Overvej at tilføje flere billeder "
+"for at opnå det anbefalede forhold på mindst 1 billede pr. 3000 tegn."
+
+#: admin/ai_seo_optimization_score.php:645
+msgid "Presence of external links"
+msgstr "Tilstedeværelse af eksterne links"
+
+#. translators: 1: Number of external links, 2: List of external links with their anchor text
+#: admin/ai_seo_optimization_score.php:648
+msgid ""
+"Found %1$s external links. External links can add value and credibility to "
+"your content. Links:%2$s"
+msgstr ""
+"Fandt %1$s eksterne links. Eksterne links kan tilføje værdi og troværdighed "
+"til dit indhold. Links:%2$s"
+
+#: admin/ai_seo_optimization_score.php:652
+msgid "No external links"
+msgstr "Ingen eksterne links"
+
+#: admin/ai_seo_optimization_score.php:654
+msgid "No external links found."
+msgstr "Ingen eksterne links fundet."
+
+#: admin/ai_seo_optimization_score.php:661
+msgid "Presence of internal links"
+msgstr "Tilstedeværelse af interne links"
+
+#: admin/ai_seo_optimization_score.php:666
+msgid "No internal links"
+msgstr "Ingen interne links"
+
+#: admin/ai_seo_optimization_score.php:668
+msgid "No internal links found."
+msgstr "Ingen interne links fundet."
+
+#: admin/ai_seo_optimization_score.php:685
+msgid "No links with nofollow attributes"
+msgstr "Ingen links med nofollow-attributter"
+
+#: admin/ai_seo_optimization_score.php:687
+msgid ""
+"No links with nofollow attribute found. This is positive as it allows search "
+"engines to crawl and pass link equity to the linked pages. Consider linking "
+"to authoritative and trusted websites without the nofollow attribute, as it "
+"aligns with the best SEO practices."
+msgstr ""
+"Ingen links med nofollow-attribut blev fundet. Dette er positivt, da det "
+"tillader søgemaskiner at gennemgå og videregive linkequity til de linkede "
+"sider. Overvej at linke til autoritative og pålidelige websteder uden "
+"nofollow-attributten, da det stemmer overens med den bedste SEO-praksis."
+
+#: admin/ai_seo_optimization_score.php:689
+msgid "Presence of nofollow attributes"
+msgstr "Tilstedeværelse af nofollow-attributter"
+
+#: admin/ai_seo_optimization_score.php:748
+msgid "Keyword presence in content"
+msgstr "Nøgleords tilstedeværelse i indhold"
+
+#. translators: 1: Keyword density, 2: Minimum recommended keyword density, 3: Maximum recommended keyword density
+#: admin/ai_seo_optimization_score.php:751
+#: admin/ai_seo_optimization_score.php:758
+msgid ""
+"Keyword density is <strong>%1$.2f%%</strong>. Recommended optimal density is "
+"between %2$.2f%% and %3$.2f%%."
+msgstr ""
+"Søgeordstætheden er <strong>%1$.2f%%</strong>. Den anbefalede optimale "
+"tæthed er mellem %2$.2f%% og %3$.2f%%."
+
+#: admin/ai_seo_optimization_score.php:755
+#: admin/ai_seo_optimization_score.php:760
+msgid "Keyword presence in content (suboptimal density)"
+msgstr "Søgeords tilstedeværelse i indhold (suboptimal tæthed)"
+
+#. translators: 1: Keyword density, 2: Minimum recommended keyword density, 3: Maximum recommended keyword density
+#: admin/ai_seo_optimization_score.php:763
+msgid ""
+"Keyword density is <strong>%1$.2f%%</strong>. Recommended optimal density is "
+"between %2$.2f%% and %3$.2f%%. No points awarded as density is out of range."
+msgstr ""
+"Søgeordstætheden er <strong>%1$.2f%%</strong>. Den anbefalede optimale "
+"tæthed er mellem %2$.2f%% og %3$.2f%%. Der gives ingen point, da tætheden er "
+"uden for rækkevidde."
+
+#: admin/ai_seo_optimization_score.php:773
+msgid "Optimal content length"
+msgstr "Optimal indholdslængde"
+
+#. translators: 1: Number of words in content, 2: Recommended minimum number of words
+#: admin/ai_seo_optimization_score.php:776
+msgid ""
+"Content has %1$s words. A minimum of %2$d words is recommended for optimal "
+"SEO."
+msgstr "Indholdet har %1$s ord. Minimum %2$d ord anbefales for optimal SEO."
+
+#: admin/ai_seo_optimization_score.php:780
+msgid "Content length is not optimal"
+msgstr "Indholdslængden er ikke optimal"
+
+#: admin/ai_seo_optimization_score.php:791
+msgid "Presence of media content"
+msgstr "Tilstedeværelse af medieindhold"
+
+#. translators: 1: Number of media items in content
+#: admin/ai_seo_optimization_score.php:794
+msgid ""
+"Found %1$s media items in content. Media items like images and videos can "
+"enhance user engagement."
+msgstr ""
+"Fandt %1$s medieelementer i indholdet. Medieelementer som billeder og "
+"videoer kan øge brugerengagementet."
+
+#: admin/ai_seo_optimization_score.php:798
+msgid "No media content found"
+msgstr "Intet medieindhold fundet"
+
+#: admin/ai_seo_optimization_score.php:800
+msgid ""
+"No media items found in content. Consider adding images or videos to enhance "
+"user engagement."
+msgstr ""
+"Ingen medieelementer fundet i indholdet. Overvej at tilføje billeder eller "
+"videoer for at øge brugerengagementet."
+
+#: admin/ai_seo_optimization_score.php:816
+msgid "No long sentences"
+msgstr "Ingen lange sætninger"
+
+#: admin/ai_seo_optimization_score.php:818
+msgid "No long sentences found in content."
+msgstr "Ingen lange sætninger fundet i indholdet."
+
+#: admin/ai_seo_optimization_score.php:820
+msgid "Presence of long sentences"
+msgstr "Tilstedeværelse af lange sætninger"
+
+#: admin/ai_seo_optimization_score.php:834
+msgid "No large paragraphs"
+msgstr "Ingen store afsnit"
+
+#: admin/ai_seo_optimization_score.php:836
+msgid "No large paragraphs found in content."
+msgstr "Ingen store afsnit fundet i indholdet."
+
+#: admin/ai_seo_optimization_score.php:838
+msgid "Presence of large paragraphs"
+msgstr "Tilstedeværelse af store afsnit"
+
+#: admin/ai_seo_optimization_score.php:869
+#: admin/ai_seo_optimization_score.php:878
+msgid "List"
+msgstr "Liste"
+
+#: admin/ai_seo_optimization_score.php:883
+msgid "Presence of lists"
+msgstr "Tilstedeværelse af lister"
+
+#: admin/ai_seo_optimization_score.php:887
+msgid "Found %1$s unordered lists and %2$s ordered lists.<br>%3$s%4$s"
+msgstr "Fandt %1$s uordnede lister og %2$s ordnede lister.<br>%3$s%4$s"
+
+#: admin/ai_seo_optimization_score.php:909
+msgid "Use of italic or bold for keyword emphasis"
+msgstr "Brug af kursiv eller fed for at fremhæve nøgleord"
+
+#: admin/ai_seo_optimization_score.php:914
+msgid ""
+"Keyword is not emphasized with bold or italic. Emphasizing important "
+"keywords can improve readability."
+msgstr ""
+"Søgeord fremhæves ikke med fed eller kursiv. Fremhævelse af vigtige søgeord "
+"kan forbedre læsbarheden."
+
+#: admin/ai_seo_optimization_score.php:920
+msgid "Presence of tables"
+msgstr "Tilstedeværelse af borde"
+
+#: admin/ai_seo_optimization_score.php:925
+msgid ""
+"No tables found in content. Consider using tables to present data when "
+"applicable."
+msgstr ""
+"Ingen tabeller fundet i indholdet. Overvej at bruge tabeller til at "
+"præsentere data, når det er relevant."
+
+#: admin/ai_seo_score_display.php:30
+msgid "AI SEO Content Analyzer Plugin Score"
+msgstr "AI SEO Content Analyzer Plugin Score"
+
+#: admin/ai_seo_score_display.php:34
+msgid "Overall Score"
+msgstr "Samlet score"
+
+#: admin/ai_seo_score_display.php:106
+msgid "Current SEO score:"
+msgstr "Aktuel SEO-score:"
+
+#: admin/ai_seo_score_display.php:112
+msgid "Improve with Pro Version"
+msgstr "Forbedre med Pro-versionen"
+
+#: admin/ai_seo_score_display.php:123
+msgid "AI SEO Score for Post"
+msgstr "AI SEO-score for post"
+
+#: admin/console/console.php:14
+msgid ""
+"Your go-to tool for comprehensive SEO content analysis. Brought to you by "
+"BuyReadySite, the AI SEO Content Analyzer Pro helps you scrutinize and "
+"optimize your content like never before. Enhance your content's SEO score "
+"with detailed audits and intelligent recommendations."
+msgstr ""
+"Dit go-to-værktøj til omfattende SEO-indholdsanalyse. Bragt til dig af "
+"BuyReadySite, AI SEO Content Analyzer Pro hjælper dig med at granske og "
+"optimere dit indhold som aldrig før. Forbedre dit indholds SEO-score med "
+"detaljerede revisioner og intelligente anbefalinger."
+
+#: admin/console/console.php:15
+msgid "Plugin Advantages"
+msgstr "Plugin fordele"
+
+#: admin/console/console.php:20
+msgid "Content Analysis"
+msgstr "Indholdsanalyse"
+
+#: admin/console/console.php:22
+msgid "Keyword density analysis"
+msgstr "Søgeordsdensitetsanalyse"
+
+#: admin/console/console.php:23
+msgid "Content readability score"
+msgstr "Indhold læsbarhed score"
+
+#: admin/console/console.php:24
+msgid "Meta tags evaluation"
+msgstr "Meta tags evaluering"
+
+#: admin/console/console.php:28
+msgid "SEO Auditing"
+msgstr "SEO revision"
+
+#: admin/console/console.php:30
+msgid "On-page SEO audit"
+msgstr "SEO-revision på siden"
+
+#: admin/console/console.php:31
+msgid "Backlink analysis"
+msgstr "Backlink analyse"
+
+#: admin/console/console.php:32
+msgid "Technical SEO evaluation"
+msgstr "Teknisk SEO evaluering"
+
+#: admin/console/console.php:36
+msgid "Performance"
+msgstr "Ydeevne"
+
+#: admin/console/console.php:38
+msgid "Fast content analysis"
+msgstr "Hurtig indholdsanalyse"
+
+#: admin/console/console.php:39
+msgid "Easy integration"
+msgstr "Nem integration"
+
+#: admin/console/console.php:40
+msgid "User-friendly dashboard"
+msgstr "Brugervenligt dashboard"
+
+#: admin/console/console.php:45
+msgid "Paid Version Advantages"
+msgstr "Fordele ved betalt version"
+
+#: admin/console/console.php:50
+msgid "Data Security"
+msgstr "Datasikkerhed"
+
+#: admin/console/console.php:52
+msgid "Backup creation"
+msgstr "Sikkerhedskopiering"
+
+#: admin/console/console.php:53
+msgid "Logging"
+msgstr "Logning"
+
+#: admin/console/console.php:54
+msgid "Data encryption"
+msgstr "Datakryptering"
+
+#: admin/console/console.php:58
+msgid "Linking Tools"
+msgstr "Sammenkædningsværktøjer"
+
+#: admin/console/console.php:60
+msgid "Internal linking"
+msgstr "Intern linking"
+
+#: admin/console/console.php:61
+msgid "Search and removal of broken links from content"
+msgstr "Søg og fjernelse af ødelagte links fra indhold"
+
+#: admin/console/console.php:65
+msgid "Advanced Reporting"
+msgstr "Avanceret rapportering"
+
+#: admin/console/console.php:67
+msgid "Weekly reports"
+msgstr "Ugentlige rapporter"
+
+#: admin/console/console.php:68
+msgid "Exportable PDF reports"
+msgstr "Eksporterbare PDF-rapporter"
+
+#: admin/console/console.php:77
+msgid "Get Pro Version Now - Unlock Advanced Features!"
+msgstr "Få Pro-version nu - Lås op for avancerede funktioner!"
+
+#: admin/console/console.php:82
+msgid "Go to products"
+msgstr "Gå til produkter"
+
+#: admin/console/console.php:83
+msgid "Mass content analysis"
+msgstr "Masseindholdsanalyse"
+
+#: admin/console/console.php:83
+msgid "Available in Pro Version"
+msgstr "Tilgængelig i Pro-version"
+
+#: admin/console/mass-analysis.php:72
+msgid ""
+"Use this page to perform mass analyzer of your content. Select the posts or "
+"products you wish to analyze, and the tool will provide detailed insights "
+"and suggestions."
+msgstr ""
+"Brug denne side til at udføre masseanalyser af dit indhold. Vælg de indlæg "
+"eller produkter, du ønsker at analysere, og værktøjet vil give detaljeret "
+"indsigt og forslag."
+
+#: admin/console/mass-analysis.php:82
+msgid "Legend:"
+msgstr "Legende:"
+
+#: admin/console/mass-analysis.php:84 admin/console/mass-analysis.php:128
+msgid "Poor"
+msgstr "Fattige"
+
+#: admin/console/mass-analysis.php:85 admin/console/mass-analysis.php:128
+msgid "Normal"
+msgstr "Normal"
+
+#: admin/console/mass-analysis.php:86 admin/console/mass-analysis.php:128
+msgid "Good"
+msgstr "godt"
+
+#: admin/console/mass-analysis.php:87 admin/console/mass-analysis.php:128
+msgid "Excellent"
+msgstr "Fremragende"
+
+#: admin/console/mass-analysis.php:103
+msgid "Average Score:"
+msgstr "Gennemsnitlig score:"
+
+#: admin/console/mass-analysis.php:104
+msgid "Total Posts:"
+msgstr "Samlet antal indlæg:"
+
+#: admin/console/mass-analysis.php:105
+msgid "Products:"
+msgstr "Produkter:"
+
+#: admin/console/mass-analysis.php:106
+msgid "Poor Score:"
+msgstr "Dårlig score:"
+
+#: admin/console/mass-analysis.php:107
+msgid "Normal Score:"
+msgstr "Normal score:"
+
+#: admin/console/mass-analysis.php:108
+msgid "Good Score:"
+msgstr "Godt resultat:"
+
+#: admin/console/mass-analysis.php:109
+msgid "Excellent Score:"
+msgstr "Fremragende score:"
+
+#: admin/console/mass-analysis.php:115
+msgid "Reanalyze"
+msgstr "Genanalysere"
+
+#: admin/console/mass-analysis.php:117
+msgid "Start Analysis"
+msgstr "Start analyse"
+
+#: admin/console/mass-analysis.php:170
+msgid "Title"
+msgstr "Titel"
+
+#: admin/console/mass-analysis.php:171
+msgid "Type"
+msgstr "Type"
+
+#: admin/console/mass-analysis.php:172
+msgid "Score"
+msgstr "Score"
+
+#: admin/console/mass-analysis.php:173
+msgid "Optimization"
+msgstr "Optimering"
+
+#: admin/console/mass-analysis.php:187
+msgid "Product"
+msgstr "Produkt"
+
+#: admin/console/mass-analysis.php:187
+msgid "Post"
+msgstr "Stolpe"
+
+#: admin/console/mass-analysis.php:188
+msgid "All good"
+msgstr "Alt godt"
+
+#: admin/console/mass-analysis.php:188
+msgid "AutoOptimize with Pro"
+msgstr "Autooptimer med Pro"
+
+#: admin/console/mass-analysis.php:189
+msgid "Edit"
+msgstr "Redigere"
+
+#: admin/seo-plugins.php:30
+msgid ""
+"AI SEO AutoOptimize Pro requires an active SEO plugin (Yoast, Rank Math, or "
+"All in One SEO Pack). Please install and activate one. However, we recommend "
+"using the RankMath plugin."
+msgstr ""
+"AI SEO AutoOptimize Pro kræver et aktivt SEO-plugin (Yoast, Rank Math eller "
+"All in One SEO Pack). Installer og aktiver en. Vi anbefaler dog at bruge "
+"RankMath plugin."
+
+#: admin/seo-plugins.php:32
+msgid "Install Yoast SEO"
+msgstr "Installer Yoast SEO"
+
+#: admin/seo-plugins.php:33
+msgid "Install Rank Math"
+msgstr "Installer Rank Math"
+
+#: admin/seo-plugins.php:34
+msgid "Install All in One SEO Pack"
+msgstr "Installer alt i én SEO-pakke"
+
+#: ai-seo-content-analyzer.php:61 ai-seo-content-analyzer.php:62
+msgid "Buy Pro Version"
+msgstr "Køb Pro-version"
+
+#: ai-seo-content-analyzer.php:68 ai-seo-content-analyzer.php:69
+msgid "Mass Analyzer"
+msgstr "Masseanalysator"
+
+#: ai-seo-content-analyzer.php:111
+msgid "AI SEO Content Analyzer requires Yoast SEO or Rank Math to be active!"
+msgstr "AI SEO Content Analyzer kræver, at Yoast SEO eller Rank Math er aktiv!"
+
+#: ai-seo-content-analyzer.php:121
+msgid "WIKI Plugin"
+msgstr "WIKI plugin"

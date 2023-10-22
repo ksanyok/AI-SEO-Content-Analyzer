@@ -1,0 +1,611 @@
+# Copyright (C) 2023 BuyReadySite.com
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AI SEO Content Analyzer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ai-seo-content-"
+"analyzer\n"
+"Last-Translator: \n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-04T08:09:50+00:00\n"
+"PO-Revision-Date: 2023-09-04 08:17+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: ai-seo-content-analyzer\n"
+"\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2;\n"
+"X-Loco-Version: 2.6.4; wp-6.3.1"
+
+#. Plugin Name of the plugin
+msgid "AI SEO Content Analyzer"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.buyreadysite.com"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"A simplified SEO content analysis tool. Analyzes the content according to "
+"defined parameters for SEO optimization."
+msgstr ""
+
+#. Author of the plugin
+msgid "BuyReadySite.com"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:129
+msgid "Keyword presence in title"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:134
+msgid "Keyword absence in title"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:145
+msgid "Optimal title length"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:150
+msgid "Non-optimal title length"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:162
+msgid "Keyword at the beginning of the title"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:167
+msgid "Keyword not at the beginning of the title"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:175
+#: admin/ai_seo_optimization_score.php:236
+#: admin/ai_seo_optimization_score.php:310
+msgid "Keyword is not set. Please provide a keyword for SEO analysis."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:185
+msgid "Presence of numbers, special Unicode characters, or emojis in title"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:190
+msgid "Absence of numbers, special Unicode characters, or emojis in title"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:223
+msgid "Keyword presence in meta description"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:228
+msgid "Keyword absence in meta description"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:244
+msgid "Optimal meta description length"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:249
+msgid "Non-optimal meta description length"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:296
+msgid "Keyword presence in URL"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:302
+msgid "Keyword absence in URL"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:317
+msgid "Clean and short URL"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:322
+msgid "URL not clean or too long"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:357
+msgid "Only one H1"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:362
+msgid "Multiple or no H1 tags"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:374
+msgid "Keyword presence in H1"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:381
+msgid "Keyword absence in H1"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:383
+msgid "The keyword is not present in the H1 tag."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:401
+msgid "Keyword presence in subheadings"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:410
+msgid "Keyword absence in subheadings"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:412
+msgid "The keyword is not present in any of the subheadings."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:449
+msgid "Correct nesting of subheadings"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:454
+msgid "Incorrect nesting of subheadings"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:485
+msgid "Presence of alt text for all images"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:491
+msgid "Missing alt text for some images"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:507
+msgid "Keyword presence in alt text of main image"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:512
+msgid "Keyword absence in alt text of main image"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:514
+msgid ""
+"The keyword is not present in the alt text of the main image. Consider "
+"including the keyword."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:533
+msgid "Keyword presence in alt text of other images"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:538
+msgid "Keyword absence in alt text of other images"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:540
+msgid ""
+"The keyword is not present in the alt text of other images. Consider "
+"including the keyword."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:549
+msgid "Good ratio of images/media to text volume"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:554
+msgid "Poor ratio of images/media to text volume"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:614
+msgid "Presence of external links"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:619
+msgid "No external links"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:621
+msgid "No external links found."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:628
+msgid "Presence of internal links"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:633
+msgid "No internal links"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:635
+msgid "No internal links found."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:652
+msgid "No links with nofollow attributes"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:654
+msgid ""
+"No links with nofollow attribute found. This is positive as it allows search "
+"engines to crawl and pass link equity to the linked pages. Consider linking "
+"to authoritative and trusted websites without the nofollow attribute, as it "
+"aligns with the best SEO practices."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:656
+msgid "Presence of nofollow attributes"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:715
+msgid "Keyword presence in content"
+msgstr ""
+
+#. translators: 1: Keyword density, 2: Minimum recommended keyword density, 3: Maximum recommended keyword density
+#: admin/ai_seo_optimization_score.php:718
+#: admin/ai_seo_optimization_score.php:725
+msgid ""
+"Keyword density is <strong>%1$.2f%%</strong>. Recommended optimal density is "
+"between %2$.2f%% and %3$.2f%%."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:722
+#: admin/ai_seo_optimization_score.php:727
+msgid "Keyword presence in content (suboptimal density)"
+msgstr ""
+
+#. translators: 1: Keyword density, 2: Minimum recommended keyword density, 3: Maximum recommended keyword density
+#: admin/ai_seo_optimization_score.php:730
+msgid ""
+"Keyword density is <strong>%1$.2f%%</strong>. Recommended optimal density is "
+"between %2$.2f%% and %3$.2f%%. No points awarded as density is out of range."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:740
+msgid "Optimal content length"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:745
+msgid "Content length is not optimal"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:756
+msgid "Presence of media content"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:761
+msgid "No media content found"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:763
+msgid ""
+"No media items found in content. Consider adding images or videos to enhance "
+"user engagement."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:779
+msgid "No long sentences"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:781
+msgid "No long sentences found in content."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:783
+msgid "Presence of long sentences"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:797
+msgid "No large paragraphs"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:799
+msgid "No large paragraphs found in content."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:801
+msgid "Presence of large paragraphs"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:832
+#: admin/ai_seo_optimization_score.php:841
+msgid "List"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:846
+msgid "Presence of lists"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:864
+msgid "Use of italic or bold for keyword emphasis"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:869
+msgid ""
+"Keyword is not emphasized with bold or italic. Emphasizing important "
+"keywords can improve readability."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:875
+msgid "Presence of tables"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:880
+msgid ""
+"No tables found in content. Consider using tables to present data when "
+"applicable."
+msgstr ""
+
+#: admin/ai_seo_score_display.php:30
+msgid "AI SEO Content Analyzer Plugin Score"
+msgstr ""
+
+#: admin/ai_seo_score_display.php:34
+msgid "Overall Score"
+msgstr ""
+
+#: admin/ai_seo_score_display.php:106
+msgid "Current SEO score:"
+msgstr ""
+
+#: admin/ai_seo_score_display.php:112
+msgid "Improve with Pro Version"
+msgstr ""
+
+#: admin/ai_seo_score_display.php:123
+msgid "AI SEO Score for Post"
+msgstr ""
+
+#: admin/console/console.php:14
+msgid ""
+"Your go-to tool for comprehensive SEO content analysis. Brought to you by "
+"BuyReadySite, the AI SEO Content Analyzer Pro helps you scrutinize and "
+"optimize your content like never before. Enhance your content's SEO score "
+"with detailed audits and intelligent recommendations."
+msgstr ""
+
+#: admin/console/console.php:15
+msgid "Plugin Advantages"
+msgstr ""
+
+#: admin/console/console.php:20
+msgid "Content Analysis"
+msgstr ""
+
+#: admin/console/console.php:22
+msgid "Keyword density analysis"
+msgstr ""
+
+#: admin/console/console.php:23
+msgid "Content readability score"
+msgstr ""
+
+#: admin/console/console.php:24
+msgid "Meta tags evaluation"
+msgstr ""
+
+#: admin/console/console.php:28
+msgid "SEO Auditing"
+msgstr ""
+
+#: admin/console/console.php:30
+msgid "On-page SEO audit"
+msgstr ""
+
+#: admin/console/console.php:31
+msgid "Backlink analysis"
+msgstr ""
+
+#: admin/console/console.php:32
+msgid "Technical SEO evaluation"
+msgstr ""
+
+#: admin/console/console.php:36
+msgid "Performance"
+msgstr ""
+
+#: admin/console/console.php:38
+msgid "Fast content analysis"
+msgstr ""
+
+#: admin/console/console.php:39
+msgid "Easy integration"
+msgstr ""
+
+#: admin/console/console.php:40
+msgid "User-friendly dashboard"
+msgstr ""
+
+#: admin/console/console.php:45
+msgid "Paid Version Advantages"
+msgstr ""
+
+#: admin/console/console.php:50
+msgid "Data Security"
+msgstr ""
+
+#: admin/console/console.php:52
+msgid "Backup creation"
+msgstr ""
+
+#: admin/console/console.php:53
+msgid "Logging"
+msgstr ""
+
+#: admin/console/console.php:54
+msgid "Data encryption"
+msgstr ""
+
+#: admin/console/console.php:58
+msgid "Linking Tools"
+msgstr ""
+
+#: admin/console/console.php:60
+msgid "Internal linking"
+msgstr ""
+
+#: admin/console/console.php:61
+msgid "Search and removal of broken links from content"
+msgstr ""
+
+#: admin/console/console.php:65
+msgid "Advanced Reporting"
+msgstr ""
+
+#: admin/console/console.php:67
+msgid "Weekly reports"
+msgstr ""
+
+#: admin/console/console.php:68
+msgid "Exportable PDF reports"
+msgstr ""
+
+#: admin/console/console.php:77
+msgid "Get Pro Version Now - Unlock Advanced Features!"
+msgstr ""
+
+#: admin/console/console.php:81
+msgid "Contact Information"
+msgstr ""
+
+#: admin/console/console.php:92
+msgid "Go to products"
+msgstr ""
+
+#: admin/console/console.php:93
+msgid "Mass content analysis"
+msgstr ""
+
+#: admin/console/console.php:93
+msgid "Available in Pro Version"
+msgstr ""
+
+#: admin/console/mass-analysis.php:71
+msgid "Mass Optimization - AI SEO Content Analyzer"
+msgstr ""
+
+#: admin/console/mass-analysis.php:72
+msgid ""
+"Use this page to perform mass optimization of your content. Select the posts "
+"or products you wish to analyze, and the tool will provide detailed insights "
+"and suggestions."
+msgstr ""
+
+#: admin/console/mass-analysis.php:82
+msgid "Legend:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:84 admin/console/mass-analysis.php:128
+msgid "Poor"
+msgstr ""
+
+#: admin/console/mass-analysis.php:85 admin/console/mass-analysis.php:128
+msgid "Normal"
+msgstr ""
+
+#: admin/console/mass-analysis.php:86 admin/console/mass-analysis.php:128
+msgid "Good"
+msgstr ""
+
+#: admin/console/mass-analysis.php:87 admin/console/mass-analysis.php:128
+msgid "Excellent"
+msgstr ""
+
+#: admin/console/mass-analysis.php:103
+msgid "Average Score:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:104
+msgid "Total Posts:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:105
+msgid "Products:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:106
+msgid "Poor Score:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:107
+msgid "Normal Score:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:108
+msgid "Good Score:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:109
+msgid "Excellent Score:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:115
+msgid "Reanalyze"
+msgstr ""
+
+#: admin/console/mass-analysis.php:117
+msgid "Start Analysis"
+msgstr ""
+
+#: admin/console/mass-analysis.php:170
+msgid "Title"
+msgstr ""
+
+#: admin/console/mass-analysis.php:171
+msgid "Type"
+msgstr ""
+
+#: admin/console/mass-analysis.php:172
+msgid "Score"
+msgstr ""
+
+#: admin/console/mass-analysis.php:173
+msgid "Optimization"
+msgstr ""
+
+#: admin/console/mass-analysis.php:187
+msgid "Product"
+msgstr ""
+
+#: admin/console/mass-analysis.php:187
+msgid "Post"
+msgstr ""
+
+#: admin/console/mass-analysis.php:188
+msgid "All good"
+msgstr ""
+
+#: admin/console/mass-analysis.php:188
+msgid "AutoOptimize with Pro"
+msgstr ""
+
+#: admin/console/mass-analysis.php:189
+msgid "Edit"
+msgstr ""
+
+#: admin/seo-plugins.php:30
+msgid ""
+"AI SEO AutoOptimize Pro requires an active SEO plugin (Yoast, Rank Math, or "
+"All in One SEO Pack). Please install and activate one. However, we recommend "
+"using the RankMath plugin."
+msgstr ""
+
+#: admin/seo-plugins.php:32
+msgid "Install Yoast SEO"
+msgstr ""
+
+#: admin/seo-plugins.php:33
+msgid "Install Rank Math"
+msgstr ""
+
+#: admin/seo-plugins.php:34
+msgid "Install All in One SEO Pack"
+msgstr ""
+
+#: ai-seo-content-analyzer.php:61 ai-seo-content-analyzer.php:62
+msgid "Buy Pro Version"
+msgstr ""
+
+#: ai-seo-content-analyzer.php:68 ai-seo-content-analyzer.php:69
+msgid "Mass Optimization"
+msgstr ""
+
+#: ai-seo-content-analyzer.php:111
+msgid "AI SEO Content Analyzer requires Yoast SEO or Rank Math to be active!"
+msgstr ""

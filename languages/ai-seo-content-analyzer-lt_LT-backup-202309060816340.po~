@@ -1,0 +1,762 @@
+# Copyright (C) 2023 BuyReadySite.com
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AI SEO Content Analyzer 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ai-seo-content-"
+"analyzer\n"
+"Last-Translator: \n"
+"Language-Team: Lithuanian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-06T07:59:42+00:00\n"
+"PO-Revision-Date: 2023-09-06 08:16+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: ai-seo-content-analyzer\n"
+"\n"
+"Language: lt_LT\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.6.4; wp-6.3.1"
+
+#. Plugin Name of the plugin
+#: admin/console/mass-analysis.php:71
+msgid "AI SEO Content Analyzer"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://aiseoautooptimize.pro"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"AI SEO Content Analyzer is a comprehensive SEO tool designed to scan and "
+"evaluate your content for potential SEO issues. By examining your content "
+"based on predefined parameters, it provides actionable recommendations and "
+"insights to improve its SEO optimization. Whether you're looking to increase "
+"your content's visibility, address common SEO mistakes, or just ensure that "
+"your website is on the right track, this plugin offers a streamlined and "
+"user-friendly solution."
+msgstr ""
+
+#. Author of the plugin
+msgid "BuyReadySite.com"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:128
+msgid "Keyword used: %s"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:129
+msgid ""
+"According to analytical data, including the targeted keyword in the title "
+"enhances search engine ranking. It emphasizes the relevance of the content."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:130
+msgid ""
+"Missing keyword in the title can affect search engine visibility. "
+"Implementing the keyword can enhance ranking."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:131
+msgid "Title: %s"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:136
+msgid "Keyword presence in title"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:140
+msgid "Keyword absence in title"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:150
+msgid "Optimal title length"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:154
+msgid "Non-optimal title length"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:166
+msgid "Keyword at the beginning of the title"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:168
+#: admin/ai_seo_optimization_score.php:172
+msgid "Keyword used:"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:168
+#: admin/ai_seo_optimization_score.php:172
+msgid "Title:"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:170
+msgid "Keyword not at the beginning of the title"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:177
+#: admin/ai_seo_optimization_score.php:233
+#: admin/ai_seo_optimization_score.php:315
+msgid "Keyword is not set. Please provide a keyword for SEO analysis."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:186
+msgid "Presence of numbers, special Unicode characters, or emojis in title"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:190
+msgid "Absence of numbers, special Unicode characters, or emojis in title"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:221
+msgid "Keyword presence in meta description"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:223
+msgid ""
+"Using the keyword in the meta description can improve SEO ranking.<br>"
+"Keyword used:"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:225
+msgid "Keyword absence in meta description"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:227
+msgid ""
+"The keyword was not found in the meta description. It's recommended to "
+"include the keyword for better SEO performance.<br>Keyword used:"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:241
+msgid "Optimal meta description length"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:243
+msgid ""
+"The length of the meta description is optimal (130-160 characters).<br>"
+"Current Length: %d"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:245
+msgid "Non-optimal meta description length"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:247
+msgid ""
+"The length of the meta description is not optimal. It's recommended to keep "
+"the meta description between 130-160 characters.<br>Current Length: %d"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:292
+msgid "Keyword presence in URL"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:296
+msgid ""
+"The keyword is found in the URL, which is good for SEO performance.<br>"
+"Keyword used: <strong>{keyword}</strong><br>URL: {url}"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:304
+msgid "Keyword absence in URL"
+msgstr ""
+
+#. translators: 1: URL
+#: admin/ai_seo_optimization_score.php:307
+msgid ""
+"The keyword is not found in the URL. It's recommended to include the keyword "
+"in the URL for better SEO performance.<br>URL: %s"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:322
+msgid "Clean and short URL"
+msgstr ""
+
+#. translators: 1: URL length, 2: URL
+#: admin/ai_seo_optimization_score.php:325
+msgid ""
+"The URL is clean and short (length: %1$s characters). Recommended URL length "
+"is less than 80 characters. You can modify the URL structure in <a "
+"href='options-permalink.php'>Permalink Settings</a>.<br>Current URL: %2$s"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:330
+msgid "URL not clean or too long"
+msgstr ""
+
+#. translators: 1: URL length, 2: URL
+#: admin/ai_seo_optimization_score.php:333
+msgid ""
+"The URL is not clean or is too long (length: <strong>{length}</strong> "
+"characters). Consider shortening the URL and avoiding special characters for "
+"better SEO. You can modify the URL structure in <a href='options-permalink."
+"php'>Permalink Settings</a>.<br>Current URL: {url}"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:370
+msgid "Only one H1"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:372
+msgid "The content has only one H1 tag: {h1_content}."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:375
+msgid "Multiple or no H1 tags"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:377
+msgid ""
+"The content has %d H1 tags, which is not recommended. There should be "
+"exactly one H1 tag."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:387
+msgid "Keyword presence in H1"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:389
+msgid ""
+"The keyword is present in the H1 tag: {highlighted_title}. Keyword used: "
+"{highlighted_keyword}."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:394
+msgid "Keyword absence in H1"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:396
+msgid "The keyword is not present in the H1 tag."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:414
+msgid "Keyword presence in subheadings"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:419
+msgid ""
+"The keyword is found in {count} subheadings. The keyword is present in the "
+"following subheadings: {subheadings_list}"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:422
+msgid "Keyword absence in subheadings"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:424
+msgid "The keyword is not present in any of the subheadings."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:455
+msgid "Correct nesting of subheadings"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:457
+msgid ""
+"The subheadings are correctly nested. Correctly nested subheadings help in "
+"organizing the content and improving readability."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:459
+msgid "Incorrect nesting of subheadings"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:461
+msgid ""
+"The subheadings are not correctly nested. Incorrect nesting may lead to poor "
+"content structure and affect readability. Correct structure should follow "
+"the pattern: H2 > H3 > H4, etc. Incorrect structure: {heading_structure}"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:490
+msgid "Presence of alt text for all images"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:492
+msgid "All %d images have alt text. This is good for SEO and accessibility."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:495
+msgid "Missing alt text for some images"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:497
+msgid ""
+"<strong>%d</strong> out of <strong>%d</strong> images are missing alt text. "
+"Consider adding descriptive alt text to all images for better SEO and "
+"accessibility."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:508
+msgid "Keyword presence in alt text of main image"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:510
+msgid ""
+"The keyword is present in the alt text of the main image: \"<strong>"
+"%s</strong>\"."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:512
+msgid "Keyword absence in alt text of main image"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:514
+msgid ""
+"The keyword is not present in the alt text of the main image. Consider "
+"including the keyword."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:532
+msgid "Keyword presence in alt text of other images"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:534
+msgid "The keyword is present in the alt text of other images:<ul>%s</ul>"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:536
+msgid "Keyword absence in alt text of other images"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:538
+msgid ""
+"The keyword is not present in the alt text of other images. Consider "
+"including the keyword."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:547
+msgid "Good ratio of images/media to text volume"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:549
+msgid ""
+"The content has %d images and %d characters, providing a good ratio of "
+"images to text volume."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:551
+msgid "Poor ratio of images/media to text volume"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:553
+msgid ""
+"The content has %d images and %d characters. Consider adding more images to "
+"achieve the recommended ratio of at least 1 image per 3000 characters."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:609
+msgid "Presence of external links"
+msgstr ""
+
+#. translators: 1: Number of external links, 2: List of external links with their anchor text
+#: admin/ai_seo_optimization_score.php:612
+msgid ""
+"Found %1$s external links. External links can add value and credibility to "
+"your content. Links:%2$s"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:616
+msgid "No external links"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:618
+msgid "No external links found."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:625
+msgid "Presence of internal links"
+msgstr ""
+
+#. translators: 1: Number of internal links, 2: List of internal links with their anchor text
+#: admin/ai_seo_optimization_score.php:628
+msgid ""
+"Found <strong>%d</strong> internal links. Internal links help in improving "
+"navigation and spreading link equity. Links:<br><ul>%s</ul>"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:630
+msgid "No internal links"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:632
+msgid "No internal links found."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:650
+msgid "No links with nofollow attributes"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:652
+msgid ""
+"No links with nofollow attribute found. This is positive as it allows search "
+"engines to crawl and pass link equity to the linked pages. Consider linking "
+"to authoritative and trusted websites without the nofollow attribute, as it "
+"aligns with the best SEO practices."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:654
+msgid "Presence of nofollow attributes"
+msgstr ""
+
+#. translators: 1: Number of links with nofollow attribute, 2: List of nofollow links with their anchor text
+#: admin/ai_seo_optimization_score.php:657
+msgid ""
+"Found %d links with nofollow attribute. Review the usage and consider "
+"allowing followed links to trustworthy and authoritative websites. Here are "
+"the nofollow links found:<br><ul>%s</ul>"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:714
+msgid "Keyword presence in content"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:716
+#: admin/ai_seo_optimization_score.php:722
+msgid ""
+"Keyword density is %1$.2f%%. Recommended optimal density is between %2$.2f%% "
+"and %3$.2f%%."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:720
+#: admin/ai_seo_optimization_score.php:724
+msgid "Keyword presence in content (suboptimal density)"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:726
+msgid ""
+"Keyword density is %1$.2f%%. Recommended optimal density is between %2$.2f%% "
+"and %3$.2f%%. No points awarded as density is out of range."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:736
+msgid "Optimal content length"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:740
+msgid "Content length is not optimal"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:751
+msgid "Presence of media content"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:753
+msgid ""
+"Found %d media items in content. Media items like images and videos can "
+"enhance user engagement."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:755
+msgid "No media content found"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:757
+msgid ""
+"No media items found in content. Consider adding images or videos to enhance "
+"user engagement."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:774
+msgid "No long sentences"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:776
+msgid "No long sentences found in content."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:778
+msgid "Presence of long sentences"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:780
+msgid ""
+"Found %d long sentences. Consider breaking them down for better readability. "
+"Sentences:<br><ul style='background-color: #e0f2e9;'><li>%s</li></ul>"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:793
+msgid "No large paragraphs"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:795
+msgid "No large paragraphs found in content."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:797
+msgid "Presence of large paragraphs"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:799
+msgid ""
+"Found %d large paragraphs. Consider breaking them down for better "
+"readability. Paragraphs: <br>%s"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:828
+#: admin/ai_seo_optimization_score.php:837
+msgid "List"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:842
+msgid "Presence of lists"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:846
+msgid "Found %1$s unordered lists and %2$s ordered lists.<br>%3$s%4$s"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:868
+msgid "Use of italic or bold for keyword emphasis"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:872
+msgid ""
+"Found <strong>%d emphasis</strong> on keyword. Emphasis can enhance "
+"readability. Details:%s"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:877
+msgid ""
+"Keyword is not emphasized with bold or italic. Emphasizing important "
+"keywords can improve readability."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:882
+msgid "Presence of tables"
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:886
+msgid "Found %d tables. Tables help to organize and present data effectively."
+msgstr ""
+
+#: admin/ai_seo_optimization_score.php:887
+msgid ""
+"No tables found in content. Consider using tables to present data when "
+"applicable."
+msgstr ""
+
+#: admin/ai_seo_score_display.php:30
+msgid "AI SEO Content Analyzer Plugin Score"
+msgstr ""
+
+#: admin/ai_seo_score_display.php:34
+msgid "Overall Score"
+msgstr ""
+
+#: admin/ai_seo_score_display.php:106
+msgid "Current SEO score:"
+msgstr ""
+
+#: admin/ai_seo_score_display.php:112 admin/console/mass-analysis.php:193
+msgid "SEO Optimize with artificial intelligence"
+msgstr ""
+
+#: admin/ai_seo_score_display.php:123
+msgid "AI SEO Score for Post"
+msgstr ""
+
+#: admin/console/console.php:14
+msgid ""
+"Your go-to tool for comprehensive SEO content analysis. Brought to you by "
+"BuyReadySite, the AI SEO Content Analyzer helps you scrutinize and optimize "
+"your content like never before. Enhance your content's SEO score with "
+"detailed audits and intelligent recommendations."
+msgstr ""
+
+#: admin/console/console.php:15
+msgid "Plugin Advantages"
+msgstr ""
+
+#: admin/console/console.php:20
+msgid "Content Analysis"
+msgstr ""
+
+#: admin/console/console.php:22
+msgid "Keyword density analysis"
+msgstr ""
+
+#: admin/console/console.php:23
+msgid "Content readability score"
+msgstr ""
+
+#: admin/console/console.php:24
+msgid "Meta tags evaluation"
+msgstr ""
+
+#: admin/console/console.php:28
+msgid "SEO Auditing"
+msgstr ""
+
+#: admin/console/console.php:30
+msgid "On-page SEO audit"
+msgstr ""
+
+#: admin/console/console.php:31
+msgid "Backlink analysis"
+msgstr ""
+
+#: admin/console/console.php:32
+msgid "Technical SEO evaluation"
+msgstr ""
+
+#: admin/console/console.php:36
+msgid "Performance"
+msgstr ""
+
+#: admin/console/console.php:38
+msgid "Fast content analysis"
+msgstr ""
+
+#: admin/console/console.php:39
+msgid "Easy integration"
+msgstr ""
+
+#: admin/console/console.php:40
+msgid "User-friendly dashboard"
+msgstr ""
+
+#: admin/console/console.php:49
+msgid "Mass content Analyzer"
+msgstr ""
+
+#: admin/console/mass-analysis.php:72
+msgid ""
+"Use this page to perform mass analyzer of your content. Select the posts or "
+"products you wish to analyze, and the tool will provide detailed insights "
+"and suggestions."
+msgstr ""
+
+#: admin/console/mass-analysis.php:82
+msgid "Legend:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:84 admin/console/mass-analysis.php:128
+msgid "Poor"
+msgstr ""
+
+#: admin/console/mass-analysis.php:85 admin/console/mass-analysis.php:128
+msgid "Normal"
+msgstr ""
+
+#: admin/console/mass-analysis.php:86 admin/console/mass-analysis.php:128
+msgid "Good"
+msgstr ""
+
+#: admin/console/mass-analysis.php:87 admin/console/mass-analysis.php:128
+msgid "Excellent"
+msgstr ""
+
+#: admin/console/mass-analysis.php:103
+msgid "Average Score:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:104
+msgid "Total Posts:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:105
+msgid "Products:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:106
+msgid "Poor Score:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:107
+msgid "Normal Score:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:108
+msgid "Good Score:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:109
+msgid "Excellent Score:"
+msgstr ""
+
+#: admin/console/mass-analysis.php:115
+msgid "Reanalyze"
+msgstr ""
+
+#: admin/console/mass-analysis.php:117
+msgid "Start Analysis"
+msgstr ""
+
+#: admin/console/mass-analysis.php:170
+msgid "Title"
+msgstr ""
+
+#: admin/console/mass-analysis.php:171
+msgid "Type"
+msgstr ""
+
+#: admin/console/mass-analysis.php:172
+msgid "Score"
+msgstr ""
+
+#: admin/console/mass-analysis.php:173
+msgid "Optimization"
+msgstr ""
+
+#: admin/console/mass-analysis.php:187
+msgid "Product"
+msgstr ""
+
+#: admin/console/mass-analysis.php:187
+msgid "Post"
+msgstr ""
+
+#: admin/console/mass-analysis.php:196
+msgid "SEO Content Analyzer"
+msgstr ""
+
+#: admin/seo-plugins.php:38
+msgid ""
+"AI SEO AutoOptimize Pro requires an active SEO plugin (Yoast, Rank Math, or "
+"All in One SEO Pack) and Classic Editor. Please install and activate them."
+msgstr ""
+
+#: admin/seo-plugins.php:40
+msgid "Install Yoast SEO"
+msgstr ""
+
+#: admin/seo-plugins.php:41
+msgid "Install Rank Math"
+msgstr ""
+
+#: admin/seo-plugins.php:42
+msgid "Install All in One SEO Pack"
+msgstr ""
+
+#: admin/seo-plugins.php:43
+msgid "Classic Editor"
+msgstr ""
+
+#: ai-seo-content-analyzer.php:62 ai-seo-content-analyzer.php:63
+msgid "Mass Analyzer"
+msgstr ""
+
+#: ai-seo-content-analyzer.php:71 ai-seo-content-analyzer.php:72
+msgid "AI SEO AutoOptimize Pro website"
+msgstr ""
+
+#: ai-seo-content-analyzer.php:118
+msgid ""
+"AI SEO Content Analyzer requires <a href=\"https://wordpress."
+"org/plugins/wordpress-seo/\" target=\"_blank\">Yoast SEO</a>, <a "
+"href=\"https://wordpress.org/plugins/seo-by-rank-math/\" target=\"_blank\">"
+"Rank Math</a>, or <a href=\"https://wordpress.org/plugins/classic-editor/\" "
+"target=\"_blank\">Classic Editor</a> to be activated. Please activate one of "
+"these plugins to use AI SEO Content Analyzer."
+msgstr ""
+
+#: ai-seo-content-analyzer.php:129
+msgid "WIKI Plugin"
+msgstr ""

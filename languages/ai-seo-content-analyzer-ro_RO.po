@@ -1,0 +1,886 @@
+# Copyright (C) 2023 BuyReadySite.com
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AI SEO Content Analyzer 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ai-seo-content-"
+"analyzer\n"
+"Last-Translator: \n"
+"Language-Team: Romanian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-06T07:59:42+00:00\n"
+"PO-Revision-Date: 2023-09-06 08:18+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: ai-seo-content-analyzer\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 :(((n%100>19)||(( n%100==0)&&(n!"
+"=0)))? 2 : 1));\n"
+"X-Loco-Version: 2.6.4; wp-6.3.1"
+
+#. Plugin Name of the plugin
+#: admin/console/mass-analysis.php:71
+msgid "AI SEO Content Analyzer"
+msgstr "Analizor de conținut AI SEO"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://aiseoautooptimize.pro"
+msgstr "https://aiseoautooptimize.pro"
+
+#. Description of the plugin
+msgid ""
+"AI SEO Content Analyzer is a comprehensive SEO tool designed to scan and "
+"evaluate your content for potential SEO issues. By examining your content "
+"based on predefined parameters, it provides actionable recommendations and "
+"insights to improve its SEO optimization. Whether you're looking to increase "
+"your content's visibility, address common SEO mistakes, or just ensure that "
+"your website is on the right track, this plugin offers a streamlined and "
+"user-friendly solution."
+msgstr ""
+"AI SEO Content Analyzer este un instrument SEO cuprinzător conceput pentru a "
+"scana și a evalua conținutul dvs. pentru potențiale probleme SEO. Examinând "
+"conținutul dvs. pe baza parametrilor predefiniți, oferă recomandări și "
+"perspective acționabile pentru a îmbunătăți optimizarea SEO. Indiferent dacă "
+"doriți să creșteți vizibilitatea conținutului dvs., să abordați greșelile "
+"SEO comune sau doar să vă asigurați că site-ul dvs. este pe drumul cel bun, "
+"acest plugin oferă o soluție simplificată și ușor de utilizat."
+
+#. Author of the plugin
+msgid "BuyReadySite.com"
+msgstr "BuyReadySite.com"
+
+#: admin/ai_seo_optimization_score.php:128
+msgid "Keyword used: %s"
+msgstr "Cuvânt cheie folosit: %s"
+
+#: admin/ai_seo_optimization_score.php:129
+msgid ""
+"According to analytical data, including the targeted keyword in the title "
+"enhances search engine ranking. It emphasizes the relevance of the content."
+msgstr ""
+"Conform datelor analitice, includerea cuvântului cheie vizat în titlu "
+"îmbunătățește clasarea motorului de căutare. Subliniază relevanța "
+"conținutului."
+
+#: admin/ai_seo_optimization_score.php:130
+msgid ""
+"Missing keyword in the title can affect search engine visibility. "
+"Implementing the keyword can enhance ranking."
+msgstr ""
+"Lipsa cuvântului cheie din titlu poate afecta vizibilitatea motorului de "
+"căutare. Implementarea cuvântului cheie poate îmbunătăți clasarea."
+
+#: admin/ai_seo_optimization_score.php:131
+msgid "Title: %s"
+msgstr "Titlu: %s"
+
+#: admin/ai_seo_optimization_score.php:136
+msgid "Keyword presence in title"
+msgstr "Prezența cuvântului cheie în titlu"
+
+#: admin/ai_seo_optimization_score.php:140
+msgid "Keyword absence in title"
+msgstr "Absența cuvântului cheie în titlu"
+
+#: admin/ai_seo_optimization_score.php:150
+msgid "Optimal title length"
+msgstr "Lungimea optimă a titlului"
+
+#: admin/ai_seo_optimization_score.php:154
+msgid "Non-optimal title length"
+msgstr "Lungimea titlului nu este optimă"
+
+#: admin/ai_seo_optimization_score.php:166
+msgid "Keyword at the beginning of the title"
+msgstr "Cuvânt cheie la începutul titlului"
+
+#: admin/ai_seo_optimization_score.php:168
+#: admin/ai_seo_optimization_score.php:172
+msgid "Keyword used:"
+msgstr "Cuvânt cheie folosit:"
+
+#: admin/ai_seo_optimization_score.php:168
+#: admin/ai_seo_optimization_score.php:172
+msgid "Title:"
+msgstr "Titlu:"
+
+#: admin/ai_seo_optimization_score.php:170
+msgid "Keyword not at the beginning of the title"
+msgstr "Cuvânt cheie nu la începutul titlului"
+
+#: admin/ai_seo_optimization_score.php:177
+#: admin/ai_seo_optimization_score.php:233
+#: admin/ai_seo_optimization_score.php:315
+msgid "Keyword is not set. Please provide a keyword for SEO analysis."
+msgstr ""
+"Cuvântul cheie nu este setat. Vă rugăm să furnizați un cuvânt cheie pentru "
+"analiza SEO."
+
+#: admin/ai_seo_optimization_score.php:186
+msgid "Presence of numbers, special Unicode characters, or emojis in title"
+msgstr ""
+"Prezența numerelor, a caracterelor speciale Unicode sau a emoji-urilor în "
+"titlu"
+
+#: admin/ai_seo_optimization_score.php:190
+msgid "Absence of numbers, special Unicode characters, or emojis in title"
+msgstr ""
+"Absența numerelor, a caracterelor speciale Unicode sau a emoji-urilor în "
+"titlu"
+
+#: admin/ai_seo_optimization_score.php:221
+msgid "Keyword presence in meta description"
+msgstr "Prezența cuvintelor cheie în metadescriere"
+
+#: admin/ai_seo_optimization_score.php:223
+msgid ""
+"Using the keyword in the meta description can improve SEO ranking.<br>"
+"Keyword used:"
+msgstr ""
+"Utilizarea cuvântului cheie în metadescrierea poate îmbunătăți clasarea SEO."
+"<br>Cuvânt cheie folosit:"
+
+#: admin/ai_seo_optimization_score.php:225
+msgid "Keyword absence in meta description"
+msgstr "Absența cuvântului cheie în meta descriere"
+
+#: admin/ai_seo_optimization_score.php:227
+msgid ""
+"The keyword was not found in the meta description. It's recommended to "
+"include the keyword for better SEO performance.<br>Keyword used:"
+msgstr ""
+"Cuvântul cheie nu a fost găsit în meta descriere. Este recomandat să "
+"includeți cuvântul cheie pentru o performanță SEO mai bună.<br>Cuvânt cheie "
+"folosit:"
+
+#: admin/ai_seo_optimization_score.php:241
+msgid "Optimal meta description length"
+msgstr "Lungimea optimă a meta descrierii"
+
+#: admin/ai_seo_optimization_score.php:243
+msgid ""
+"The length of the meta description is optimal (130-160 characters).<br>"
+"Current Length: %d"
+msgstr ""
+"Lungimea meta descrierii este optimă (130-160 de caractere).<br>Lungimea "
+"actuală: %d"
+
+#: admin/ai_seo_optimization_score.php:245
+msgid "Non-optimal meta description length"
+msgstr "Lungimea meta descrierii nu este optimă"
+
+#: admin/ai_seo_optimization_score.php:247
+msgid ""
+"The length of the meta description is not optimal. It's recommended to keep "
+"the meta description between 130-160 characters.<br>Current Length: %d"
+msgstr ""
+"Lungimea meta descrierii nu este optimă. Se recomandă să păstrați "
+"metadescrierea între 130-160 de caractere.<br>Lungimea actuală: %d"
+
+#: admin/ai_seo_optimization_score.php:292
+msgid "Keyword presence in URL"
+msgstr "Prezența cuvintelor cheie în URL"
+
+#: admin/ai_seo_optimization_score.php:296
+msgid ""
+"The keyword is found in the URL, which is good for SEO performance.<br>"
+"Keyword used: <strong>{keyword}</strong><br>URL: {url}"
+msgstr ""
+"Cuvântul cheie se găsește în adresa URL, ceea ce este bun pentru performanța "
+"SEO.<br>Cuvânt cheie folosit: <strong>{keyword}</strong><br>URL: {url}"
+
+#: admin/ai_seo_optimization_score.php:304
+msgid "Keyword absence in URL"
+msgstr "Absența cuvântului cheie în URL"
+
+#. translators: 1: URL
+#: admin/ai_seo_optimization_score.php:307
+msgid ""
+"The keyword is not found in the URL. It's recommended to include the keyword "
+"in the URL for better SEO performance.<br>URL: %s"
+msgstr ""
+"Cuvântul cheie nu este găsit în adresa URL. Este recomandat să includeți "
+"cuvântul cheie în adresa URL pentru o performanță SEO mai bună.<br>Adresa "
+"URL: %s"
+
+#: admin/ai_seo_optimization_score.php:322
+msgid "Clean and short URL"
+msgstr "URL curat și scurt"
+
+#. translators: 1: URL length, 2: URL
+#: admin/ai_seo_optimization_score.php:325
+msgid ""
+"The URL is clean and short (length: %1$s characters). Recommended URL length "
+"is less than 80 characters. You can modify the URL structure in <a "
+"href='options-permalink.php'>Permalink Settings</a>.<br>Current URL: %2$s"
+msgstr ""
+"Adresa URL este curată și scurtă (lungime: %1$s caractere). Lungimea URL "
+"recomandată este mai mică de 80 de caractere. Puteți modifica structura URL-"
+"ului în <a href='options-permalink.php'>Setări permalink</a> .<br> Adresa "
+"URL curentă: %2$s"
+
+#: admin/ai_seo_optimization_score.php:330
+msgid "URL not clean or too long"
+msgstr "Adresa URL nu este curată sau prea lungă"
+
+#. translators: 1: URL length, 2: URL
+#: admin/ai_seo_optimization_score.php:333
+msgid ""
+"The URL is not clean or is too long (length: <strong>{length}</strong> "
+"characters). Consider shortening the URL and avoiding special characters for "
+"better SEO. You can modify the URL structure in <a href='options-permalink."
+"php'>Permalink Settings</a>.<br>Current URL: {url}"
+msgstr ""
+"Adresa URL nu este curată sau este prea lungă (lungime: <strong>{length}"
+"</strong> caractere). Luați în considerare scurtarea adresei URL și evitarea "
+"caracterelor speciale pentru un SEO mai bun. Puteți modifica structura URL-"
+"ului în <a href='options-permalink.php'>Setări permalink</a> .<br> Adresa "
+"URL curentă: {url}"
+
+#: admin/ai_seo_optimization_score.php:370
+msgid "Only one H1"
+msgstr "Doar un H1"
+
+#: admin/ai_seo_optimization_score.php:372
+msgid "The content has only one H1 tag: {h1_content}."
+msgstr "Conținutul are o singură etichetă H1: {h1_content}."
+
+#: admin/ai_seo_optimization_score.php:375
+msgid "Multiple or no H1 tags"
+msgstr "Etichete H1 multiple sau deloc"
+
+#: admin/ai_seo_optimization_score.php:377
+msgid ""
+"The content has %d H1 tags, which is not recommended. There should be "
+"exactly one H1 tag."
+msgstr ""
+"Conținutul are %d etichete H1, ceea ce nu este recomandat. Ar trebui să "
+"existe exact o etichetă H1."
+
+#: admin/ai_seo_optimization_score.php:387
+msgid "Keyword presence in H1"
+msgstr "Prezența cuvântului cheie în H1"
+
+#: admin/ai_seo_optimization_score.php:389
+msgid ""
+"The keyword is present in the H1 tag: {highlighted_title}. Keyword used: "
+"{highlighted_keyword}."
+msgstr ""
+"Cuvântul cheie este prezent în eticheta H1: {highlighted_title}. Cuvânt "
+"cheie folosit: {highlighted_keyword}."
+
+#: admin/ai_seo_optimization_score.php:394
+msgid "Keyword absence in H1"
+msgstr "Absența cuvântului cheie în H1"
+
+#: admin/ai_seo_optimization_score.php:396
+msgid "The keyword is not present in the H1 tag."
+msgstr "Cuvântul cheie nu este prezent în eticheta H1."
+
+#: admin/ai_seo_optimization_score.php:414
+msgid "Keyword presence in subheadings"
+msgstr "Prezența cuvintelor cheie în subtitluri"
+
+#: admin/ai_seo_optimization_score.php:419
+msgid ""
+"The keyword is found in {count} subheadings. The keyword is present in the "
+"following subheadings: {subheadings_list}"
+msgstr ""
+"Cuvântul cheie se găsește în {count} subtitluri. Cuvântul cheie este prezent "
+"în următoarele subtitluri: {subheadings_list}"
+
+#: admin/ai_seo_optimization_score.php:422
+msgid "Keyword absence in subheadings"
+msgstr "Absența cuvintelor cheie în subtitluri"
+
+#: admin/ai_seo_optimization_score.php:424
+msgid "The keyword is not present in any of the subheadings."
+msgstr "Cuvântul cheie nu este prezent în niciunul dintre subtitluri."
+
+#: admin/ai_seo_optimization_score.php:455
+msgid "Correct nesting of subheadings"
+msgstr "Imbricarea corectă a subtitlurilor"
+
+#: admin/ai_seo_optimization_score.php:457
+msgid ""
+"The subheadings are correctly nested. Correctly nested subheadings help in "
+"organizing the content and improving readability."
+msgstr ""
+"Subtitlurile sunt imbricate corect. Subtitlurile imbricate corect ajută la "
+"organizarea conținutului și la îmbunătățirea lizibilității."
+
+#: admin/ai_seo_optimization_score.php:459
+msgid "Incorrect nesting of subheadings"
+msgstr "Imbricarea incorectă a subtitlurilor"
+
+#: admin/ai_seo_optimization_score.php:461
+msgid ""
+"The subheadings are not correctly nested. Incorrect nesting may lead to poor "
+"content structure and affect readability. Correct structure should follow "
+"the pattern: H2 > H3 > H4, etc. Incorrect structure: {heading_structure}"
+msgstr ""
+"Subtitlurile nu sunt imbricate corect. Imbricarea incorectă poate duce la o "
+"structură slabă a conținutului și poate afecta lizibilitatea. Structura "
+"corectă ar trebui să urmeze modelul: H2 > H3 > H4 etc. Structură incorectă: "
+"{heading_structure}"
+
+#: admin/ai_seo_optimization_score.php:490
+msgid "Presence of alt text for all images"
+msgstr "Prezența textului alternativ pentru toate imaginile"
+
+#: admin/ai_seo_optimization_score.php:492
+msgid "All %d images have alt text. This is good for SEO and accessibility."
+msgstr ""
+"Toate %d imagini au text alternativ. Acest lucru este bun pentru SEO și "
+"accesibilitate."
+
+#: admin/ai_seo_optimization_score.php:495
+msgid "Missing alt text for some images"
+msgstr "Lipsește text alternativ pentru unele imagini"
+
+#: admin/ai_seo_optimization_score.php:497
+msgid ""
+"<strong>%d</strong> out of <strong>%d</strong> images are missing alt text. "
+"Consider adding descriptive alt text to all images for better SEO and "
+"accessibility."
+msgstr ""
+"<strong>%d</strong> din <strong>%d</strong> imagini lipsesc text alternativ. "
+"Luați în considerare adăugarea unui text alternativ descriptiv la toate "
+"imaginile pentru un SEO și accesibilitate mai bune."
+
+#: admin/ai_seo_optimization_score.php:508
+msgid "Keyword presence in alt text of main image"
+msgstr "Prezența cuvântului cheie în textul alternativ al imaginii principale"
+
+#: admin/ai_seo_optimization_score.php:510
+msgid ""
+"The keyword is present in the alt text of the main image: \"<strong>"
+"%s</strong>\"."
+msgstr ""
+"Cuvântul cheie este prezent în textul alternativ al imaginii principale: "
+"„<strong>%s</strong>”."
+
+#: admin/ai_seo_optimization_score.php:512
+msgid "Keyword absence in alt text of main image"
+msgstr "Absența cuvântului cheie în textul alternativ al imaginii principale"
+
+#: admin/ai_seo_optimization_score.php:514
+msgid ""
+"The keyword is not present in the alt text of the main image. Consider "
+"including the keyword."
+msgstr ""
+"Cuvântul cheie nu este prezent în textul alternativ al imaginii principale. "
+"Luați în considerare includerea cuvântului cheie."
+
+#: admin/ai_seo_optimization_score.php:532
+msgid "Keyword presence in alt text of other images"
+msgstr "Prezența cuvintelor cheie în textul alternativ al altor imagini"
+
+#: admin/ai_seo_optimization_score.php:534
+msgid "The keyword is present in the alt text of other images:<ul>%s</ul>"
+msgstr ""
+"Cuvântul cheie este prezent în textul alternativ al altor imagini:<ul>%s</ul>"
+
+#: admin/ai_seo_optimization_score.php:536
+msgid "Keyword absence in alt text of other images"
+msgstr "Absența cuvântului cheie în textul alternativ al altor imagini"
+
+#: admin/ai_seo_optimization_score.php:538
+msgid ""
+"The keyword is not present in the alt text of other images. Consider "
+"including the keyword."
+msgstr ""
+"Cuvântul cheie nu este prezent în textul alternativ al altor imagini. Luați "
+"în considerare includerea cuvântului cheie."
+
+#: admin/ai_seo_optimization_score.php:547
+msgid "Good ratio of images/media to text volume"
+msgstr "Raport bun între imagini/media și volumul textului"
+
+#: admin/ai_seo_optimization_score.php:549
+msgid ""
+"The content has %d images and %d characters, providing a good ratio of "
+"images to text volume."
+msgstr ""
+"Conținutul are %d imagini și %d caractere, oferind un raport bun între "
+"imagini și volumul textului."
+
+#: admin/ai_seo_optimization_score.php:551
+msgid "Poor ratio of images/media to text volume"
+msgstr "Raport slab între imagini/media și volumul textului"
+
+#: admin/ai_seo_optimization_score.php:553
+msgid ""
+"The content has %d images and %d characters. Consider adding more images to "
+"achieve the recommended ratio of at least 1 image per 3000 characters."
+msgstr ""
+"Conținutul are %d imagini și %d caractere. Luați în considerare adăugarea "
+"mai multor imagini pentru a obține raportul recomandat de cel puțin 1 "
+"imagine la 3000 de caractere."
+
+#: admin/ai_seo_optimization_score.php:609
+msgid "Presence of external links"
+msgstr "Prezența legăturilor externe"
+
+#. translators: 1: Number of external links, 2: List of external links with their anchor text
+#: admin/ai_seo_optimization_score.php:612
+msgid ""
+"Found %1$s external links. External links can add value and credibility to "
+"your content. Links:%2$s"
+msgstr ""
+"S-au găsit %1$s linkuri externe. Legăturile externe pot adăuga valoare și "
+"credibilitate conținutului dvs. Linkuri:%2$s"
+
+#: admin/ai_seo_optimization_score.php:616
+msgid "No external links"
+msgstr "Fără link-uri externe"
+
+#: admin/ai_seo_optimization_score.php:618
+msgid "No external links found."
+msgstr "Nu s-au găsit linkuri externe."
+
+#: admin/ai_seo_optimization_score.php:625
+msgid "Presence of internal links"
+msgstr "Prezența legăturilor interne"
+
+#. translators: 1: Number of internal links, 2: List of internal links with their anchor text
+#: admin/ai_seo_optimization_score.php:628
+msgid ""
+"Found <strong>%d</strong> internal links. Internal links help in improving "
+"navigation and spreading link equity. Links:<br><ul>%s</ul>"
+msgstr ""
+"S-au găsit <strong>%d</strong> linkuri interne. Link-urile interne ajută la "
+"îmbunătățirea navigării și la răspândirea echității link-urilor. Linkuri:<br>"
+"<ul>%s</ul>"
+
+#: admin/ai_seo_optimization_score.php:630
+msgid "No internal links"
+msgstr "Fără link-uri interne"
+
+#: admin/ai_seo_optimization_score.php:632
+msgid "No internal links found."
+msgstr "Nu s-au găsit linkuri interne."
+
+#: admin/ai_seo_optimization_score.php:650
+msgid "No links with nofollow attributes"
+msgstr "Nu există linkuri cu atribute nofollow"
+
+#: admin/ai_seo_optimization_score.php:652
+msgid ""
+"No links with nofollow attribute found. This is positive as it allows search "
+"engines to crawl and pass link equity to the linked pages. Consider linking "
+"to authoritative and trusted websites without the nofollow attribute, as it "
+"aligns with the best SEO practices."
+msgstr ""
+"Nu s-au găsit linkuri cu atributul nofollow. Acest lucru este pozitiv, "
+"deoarece permite motoarelor de căutare să acceseze cu crawlere și să "
+"transmită link-uri către paginile legate. Luați în considerare conectarea la "
+"site-uri web autorizate și de încredere fără atributul nofollow, deoarece se "
+"aliniază cu cele mai bune practici SEO."
+
+#: admin/ai_seo_optimization_score.php:654
+msgid "Presence of nofollow attributes"
+msgstr "Prezența atributelor nofollow"
+
+#. translators: 1: Number of links with nofollow attribute, 2: List of nofollow links with their anchor text
+#: admin/ai_seo_optimization_score.php:657
+msgid ""
+"Found %d links with nofollow attribute. Review the usage and consider "
+"allowing followed links to trustworthy and authoritative websites. Here are "
+"the nofollow links found:<br><ul>%s</ul>"
+msgstr ""
+"S-au găsit %d linkuri cu atributul nofollow. Examinați utilizarea și luați "
+"în considerare posibilitatea de a permite link-uri urmărite către site-uri "
+"web de încredere și autorizate. Iată linkurile nofollow găsite:<br><ul>"
+"%s</ul>"
+
+#: admin/ai_seo_optimization_score.php:714
+msgid "Keyword presence in content"
+msgstr "Prezența cuvintelor cheie în conținut"
+
+#: admin/ai_seo_optimization_score.php:716
+#: admin/ai_seo_optimization_score.php:722
+msgid ""
+"Keyword density is %1$.2f%%. Recommended optimal density is between %2$.2f%% "
+"and %3$.2f%%."
+msgstr ""
+"Densitatea cuvintelor cheie este de %1$,2f%%. Densitatea optimă recomandată "
+"este între %2$,2f%% și %3$,2f%%."
+
+#: admin/ai_seo_optimization_score.php:720
+#: admin/ai_seo_optimization_score.php:724
+msgid "Keyword presence in content (suboptimal density)"
+msgstr "Prezența cuvintelor cheie în conținut (densitate suboptimală)"
+
+#: admin/ai_seo_optimization_score.php:726
+msgid ""
+"Keyword density is %1$.2f%%. Recommended optimal density is between %2$.2f%% "
+"and %3$.2f%%. No points awarded as density is out of range."
+msgstr ""
+"Densitatea cuvintelor cheie este de %1$,2f%%. Densitatea optimă recomandată "
+"este între %2$,2f%% și %3$,2f%%. Nu se acordă puncte, deoarece densitatea "
+"este în afara intervalului."
+
+#: admin/ai_seo_optimization_score.php:736
+msgid "Optimal content length"
+msgstr "Lungimea optimă a conținutului"
+
+#: admin/ai_seo_optimization_score.php:740
+msgid "Content length is not optimal"
+msgstr "Lungimea conținutului nu este optimă"
+
+#: admin/ai_seo_optimization_score.php:751
+msgid "Presence of media content"
+msgstr "Prezența conținutului media"
+
+#: admin/ai_seo_optimization_score.php:753
+msgid ""
+"Found %d media items in content. Media items like images and videos can "
+"enhance user engagement."
+msgstr ""
+"S-au găsit %d elemente media în conținut. Elementele media precum imaginile "
+"și videoclipurile pot spori implicarea utilizatorilor."
+
+#: admin/ai_seo_optimization_score.php:755
+msgid "No media content found"
+msgstr "Nu s-a găsit conținut media"
+
+#: admin/ai_seo_optimization_score.php:757
+msgid ""
+"No media items found in content. Consider adding images or videos to enhance "
+"user engagement."
+msgstr ""
+"Nu s-au găsit elemente media în conținut. Luați în considerare adăugarea de "
+"imagini sau videoclipuri pentru a spori implicarea utilizatorilor."
+
+#: admin/ai_seo_optimization_score.php:774
+msgid "No long sentences"
+msgstr "Fără propoziții lungi"
+
+#: admin/ai_seo_optimization_score.php:776
+msgid "No long sentences found in content."
+msgstr "Nu s-au găsit propoziții lungi în conținut."
+
+#: admin/ai_seo_optimization_score.php:778
+msgid "Presence of long sentences"
+msgstr "Prezența propozițiilor lungi"
+
+#: admin/ai_seo_optimization_score.php:780
+msgid ""
+"Found %d long sentences. Consider breaking them down for better readability. "
+"Sentences:<br><ul style='background-color: #e0f2e9;'><li>%s</li></ul>"
+msgstr ""
+"S-au găsit %d propoziții lungi. Luați în considerare descompunerea lor "
+"pentru o mai bună lizibilitate. Propoziții:<br><ul style='background-color: "
+"#e0f2e9;'><li> %s</li></ul>"
+
+#: admin/ai_seo_optimization_score.php:793
+msgid "No large paragraphs"
+msgstr "Fără paragrafe mari"
+
+#: admin/ai_seo_optimization_score.php:795
+msgid "No large paragraphs found in content."
+msgstr "Nu s-au găsit paragrafe mari în conținut."
+
+#: admin/ai_seo_optimization_score.php:797
+msgid "Presence of large paragraphs"
+msgstr "Prezența paragrafelor mari"
+
+#: admin/ai_seo_optimization_score.php:799
+msgid ""
+"Found %d large paragraphs. Consider breaking them down for better "
+"readability. Paragraphs: <br>%s"
+msgstr ""
+"S-au găsit %d paragrafe mari. Luați în considerare descompunerea lor pentru "
+"o mai bună lizibilitate. Paragrafe: <br>%s"
+
+#: admin/ai_seo_optimization_score.php:828
+#: admin/ai_seo_optimization_score.php:837
+msgid "List"
+msgstr "Listă"
+
+#: admin/ai_seo_optimization_score.php:842
+msgid "Presence of lists"
+msgstr "Prezența listelor"
+
+#: admin/ai_seo_optimization_score.php:846
+msgid "Found %1$s unordered lists and %2$s ordered lists.<br>%3$s%4$s"
+msgstr "S-au găsit %1$s liste neordonate și %2$s liste ordonate.<br>%3$s%4$s"
+
+#: admin/ai_seo_optimization_score.php:868
+msgid "Use of italic or bold for keyword emphasis"
+msgstr ""
+"Utilizarea caracterelor cursive sau aldine pentru accentuarea cuvintelor "
+"cheie"
+
+#: admin/ai_seo_optimization_score.php:872
+msgid ""
+"Found <strong>%d emphasis</strong> on keyword. Emphasis can enhance "
+"readability. Details:%s"
+msgstr ""
+"S-au găsit <strong>%d accent</strong> pe cuvânt cheie. Accentul poate spori "
+"lizibilitatea. Detalii: %s"
+
+#: admin/ai_seo_optimization_score.php:877
+msgid ""
+"Keyword is not emphasized with bold or italic. Emphasizing important "
+"keywords can improve readability."
+msgstr ""
+"Cuvântul cheie nu este accentuat cu aldine sau cursive. Sublinierea "
+"cuvintelor cheie importante poate îmbunătăți lizibilitatea."
+
+#: admin/ai_seo_optimization_score.php:882
+msgid "Presence of tables"
+msgstr "Prezența meselor"
+
+#: admin/ai_seo_optimization_score.php:886
+msgid "Found %d tables. Tables help to organize and present data effectively."
+msgstr ""
+"S-au găsit %d tabele. Tabelele ajută la organizarea și prezentarea eficientă "
+"a datelor."
+
+#: admin/ai_seo_optimization_score.php:887
+msgid ""
+"No tables found in content. Consider using tables to present data when "
+"applicable."
+msgstr ""
+"Nu s-au găsit tabele în conținut. Luați în considerare utilizarea tabelelor "
+"pentru a prezenta datele atunci când este cazul."
+
+#: admin/ai_seo_score_display.php:30
+msgid "AI SEO Content Analyzer Plugin Score"
+msgstr "Scorul pluginului AI SEO Content Analyzer"
+
+#: admin/ai_seo_score_display.php:34
+msgid "Overall Score"
+msgstr "Scor general"
+
+#: admin/ai_seo_score_display.php:106
+msgid "Current SEO score:"
+msgstr "Scorul SEO actual:"
+
+#: admin/ai_seo_score_display.php:112 admin/console/mass-analysis.php:193
+msgid "SEO Optimize with artificial intelligence"
+msgstr "Optimizare SEO cu inteligență artificială"
+
+#: admin/ai_seo_score_display.php:123
+msgid "AI SEO Score for Post"
+msgstr "Scor AI SEO pentru postare"
+
+#: admin/console/console.php:14
+msgid ""
+"Your go-to tool for comprehensive SEO content analysis. Brought to you by "
+"BuyReadySite, the AI SEO Content Analyzer helps you scrutinize and optimize "
+"your content like never before. Enhance your content's SEO score with "
+"detailed audits and intelligent recommendations."
+msgstr ""
+"Instrumentul dvs. de bază pentru o analiză completă a conținutului SEO. "
+"Prezentat de BuyReadySite, AI SEO Content Analyzer vă ajută să analizați și "
+"să vă optimizați conținutul ca niciodată. Îmbunătățiți scorul SEO al "
+"conținutului dvs. cu audituri detaliate și recomandări inteligente."
+
+#: admin/console/console.php:15
+msgid "Plugin Advantages"
+msgstr "Avantajele pluginului"
+
+#: admin/console/console.php:20
+msgid "Content Analysis"
+msgstr "Analiza continutului"
+
+#: admin/console/console.php:22
+msgid "Keyword density analysis"
+msgstr "Analiza densității cuvintelor cheie"
+
+#: admin/console/console.php:23
+msgid "Content readability score"
+msgstr "Scorul de lizibilitate a conținutului"
+
+#: admin/console/console.php:24
+msgid "Meta tags evaluation"
+msgstr "Evaluare meta tag-uri"
+
+#: admin/console/console.php:28
+msgid "SEO Auditing"
+msgstr "Audit SEO"
+
+#: admin/console/console.php:30
+msgid "On-page SEO audit"
+msgstr "Audit SEO pe pagină"
+
+#: admin/console/console.php:31
+msgid "Backlink analysis"
+msgstr "Analiza backlink"
+
+#: admin/console/console.php:32
+msgid "Technical SEO evaluation"
+msgstr "Evaluare tehnică SEO"
+
+#: admin/console/console.php:36
+msgid "Performance"
+msgstr "Performanţă"
+
+#: admin/console/console.php:38
+msgid "Fast content analysis"
+msgstr "Analiză rapidă a conținutului"
+
+#: admin/console/console.php:39
+msgid "Easy integration"
+msgstr "Integrare ușoară"
+
+#: admin/console/console.php:40
+msgid "User-friendly dashboard"
+msgstr "Tabloul de bord ușor de utilizat"
+
+#: admin/console/console.php:49
+msgid "Mass content Analyzer"
+msgstr "Analizor de conținut de masă"
+
+#: admin/console/mass-analysis.php:72
+msgid ""
+"Use this page to perform mass analyzer of your content. Select the posts or "
+"products you wish to analyze, and the tool will provide detailed insights "
+"and suggestions."
+msgstr ""
+"Utilizați această pagină pentru a efectua un analizor de masă al "
+"conținutului dvs. Selectați postările sau produsele pe care doriți să le "
+"analizați, iar instrumentul vă va oferi informații și sugestii detaliate."
+
+#: admin/console/mass-analysis.php:82
+msgid "Legend:"
+msgstr "Legendă:"
+
+#: admin/console/mass-analysis.php:84 admin/console/mass-analysis.php:128
+msgid "Poor"
+msgstr "Sărac"
+
+#: admin/console/mass-analysis.php:85 admin/console/mass-analysis.php:128
+msgid "Normal"
+msgstr "Normal"
+
+#: admin/console/mass-analysis.php:86 admin/console/mass-analysis.php:128
+msgid "Good"
+msgstr "Bun"
+
+#: admin/console/mass-analysis.php:87 admin/console/mass-analysis.php:128
+msgid "Excellent"
+msgstr "Excelent"
+
+#: admin/console/mass-analysis.php:103
+msgid "Average Score:"
+msgstr "Scor mediu:"
+
+#: admin/console/mass-analysis.php:104
+msgid "Total Posts:"
+msgstr "Total postări:"
+
+#: admin/console/mass-analysis.php:105
+msgid "Products:"
+msgstr "Produse:"
+
+#: admin/console/mass-analysis.php:106
+msgid "Poor Score:"
+msgstr "Scor slab:"
+
+#: admin/console/mass-analysis.php:107
+msgid "Normal Score:"
+msgstr "Scor normal:"
+
+#: admin/console/mass-analysis.php:108
+msgid "Good Score:"
+msgstr "Scor bun:"
+
+#: admin/console/mass-analysis.php:109
+msgid "Excellent Score:"
+msgstr "Scor excelent:"
+
+#: admin/console/mass-analysis.php:115
+msgid "Reanalyze"
+msgstr "Reanaliza"
+
+#: admin/console/mass-analysis.php:117
+msgid "Start Analysis"
+msgstr "Începeți analiza"
+
+#: admin/console/mass-analysis.php:170
+msgid "Title"
+msgstr "Titlu"
+
+#: admin/console/mass-analysis.php:171
+msgid "Type"
+msgstr "Tip"
+
+#: admin/console/mass-analysis.php:172
+msgid "Score"
+msgstr "Scor"
+
+#: admin/console/mass-analysis.php:173
+msgid "Optimization"
+msgstr "Optimizare"
+
+#: admin/console/mass-analysis.php:187
+msgid "Product"
+msgstr "Produs"
+
+#: admin/console/mass-analysis.php:187
+msgid "Post"
+msgstr "Post"
+
+#: admin/console/mass-analysis.php:196
+msgid "SEO Content Analyzer"
+msgstr "Analizor de conținut SEO"
+
+#: admin/seo-plugins.php:38
+msgid ""
+"AI SEO AutoOptimize Pro requires an active SEO plugin (Yoast, Rank Math, or "
+"All in One SEO Pack) and Classic Editor. Please install and activate them."
+msgstr ""
+"AI SEO AutoOptimize Pro necesită un plugin SEO activ (Yoast, Rank Math sau "
+"All in One SEO Pack) și un editor clasic. Vă rugăm să le instalați și să le "
+"activați."
+
+#: admin/seo-plugins.php:40
+msgid "Install Yoast SEO"
+msgstr "Instalați Yoast SEO"
+
+#: admin/seo-plugins.php:41
+msgid "Install Rank Math"
+msgstr "Instalați Rank Math"
+
+#: admin/seo-plugins.php:42
+msgid "Install All in One SEO Pack"
+msgstr "Instalați pachetul SEO All in One"
+
+#: admin/seo-plugins.php:43
+msgid "Classic Editor"
+msgstr "Editor clasic"
+
+#: ai-seo-content-analyzer.php:62 ai-seo-content-analyzer.php:63
+msgid "Mass Analyzer"
+msgstr "Analizor de masă"
+
+#: ai-seo-content-analyzer.php:71 ai-seo-content-analyzer.php:72
+msgid "AI SEO AutoOptimize Pro website"
+msgstr "Site-ul web AI SEO AutoOptimize Pro"
+
+#: ai-seo-content-analyzer.php:118
+msgid ""
+"AI SEO Content Analyzer requires <a href=\"https://wordpress."
+"org/plugins/wordpress-seo/\" target=\"_blank\">Yoast SEO</a>, <a "
+"href=\"https://wordpress.org/plugins/seo-by-rank-math/\" target=\"_blank\">"
+"Rank Math</a>, or <a href=\"https://wordpress.org/plugins/classic-editor/\" "
+"target=\"_blank\">Classic Editor</a> to be activated. Please activate one of "
+"these plugins to use AI SEO Content Analyzer."
+msgstr ""
+"Analizatorul de conținut AI SEO necesită activarea <a href=\"https:"
+"//wordpress.org/plugins/wordpress-seo/\" target=\"_blank\">Yoast SEO</a> , "
+"<a href=\"https://wordpress.org/plugins/seo-by-rank-math/\" "
+"target=\"_blank\">Rank Math</a> sau <a href=\"https://wordpress."
+"org/plugins/classic-editor/\" target=\"_blank\">Classic Editor</a> . Vă "
+"rugăm să activați unul dintre aceste pluginuri pentru a utiliza AI SEO "
+"Content Analyzer."
+
+#: ai-seo-content-analyzer.php:129
+msgid "WIKI Plugin"
+msgstr "Plugin WIKI"

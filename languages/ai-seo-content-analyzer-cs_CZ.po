@@ -1,0 +1,865 @@
+# Copyright (C) 2023 BuyReadySite.com
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AI SEO Content Analyzer 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ai-seo-content-"
+"analyzer\n"
+"Last-Translator: \n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-06T07:59:42+00:00\n"
+"PO-Revision-Date: 2023-09-06 08:13+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: ai-seo-content-analyzer\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2;\n"
+"X-Loco-Version: 2.6.4; wp-6.3.1"
+
+#. Plugin Name of the plugin
+#: admin/console/mass-analysis.php:71
+msgid "AI SEO Content Analyzer"
+msgstr "AI SEO Content Analyzer"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://aiseoautooptimize.pro"
+msgstr "https://aiseoautooptimize.pro"
+
+#. Description of the plugin
+msgid ""
+"AI SEO Content Analyzer is a comprehensive SEO tool designed to scan and "
+"evaluate your content for potential SEO issues. By examining your content "
+"based on predefined parameters, it provides actionable recommendations and "
+"insights to improve its SEO optimization. Whether you're looking to increase "
+"your content's visibility, address common SEO mistakes, or just ensure that "
+"your website is on the right track, this plugin offers a streamlined and "
+"user-friendly solution."
+msgstr ""
+"AI SEO Content Analyzer je komplexní nástroj SEO určený ke skenování a "
+"vyhodnocování vašeho obsahu z hlediska potenciálních problémů se SEO. "
+"Prozkoumáním vašeho obsahu na základě předdefinovaných parametrů poskytuje "
+"užitečná doporučení a postřehy pro zlepšení jeho SEO optimalizace. Ať už "
+"chcete zvýšit viditelnost svého obsahu, řešit běžné chyby SEO nebo jen "
+"zajistit, aby byl váš web na správné cestě, tento plugin nabízí efektivní a "
+"uživatelsky přívětivé řešení."
+
+#. Author of the plugin
+msgid "BuyReadySite.com"
+msgstr "BuyReadySite.com"
+
+#: admin/ai_seo_optimization_score.php:128
+msgid "Keyword used: %s"
+msgstr "Použité klíčové slovo: %s"
+
+#: admin/ai_seo_optimization_score.php:129
+msgid ""
+"According to analytical data, including the targeted keyword in the title "
+"enhances search engine ranking. It emphasizes the relevance of the content."
+msgstr ""
+"Podle analytických údajů zahrnutí cíleného klíčového slova do názvu zvyšuje "
+"hodnocení vyhledávačů. Zdůrazňuje relevanci obsahu."
+
+#: admin/ai_seo_optimization_score.php:130
+msgid ""
+"Missing keyword in the title can affect search engine visibility. "
+"Implementing the keyword can enhance ranking."
+msgstr ""
+"Chybějící klíčové slovo v názvu může ovlivnit viditelnost vyhledávače. "
+"Implementace klíčového slova může zlepšit hodnocení."
+
+#: admin/ai_seo_optimization_score.php:131
+msgid "Title: %s"
+msgstr "Název: %s"
+
+#: admin/ai_seo_optimization_score.php:136
+msgid "Keyword presence in title"
+msgstr "Přítomnost klíčových slov v názvu"
+
+#: admin/ai_seo_optimization_score.php:140
+msgid "Keyword absence in title"
+msgstr "Absence klíčového slova v názvu"
+
+#: admin/ai_seo_optimization_score.php:150
+msgid "Optimal title length"
+msgstr "Optimální délka titulku"
+
+#: admin/ai_seo_optimization_score.php:154
+msgid "Non-optimal title length"
+msgstr "Neoptimální délka názvu"
+
+#: admin/ai_seo_optimization_score.php:166
+msgid "Keyword at the beginning of the title"
+msgstr "Klíčové slovo na začátku nadpisu"
+
+#: admin/ai_seo_optimization_score.php:168
+#: admin/ai_seo_optimization_score.php:172
+msgid "Keyword used:"
+msgstr "Použité klíčové slovo:"
+
+#: admin/ai_seo_optimization_score.php:168
+#: admin/ai_seo_optimization_score.php:172
+msgid "Title:"
+msgstr "Titul:"
+
+#: admin/ai_seo_optimization_score.php:170
+msgid "Keyword not at the beginning of the title"
+msgstr "Klíčové slovo není na začátku názvu"
+
+#: admin/ai_seo_optimization_score.php:177
+#: admin/ai_seo_optimization_score.php:233
+#: admin/ai_seo_optimization_score.php:315
+msgid "Keyword is not set. Please provide a keyword for SEO analysis."
+msgstr ""
+"Klíčové slovo není nastaveno. Zadejte prosím klíčové slovo pro SEO analýzu."
+
+#: admin/ai_seo_optimization_score.php:186
+msgid "Presence of numbers, special Unicode characters, or emojis in title"
+msgstr "Přítomnost čísel, speciálních znaků Unicode nebo emotikonů v názvu"
+
+#: admin/ai_seo_optimization_score.php:190
+msgid "Absence of numbers, special Unicode characters, or emojis in title"
+msgstr "Absence čísel, speciálních znaků Unicode nebo emotikonů v názvu"
+
+#: admin/ai_seo_optimization_score.php:221
+msgid "Keyword presence in meta description"
+msgstr "Přítomnost klíčových slov v meta popisu"
+
+#: admin/ai_seo_optimization_score.php:223
+msgid ""
+"Using the keyword in the meta description can improve SEO ranking.<br>"
+"Keyword used:"
+msgstr ""
+"Použití klíčového slova v popisu metadat může zlepšit hodnocení SEO.<br>"
+"Použité klíčové slovo:"
+
+#: admin/ai_seo_optimization_score.php:225
+msgid "Keyword absence in meta description"
+msgstr "Absence klíčového slova v meta popisu"
+
+#: admin/ai_seo_optimization_score.php:227
+msgid ""
+"The keyword was not found in the meta description. It's recommended to "
+"include the keyword for better SEO performance.<br>Keyword used:"
+msgstr ""
+"Klíčové slovo nebylo v metapopisu nalezeno. Pro lepší výkon SEO se "
+"doporučuje zahrnout klíčové slovo.<br>Použité klíčové slovo:"
+
+#: admin/ai_seo_optimization_score.php:241
+msgid "Optimal meta description length"
+msgstr "Optimální délka meta popisu"
+
+#: admin/ai_seo_optimization_score.php:243
+msgid ""
+"The length of the meta description is optimal (130-160 characters).<br>"
+"Current Length: %d"
+msgstr ""
+"Délka meta description je optimální (130-160 znaků).<br>Aktuální délka: %d"
+
+#: admin/ai_seo_optimization_score.php:245
+msgid "Non-optimal meta description length"
+msgstr "Neoptimální délka meta popisu"
+
+#: admin/ai_seo_optimization_score.php:247
+msgid ""
+"The length of the meta description is not optimal. It's recommended to keep "
+"the meta description between 130-160 characters.<br>Current Length: %d"
+msgstr ""
+"Délka meta description není optimální. Doporučuje se ponechat meta "
+"description mezi 130-160 znaky.<br>Aktuální délka: %d"
+
+#: admin/ai_seo_optimization_score.php:292
+msgid "Keyword presence in URL"
+msgstr "Přítomnost klíčových slov v URL"
+
+#: admin/ai_seo_optimization_score.php:296
+msgid ""
+"The keyword is found in the URL, which is good for SEO performance.<br>"
+"Keyword used: <strong>{keyword}</strong><br>URL: {url}"
+msgstr ""
+"Klíčové slovo se nachází v adrese URL, což je dobré pro výkon SEO.<br>"
+"Použité klíčové slovo: <strong>{keyword}</strong><br>URL: {url}"
+
+#: admin/ai_seo_optimization_score.php:304
+msgid "Keyword absence in URL"
+msgstr "Absence klíčového slova v URL"
+
+#. translators: 1: URL
+#: admin/ai_seo_optimization_score.php:307
+msgid ""
+"The keyword is not found in the URL. It's recommended to include the keyword "
+"in the URL for better SEO performance.<br>URL: %s"
+msgstr ""
+"Klíčové slovo nebylo v adrese URL nalezeno. Pro lepší výkon SEO se "
+"doporučuje zahrnout klíčové slovo do adresy URL.<br>URL: %s"
+
+#: admin/ai_seo_optimization_score.php:322
+msgid "Clean and short URL"
+msgstr "Čistá a krátká adresa URL"
+
+#. translators: 1: URL length, 2: URL
+#: admin/ai_seo_optimization_score.php:325
+msgid ""
+"The URL is clean and short (length: %1$s characters). Recommended URL length "
+"is less than 80 characters. You can modify the URL structure in <a "
+"href='options-permalink.php'>Permalink Settings</a>.<br>Current URL: %2$s"
+msgstr ""
+"Adresa URL je čistá a krátká (délka: %1$s znaků). Doporučená délka adresy "
+"URL je méně než 80 znaků. Strukturu URL můžete upravit v <a href='options-"
+"permalink.php'>Nastavení trvalého odkazu</a> .<br> Aktuální adresa URL: %2$s"
+
+#: admin/ai_seo_optimization_score.php:330
+msgid "URL not clean or too long"
+msgstr "Adresa URL není čistá nebo příliš dlouhá"
+
+#. translators: 1: URL length, 2: URL
+#: admin/ai_seo_optimization_score.php:333
+msgid ""
+"The URL is not clean or is too long (length: <strong>{length}</strong> "
+"characters). Consider shortening the URL and avoiding special characters for "
+"better SEO. You can modify the URL structure in <a href='options-permalink."
+"php'>Permalink Settings</a>.<br>Current URL: {url}"
+msgstr ""
+"Adresa URL není čistá nebo je příliš dlouhá (délka: <strong>{length}</strong>"
+" znaků). Zvažte zkrácení URL a vyhněte se speciálním znakům pro lepší SEO. "
+"Strukturu URL můžete upravit v <a href='options-permalink.php'>Nastavení "
+"trvalého odkazu</a> .<br> Aktuální adresa URL: {url}"
+
+#: admin/ai_seo_optimization_score.php:370
+msgid "Only one H1"
+msgstr "Pouze jedna H1"
+
+#: admin/ai_seo_optimization_score.php:372
+msgid "The content has only one H1 tag: {h1_content}."
+msgstr "Obsah má pouze jednu značku H1: {h1_content}."
+
+#: admin/ai_seo_optimization_score.php:375
+msgid "Multiple or no H1 tags"
+msgstr "Více značek H1 nebo žádné"
+
+#: admin/ai_seo_optimization_score.php:377
+msgid ""
+"The content has %d H1 tags, which is not recommended. There should be "
+"exactly one H1 tag."
+msgstr ""
+"Obsah má %d značek H1, což se nedoporučuje. Měl by existovat přesně jeden "
+"tag H1."
+
+#: admin/ai_seo_optimization_score.php:387
+msgid "Keyword presence in H1"
+msgstr "Přítomnost klíčových slov v H1"
+
+#: admin/ai_seo_optimization_score.php:389
+msgid ""
+"The keyword is present in the H1 tag: {highlighted_title}. Keyword used: "
+"{highlighted_keyword}."
+msgstr ""
+"Klíčové slovo je přítomno ve značce H1: {highlighted_title}. Použité klíčové "
+"slovo: {highlighted_keyword}."
+
+#: admin/ai_seo_optimization_score.php:394
+msgid "Keyword absence in H1"
+msgstr "Absence klíčového slova v H1"
+
+#: admin/ai_seo_optimization_score.php:396
+msgid "The keyword is not present in the H1 tag."
+msgstr "Klíčové slovo není přítomno ve značce H1."
+
+#: admin/ai_seo_optimization_score.php:414
+msgid "Keyword presence in subheadings"
+msgstr "Přítomnost klíčových slov v podnadpisech"
+
+#: admin/ai_seo_optimization_score.php:419
+msgid ""
+"The keyword is found in {count} subheadings. The keyword is present in the "
+"following subheadings: {subheadings_list}"
+msgstr ""
+"Klíčové slovo se nachází v {count} podnadpisech. Klíčové slovo je přítomno v "
+"následujících podnadpisech: {subheadings_list}"
+
+#: admin/ai_seo_optimization_score.php:422
+msgid "Keyword absence in subheadings"
+msgstr "Absence klíčových slov v podnadpisech"
+
+#: admin/ai_seo_optimization_score.php:424
+msgid "The keyword is not present in any of the subheadings."
+msgstr "Klíčové slovo není přítomno v žádném z podnadpisů."
+
+#: admin/ai_seo_optimization_score.php:455
+msgid "Correct nesting of subheadings"
+msgstr "Správné vnoření podnadpisů"
+
+#: admin/ai_seo_optimization_score.php:457
+msgid ""
+"The subheadings are correctly nested. Correctly nested subheadings help in "
+"organizing the content and improving readability."
+msgstr ""
+"Podnadpisy jsou správně vnořené. Správně vnořené podnadpisy pomáhají "
+"organizovat obsah a zlepšovat čitelnost."
+
+#: admin/ai_seo_optimization_score.php:459
+msgid "Incorrect nesting of subheadings"
+msgstr "Nesprávné vnoření podnadpisů"
+
+#: admin/ai_seo_optimization_score.php:461
+msgid ""
+"The subheadings are not correctly nested. Incorrect nesting may lead to poor "
+"content structure and affect readability. Correct structure should follow "
+"the pattern: H2 > H3 > H4, etc. Incorrect structure: {heading_structure}"
+msgstr ""
+"Podnadpisy nejsou správně vnořeny. Nesprávné vnoření může vést ke špatné "
+"struktuře obsahu a ovlivnit čitelnost. Správná struktura by měla odpovídat "
+"vzoru: H2 > H3 > H4 atd. Nesprávná struktura: {struktura_nadpisu}"
+
+#: admin/ai_seo_optimization_score.php:490
+msgid "Presence of alt text for all images"
+msgstr "Přítomnost alternativního textu pro všechny obrázky"
+
+#: admin/ai_seo_optimization_score.php:492
+msgid "All %d images have alt text. This is good for SEO and accessibility."
+msgstr ""
+"Všechny obrázky (%d) mají alternativní text. To je dobré pro SEO a "
+"dostupnost."
+
+#: admin/ai_seo_optimization_score.php:495
+msgid "Missing alt text for some images"
+msgstr "U některých obrázků chybí alternativní text"
+
+#: admin/ai_seo_optimization_score.php:497
+msgid ""
+"<strong>%d</strong> out of <strong>%d</strong> images are missing alt text. "
+"Consider adding descriptive alt text to all images for better SEO and "
+"accessibility."
+msgstr ""
+"<strong>%d</strong> z <strong>%d</strong> obrázků postrádá alternativní text."
+" Zvažte přidání popisného alternativního textu ke všem obrázkům pro lepší "
+"SEO a dostupnost."
+
+#: admin/ai_seo_optimization_score.php:508
+msgid "Keyword presence in alt text of main image"
+msgstr "Přítomnost klíčového slova v alternativním textu hlavního obrázku"
+
+#: admin/ai_seo_optimization_score.php:510
+msgid ""
+"The keyword is present in the alt text of the main image: \"<strong>"
+"%s</strong>\"."
+msgstr ""
+"Klíčové slovo se nachází v alternativním textu hlavního obrázku: \"<strong>"
+"%s</strong>\"."
+
+#: admin/ai_seo_optimization_score.php:512
+msgid "Keyword absence in alt text of main image"
+msgstr "Absence klíčového slova v alternativním textu hlavního obrázku"
+
+#: admin/ai_seo_optimization_score.php:514
+msgid ""
+"The keyword is not present in the alt text of the main image. Consider "
+"including the keyword."
+msgstr ""
+"Klíčové slovo není přítomno v alternativním textu hlavního obrázku. Zvažte "
+"zahrnutí klíčového slova."
+
+#: admin/ai_seo_optimization_score.php:532
+msgid "Keyword presence in alt text of other images"
+msgstr "Přítomnost klíčových slov v alternativním textu jiných obrázků"
+
+#: admin/ai_seo_optimization_score.php:534
+msgid "The keyword is present in the alt text of other images:<ul>%s</ul>"
+msgstr ""
+"Klíčové slovo je přítomno v alternativním textu ostatních obrázků:<ul>%s</ul>"
+
+#: admin/ai_seo_optimization_score.php:536
+msgid "Keyword absence in alt text of other images"
+msgstr "Absence klíčového slova v alternativním textu jiných obrázků"
+
+#: admin/ai_seo_optimization_score.php:538
+msgid ""
+"The keyword is not present in the alt text of other images. Consider "
+"including the keyword."
+msgstr ""
+"Klíčové slovo není přítomno v alternativním textu jiných obrázků. Zvažte "
+"zahrnutí klíčového slova."
+
+#: admin/ai_seo_optimization_score.php:547
+msgid "Good ratio of images/media to text volume"
+msgstr "Dobrý poměr obrázků/médií k objemu textu"
+
+#: admin/ai_seo_optimization_score.php:549
+msgid ""
+"The content has %d images and %d characters, providing a good ratio of "
+"images to text volume."
+msgstr ""
+"Obsah má %d obrázků a %d znaků, což poskytuje dobrý poměr obrázků k objemu "
+"textu."
+
+#: admin/ai_seo_optimization_score.php:551
+msgid "Poor ratio of images/media to text volume"
+msgstr "Špatný poměr obrázků/médií k objemu textu"
+
+#: admin/ai_seo_optimization_score.php:553
+msgid ""
+"The content has %d images and %d characters. Consider adding more images to "
+"achieve the recommended ratio of at least 1 image per 3000 characters."
+msgstr ""
+"Obsah má %d obrázků a %d znaků. Zvažte přidání dalších obrázků, abyste "
+"dosáhli doporučeného poměru alespoň 1 obrázek na 3000 znaků."
+
+#: admin/ai_seo_optimization_score.php:609
+msgid "Presence of external links"
+msgstr "Přítomnost externích odkazů"
+
+#. translators: 1: Number of external links, 2: List of external links with their anchor text
+#: admin/ai_seo_optimization_score.php:612
+msgid ""
+"Found %1$s external links. External links can add value and credibility to "
+"your content. Links:%2$s"
+msgstr ""
+"Nalezeno %1$s externích odkazů. Externí odkazy mohou přidat hodnotu a "
+"důvěryhodnost vašeho obsahu. Odkazy: %2$s"
+
+#: admin/ai_seo_optimization_score.php:616
+msgid "No external links"
+msgstr "Žádné externí odkazy"
+
+#: admin/ai_seo_optimization_score.php:618
+msgid "No external links found."
+msgstr "Nebyly nalezeny žádné externí odkazy."
+
+#: admin/ai_seo_optimization_score.php:625
+msgid "Presence of internal links"
+msgstr "Přítomnost vnitřních odkazů"
+
+#. translators: 1: Number of internal links, 2: List of internal links with their anchor text
+#: admin/ai_seo_optimization_score.php:628
+msgid ""
+"Found <strong>%d</strong> internal links. Internal links help in improving "
+"navigation and spreading link equity. Links:<br><ul>%s</ul>"
+msgstr ""
+"Nalezeno <strong>%d</strong> interních odkazů. Interní odkazy pomáhají "
+"zlepšovat navigaci a šířit hodnotu odkazů. Odkazy:<br><ul>%s</ul>"
+
+#: admin/ai_seo_optimization_score.php:630
+msgid "No internal links"
+msgstr "Žádné interní odkazy"
+
+#: admin/ai_seo_optimization_score.php:632
+msgid "No internal links found."
+msgstr "Nebyly nalezeny žádné interní odkazy."
+
+#: admin/ai_seo_optimization_score.php:650
+msgid "No links with nofollow attributes"
+msgstr "Žádné odkazy s atributy nofollow"
+
+#: admin/ai_seo_optimization_score.php:652
+msgid ""
+"No links with nofollow attribute found. This is positive as it allows search "
+"engines to crawl and pass link equity to the linked pages. Consider linking "
+"to authoritative and trusted websites without the nofollow attribute, as it "
+"aligns with the best SEO practices."
+msgstr ""
+"Nebyly nalezeny žádné odkazy s atributem nofollow. To je pozitivní, protože "
+"to umožňuje vyhledávačům procházet a předávat odkazovanou hodnotu "
+"odkazovaným stránkám. Zvažte propojení s autoritativními a důvěryhodnými "
+"weby bez atributu nofollow, protože je v souladu s osvědčenými postupy SEO."
+
+#: admin/ai_seo_optimization_score.php:654
+msgid "Presence of nofollow attributes"
+msgstr "Přítomnost atributů nofollow"
+
+#. translators: 1: Number of links with nofollow attribute, 2: List of nofollow links with their anchor text
+#: admin/ai_seo_optimization_score.php:657
+msgid ""
+"Found %d links with nofollow attribute. Review the usage and consider "
+"allowing followed links to trustworthy and authoritative websites. Here are "
+"the nofollow links found:<br><ul>%s</ul>"
+msgstr ""
+"Nalezeno %d odkazů s atributem nofollow. Zkontrolujte použití a zvažte "
+"povolení sledování odkazů na důvěryhodné a autoritativní webové stránky. Zde "
+"jsou nalezené odkazy nofollow:<br><ul>%s</ul>"
+
+#: admin/ai_seo_optimization_score.php:714
+msgid "Keyword presence in content"
+msgstr "Přítomnost klíčových slov v obsahu"
+
+#: admin/ai_seo_optimization_score.php:716
+#: admin/ai_seo_optimization_score.php:722
+msgid ""
+"Keyword density is %1$.2f%%. Recommended optimal density is between %2$.2f%% "
+"and %3$.2f%%."
+msgstr ""
+"Hustota klíčových slov je %1$.2f%%. Doporučená optimální hustota je mezi %2$."
+"2f%% a %3$.2f%%."
+
+#: admin/ai_seo_optimization_score.php:720
+#: admin/ai_seo_optimization_score.php:724
+msgid "Keyword presence in content (suboptimal density)"
+msgstr "Přítomnost klíčových slov v obsahu (suboptimální hustota)"
+
+#: admin/ai_seo_optimization_score.php:726
+msgid ""
+"Keyword density is %1$.2f%%. Recommended optimal density is between %2$.2f%% "
+"and %3$.2f%%. No points awarded as density is out of range."
+msgstr ""
+"Hustota klíčových slov je %1$.2f%%. Doporučená optimální hustota je mezi %2$."
+"2f%% a %3$.2f%%. Nejsou uděleny žádné body, protože hustota je mimo rozsah."
+
+#: admin/ai_seo_optimization_score.php:736
+msgid "Optimal content length"
+msgstr "Optimální délka obsahu"
+
+#: admin/ai_seo_optimization_score.php:740
+msgid "Content length is not optimal"
+msgstr "Délka obsahu není optimální"
+
+#: admin/ai_seo_optimization_score.php:751
+msgid "Presence of media content"
+msgstr "Přítomnost mediálního obsahu"
+
+#: admin/ai_seo_optimization_score.php:753
+msgid ""
+"Found %d media items in content. Media items like images and videos can "
+"enhance user engagement."
+msgstr ""
+"V obsahu bylo nalezeno %d mediálních položek. Mediální položky, jako jsou "
+"obrázky a videa, mohou zvýšit zapojení uživatelů."
+
+#: admin/ai_seo_optimization_score.php:755
+msgid "No media content found"
+msgstr "Nebyl nalezen žádný mediální obsah"
+
+#: admin/ai_seo_optimization_score.php:757
+msgid ""
+"No media items found in content. Consider adding images or videos to enhance "
+"user engagement."
+msgstr ""
+"V obsahu nebyly nalezeny žádné mediální položky. Zvažte přidání obrázků nebo "
+"videí, abyste zvýšili zapojení uživatelů."
+
+#: admin/ai_seo_optimization_score.php:774
+msgid "No long sentences"
+msgstr "Žádné dlouhé věty"
+
+#: admin/ai_seo_optimization_score.php:776
+msgid "No long sentences found in content."
+msgstr "V obsahu nebyly nalezeny žádné dlouhé věty."
+
+#: admin/ai_seo_optimization_score.php:778
+msgid "Presence of long sentences"
+msgstr "Přítomnost dlouhých vět"
+
+#: admin/ai_seo_optimization_score.php:780
+msgid ""
+"Found %d long sentences. Consider breaking them down for better readability. "
+"Sentences:<br><ul style='background-color: #e0f2e9;'><li>%s</li></ul>"
+msgstr ""
+"Nalezeno %d dlouhých vět. Zvažte jejich rozdělení pro lepší čitelnost. Věty:"
+"<br><ul style='background-color: #e0f2e9;'><li> %s</li></ul>"
+
+#: admin/ai_seo_optimization_score.php:793
+msgid "No large paragraphs"
+msgstr "Žádné velké odstavce"
+
+#: admin/ai_seo_optimization_score.php:795
+msgid "No large paragraphs found in content."
+msgstr "V obsahu nebyly nalezeny žádné velké odstavce."
+
+#: admin/ai_seo_optimization_score.php:797
+msgid "Presence of large paragraphs"
+msgstr "Přítomnost velkých odstavců"
+
+#: admin/ai_seo_optimization_score.php:799
+msgid ""
+"Found %d large paragraphs. Consider breaking them down for better "
+"readability. Paragraphs: <br>%s"
+msgstr ""
+"Nalezeno %d velkých odstavců. Zvažte jejich rozdělení pro lepší čitelnost. "
+"Odstavce: <br>%s"
+
+#: admin/ai_seo_optimization_score.php:828
+#: admin/ai_seo_optimization_score.php:837
+msgid "List"
+msgstr "Seznam"
+
+#: admin/ai_seo_optimization_score.php:842
+msgid "Presence of lists"
+msgstr "Přítomnost seznamů"
+
+#: admin/ai_seo_optimization_score.php:846
+msgid "Found %1$s unordered lists and %2$s ordered lists.<br>%3$s%4$s"
+msgstr ""
+"Nalezeno %1$s neuspořádaných seznamů a %2$s uspořádaných seznamů.<br>%3$s%4$s"
+
+#: admin/ai_seo_optimization_score.php:868
+msgid "Use of italic or bold for keyword emphasis"
+msgstr "Pro zdůraznění klíčových slov použijte kurzívu nebo tučné písmo"
+
+#: admin/ai_seo_optimization_score.php:872
+msgid ""
+"Found <strong>%d emphasis</strong> on keyword. Emphasis can enhance "
+"readability. Details:%s"
+msgstr ""
+"Bylo nalezeno <strong>%d důraz</strong> na klíčové slovo. Důraz může zlepšit "
+"čitelnost. Podrobnosti: %s"
+
+#: admin/ai_seo_optimization_score.php:877
+msgid ""
+"Keyword is not emphasized with bold or italic. Emphasizing important "
+"keywords can improve readability."
+msgstr ""
+"Klíčové slovo není zvýrazněno tučným písmem ani kurzívou. Zdůraznění "
+"důležitých klíčových slov může zlepšit čitelnost."
+
+#: admin/ai_seo_optimization_score.php:882
+msgid "Presence of tables"
+msgstr "Přítomnost stolů"
+
+#: admin/ai_seo_optimization_score.php:886
+msgid "Found %d tables. Tables help to organize and present data effectively."
+msgstr ""
+"Nalezeno %d tabulek. Tabulky pomáhají efektivně organizovat a prezentovat "
+"data."
+
+#: admin/ai_seo_optimization_score.php:887
+msgid ""
+"No tables found in content. Consider using tables to present data when "
+"applicable."
+msgstr ""
+"V obsahu nebyly nalezeny žádné tabulky. Pokud je to možné, zvažte použití "
+"tabulek k prezentaci dat."
+
+#: admin/ai_seo_score_display.php:30
+msgid "AI SEO Content Analyzer Plugin Score"
+msgstr "Skóre zásuvného modulu AI SEO Content Analyzer"
+
+#: admin/ai_seo_score_display.php:34
+msgid "Overall Score"
+msgstr "Celkové skóre"
+
+#: admin/ai_seo_score_display.php:106
+msgid "Current SEO score:"
+msgstr "Aktuální skóre SEO:"
+
+#: admin/ai_seo_score_display.php:112 admin/console/mass-analysis.php:193
+msgid "SEO Optimize with artificial intelligence"
+msgstr "SEO optimalizace s umělou inteligencí"
+
+#: admin/ai_seo_score_display.php:123
+msgid "AI SEO Score for Post"
+msgstr "Skóre AI SEO pro příspěvek"
+
+#: admin/console/console.php:14
+msgid ""
+"Your go-to tool for comprehensive SEO content analysis. Brought to you by "
+"BuyReadySite, the AI SEO Content Analyzer helps you scrutinize and optimize "
+"your content like never before. Enhance your content's SEO score with "
+"detailed audits and intelligent recommendations."
+msgstr ""
+"Váš nástroj pro komplexní analýzu obsahu SEO. AI SEO Content Analyzer, který "
+"vám přináší BuyReadySite, vám pomůže kontrolovat a optimalizovat váš obsah "
+"jako nikdy předtím. Vylepšete skóre SEO svého obsahu pomocí podrobných "
+"auditů a inteligentních doporučení."
+
+#: admin/console/console.php:15
+msgid "Plugin Advantages"
+msgstr "Výhody pluginu"
+
+#: admin/console/console.php:20
+msgid "Content Analysis"
+msgstr "Obsahová analýza"
+
+#: admin/console/console.php:22
+msgid "Keyword density analysis"
+msgstr "Analýza hustoty klíčových slov"
+
+#: admin/console/console.php:23
+msgid "Content readability score"
+msgstr "Skóre čtenosti obsahu"
+
+#: admin/console/console.php:24
+msgid "Meta tags evaluation"
+msgstr "Hodnocení meta tagů"
+
+#: admin/console/console.php:28
+msgid "SEO Auditing"
+msgstr "SEO audit"
+
+#: admin/console/console.php:30
+msgid "On-page SEO audit"
+msgstr "On-page SEO audit"
+
+#: admin/console/console.php:31
+msgid "Backlink analysis"
+msgstr "Analýza zpětných odkazů"
+
+#: admin/console/console.php:32
+msgid "Technical SEO evaluation"
+msgstr "Technické SEO hodnocení"
+
+#: admin/console/console.php:36
+msgid "Performance"
+msgstr "Výkon"
+
+#: admin/console/console.php:38
+msgid "Fast content analysis"
+msgstr "Rychlá analýza obsahu"
+
+#: admin/console/console.php:39
+msgid "Easy integration"
+msgstr "Snadná integrace"
+
+#: admin/console/console.php:40
+msgid "User-friendly dashboard"
+msgstr "Uživatelsky přívětivá palubní deska"
+
+#: admin/console/console.php:49
+msgid "Mass content Analyzer"
+msgstr "Analyzátor hmotnostního obsahu"
+
+#: admin/console/mass-analysis.php:72
+msgid ""
+"Use this page to perform mass analyzer of your content. Select the posts or "
+"products you wish to analyze, and the tool will provide detailed insights "
+"and suggestions."
+msgstr ""
+"Tuto stránku použijte k provedení hromadné analýzy vašeho obsahu. Vyberte "
+"příspěvky nebo produkty, které chcete analyzovat, a nástroj vám poskytne "
+"podrobné informace a návrhy."
+
+#: admin/console/mass-analysis.php:82
+msgid "Legend:"
+msgstr "Legenda:"
+
+#: admin/console/mass-analysis.php:84 admin/console/mass-analysis.php:128
+msgid "Poor"
+msgstr "Chudý"
+
+#: admin/console/mass-analysis.php:85 admin/console/mass-analysis.php:128
+msgid "Normal"
+msgstr "Normální"
+
+#: admin/console/mass-analysis.php:86 admin/console/mass-analysis.php:128
+msgid "Good"
+msgstr "Dobrý"
+
+#: admin/console/mass-analysis.php:87 admin/console/mass-analysis.php:128
+msgid "Excellent"
+msgstr "Vynikající"
+
+#: admin/console/mass-analysis.php:103
+msgid "Average Score:"
+msgstr "Průměrné skóre:"
+
+#: admin/console/mass-analysis.php:104
+msgid "Total Posts:"
+msgstr "Celkový počet příspěvků:"
+
+#: admin/console/mass-analysis.php:105
+msgid "Products:"
+msgstr "Produkty:"
+
+#: admin/console/mass-analysis.php:106
+msgid "Poor Score:"
+msgstr "Špatné skóre:"
+
+#: admin/console/mass-analysis.php:107
+msgid "Normal Score:"
+msgstr "Normální skóre:"
+
+#: admin/console/mass-analysis.php:108
+msgid "Good Score:"
+msgstr "Dobré skóre:"
+
+#: admin/console/mass-analysis.php:109
+msgid "Excellent Score:"
+msgstr "Vynikající skóre:"
+
+#: admin/console/mass-analysis.php:115
+msgid "Reanalyze"
+msgstr "Znovu analyzovat"
+
+#: admin/console/mass-analysis.php:117
+msgid "Start Analysis"
+msgstr "Spusťte analýzu"
+
+#: admin/console/mass-analysis.php:170
+msgid "Title"
+msgstr "Titul"
+
+#: admin/console/mass-analysis.php:171
+msgid "Type"
+msgstr "Typ"
+
+#: admin/console/mass-analysis.php:172
+msgid "Score"
+msgstr "Skóre"
+
+#: admin/console/mass-analysis.php:173
+msgid "Optimization"
+msgstr "Optimalizace"
+
+#: admin/console/mass-analysis.php:187
+msgid "Product"
+msgstr "Produkt"
+
+#: admin/console/mass-analysis.php:187
+msgid "Post"
+msgstr "Pošta"
+
+#: admin/console/mass-analysis.php:196
+msgid "SEO Content Analyzer"
+msgstr "SEO analyzátor obsahu"
+
+#: admin/seo-plugins.php:38
+msgid ""
+"AI SEO AutoOptimize Pro requires an active SEO plugin (Yoast, Rank Math, or "
+"All in One SEO Pack) and Classic Editor. Please install and activate them."
+msgstr ""
+"AI SEO AutoOptimize Pro vyžaduje aktivní SEO plugin (Yoast, Rank Math nebo "
+"All in One SEO Pack) a Classic Editor. Nainstalujte je a aktivujte je."
+
+#: admin/seo-plugins.php:40
+msgid "Install Yoast SEO"
+msgstr "Nainstalujte Yoast SEO"
+
+#: admin/seo-plugins.php:41
+msgid "Install Rank Math"
+msgstr "Nainstalujte Rank Math"
+
+#: admin/seo-plugins.php:42
+msgid "Install All in One SEO Pack"
+msgstr "Nainstalujte vše v jednom SEO Pack"
+
+#: admin/seo-plugins.php:43
+msgid "Classic Editor"
+msgstr "Klasický editor"
+
+#: ai-seo-content-analyzer.php:62 ai-seo-content-analyzer.php:63
+msgid "Mass Analyzer"
+msgstr "Hmotnostní analyzátor"
+
+#: ai-seo-content-analyzer.php:71 ai-seo-content-analyzer.php:72
+msgid "AI SEO AutoOptimize Pro website"
+msgstr "Web AI SEO AutoOptimize Pro"
+
+#: ai-seo-content-analyzer.php:118
+msgid ""
+"AI SEO Content Analyzer requires <a href=\"https://wordpress."
+"org/plugins/wordpress-seo/\" target=\"_blank\">Yoast SEO</a>, <a "
+"href=\"https://wordpress.org/plugins/seo-by-rank-math/\" target=\"_blank\">"
+"Rank Math</a>, or <a href=\"https://wordpress.org/plugins/classic-editor/\" "
+"target=\"_blank\">Classic Editor</a> to be activated. Please activate one of "
+"these plugins to use AI SEO Content Analyzer."
+msgstr ""
+"AI SEO Content Analyzer vyžaduje aktivaci <a href=\"https://wordpress."
+"org/plugins/wordpress-seo/\" target=\"_blank\">Yoast SEO</a> , <a "
+"href=\"https://wordpress.org/plugins/seo-by-rank-math/\" target=\"_blank\">"
+"Rank Math</a> nebo <a href=\"https://wordpress.org/plugins/classic-editor/\" "
+"target=\"_blank\">Classic Editor</a> . Chcete-li používat AI SEO Content "
+"Analyzer, aktivujte jeden z těchto pluginů."
+
+#: ai-seo-content-analyzer.php:129
+msgid "WIKI Plugin"
+msgstr "Plugin WIKI"

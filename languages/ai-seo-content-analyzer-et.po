@@ -1,0 +1,860 @@
+# Copyright (C) 2023 BuyReadySite.com
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AI SEO Content Analyzer 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ai-seo-content-"
+"analyzer\n"
+"Last-Translator: \n"
+"Language-Team: Estonian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-06T07:59:42+00:00\n"
+"PO-Revision-Date: 2023-09-06 08:14+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: ai-seo-content-analyzer\n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.4; wp-6.3.1"
+
+#. Plugin Name of the plugin
+#: admin/console/mass-analysis.php:71
+msgid "AI SEO Content Analyzer"
+msgstr "AI SEO sisuanalüsaator"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://aiseoautooptimize.pro"
+msgstr "https://aiseoautooptimize.pro"
+
+#. Description of the plugin
+msgid ""
+"AI SEO Content Analyzer is a comprehensive SEO tool designed to scan and "
+"evaluate your content for potential SEO issues. By examining your content "
+"based on predefined parameters, it provides actionable recommendations and "
+"insights to improve its SEO optimization. Whether you're looking to increase "
+"your content's visibility, address common SEO mistakes, or just ensure that "
+"your website is on the right track, this plugin offers a streamlined and "
+"user-friendly solution."
+msgstr ""
+"AI SEO sisuanalüsaator on kõikehõlmav SEO tööriist, mis on loodud teie sisu "
+"skannimiseks ja hindamiseks potentsiaalsete SEO probleemide suhtes. "
+"Eelmääratletud parameetrite põhjal teie sisu uurides annab see rakendatavaid "
+"soovitusi ja teadmisi SEO optimeerimise parandamiseks. Ükskõik, kas soovite "
+"suurendada oma sisu nähtavust, käsitleda levinud SEO vigu või lihtsalt "
+"tagada, et teie veebisait on õigel teel, pakub see pistikprogramm sujuvat ja "
+"kasutajasõbralikku lahendust."
+
+#. Author of the plugin
+msgid "BuyReadySite.com"
+msgstr "BuyReadySite.com"
+
+#: admin/ai_seo_optimization_score.php:128
+msgid "Keyword used: %s"
+msgstr "Kasutatud märksõna: %s"
+
+#: admin/ai_seo_optimization_score.php:129
+msgid ""
+"According to analytical data, including the targeted keyword in the title "
+"enhances search engine ranking. It emphasizes the relevance of the content."
+msgstr ""
+"Analüütiliste andmete kohaselt tõstab sihitud märksõna pealkirja lisamine "
+"otsingumootori paremusjärjestust. See rõhutab sisu asjakohasust."
+
+#: admin/ai_seo_optimization_score.php:130
+msgid ""
+"Missing keyword in the title can affect search engine visibility. "
+"Implementing the keyword can enhance ranking."
+msgstr ""
+"Pealkirjas puudub märksõna, mis võib mõjutada otsingumootori nähtavust. "
+"Märksõna rakendamine võib paremusjärjestust tõsta."
+
+#: admin/ai_seo_optimization_score.php:131
+msgid "Title: %s"
+msgstr "Pealkiri: %s"
+
+#: admin/ai_seo_optimization_score.php:136
+msgid "Keyword presence in title"
+msgstr "Märksõna olemasolu pealkirjas"
+
+#: admin/ai_seo_optimization_score.php:140
+msgid "Keyword absence in title"
+msgstr "Pealkirjas puudub märksõna"
+
+#: admin/ai_seo_optimization_score.php:150
+msgid "Optimal title length"
+msgstr "Optimaalne pealkirja pikkus"
+
+#: admin/ai_seo_optimization_score.php:154
+msgid "Non-optimal title length"
+msgstr "Pealkirja ebaoptimaalne pikkus"
+
+#: admin/ai_seo_optimization_score.php:166
+msgid "Keyword at the beginning of the title"
+msgstr "Märksõna pealkirja alguses"
+
+#: admin/ai_seo_optimization_score.php:168
+#: admin/ai_seo_optimization_score.php:172
+msgid "Keyword used:"
+msgstr "Kasutatud märksõna:"
+
+#: admin/ai_seo_optimization_score.php:168
+#: admin/ai_seo_optimization_score.php:172
+msgid "Title:"
+msgstr "Pealkiri:"
+
+#: admin/ai_seo_optimization_score.php:170
+msgid "Keyword not at the beginning of the title"
+msgstr "Märksõna pole pealkirja alguses"
+
+#: admin/ai_seo_optimization_score.php:177
+#: admin/ai_seo_optimization_score.php:233
+#: admin/ai_seo_optimization_score.php:315
+msgid "Keyword is not set. Please provide a keyword for SEO analysis."
+msgstr "Märksõna pole määratud. Sisestage SEO analüüsi jaoks märksõna."
+
+#: admin/ai_seo_optimization_score.php:186
+msgid "Presence of numbers, special Unicode characters, or emojis in title"
+msgstr "Numbrite, Unicode'i erimärkide või emotikonide olemasolu pealkirjas"
+
+#: admin/ai_seo_optimization_score.php:190
+msgid "Absence of numbers, special Unicode characters, or emojis in title"
+msgstr "Pealkirjas puuduvad numbrid, Unicode'i erimärgid ega emotikonid"
+
+#: admin/ai_seo_optimization_score.php:221
+msgid "Keyword presence in meta description"
+msgstr "Märksõna olemasolu metakirjelduses"
+
+#: admin/ai_seo_optimization_score.php:223
+msgid ""
+"Using the keyword in the meta description can improve SEO ranking.<br>"
+"Keyword used:"
+msgstr ""
+"Märksõna kasutamine metakirjelduses võib parandada SEO asetust.<br>Kasutatud "
+"märksõna:"
+
+#: admin/ai_seo_optimization_score.php:225
+msgid "Keyword absence in meta description"
+msgstr "Märksõna puudumine metakirjelduses"
+
+#: admin/ai_seo_optimization_score.php:227
+msgid ""
+"The keyword was not found in the meta description. It's recommended to "
+"include the keyword for better SEO performance.<br>Keyword used:"
+msgstr ""
+"Metakirjeldusest märksõna ei leitud. SEO parema toimivuse tagamiseks on "
+"soovitatav lisada märksõna.<br>Kasutatud märksõna:"
+
+#: admin/ai_seo_optimization_score.php:241
+msgid "Optimal meta description length"
+msgstr "Optimaalne metakirjelduse pikkus"
+
+#: admin/ai_seo_optimization_score.php:243
+msgid ""
+"The length of the meta description is optimal (130-160 characters).<br>"
+"Current Length: %d"
+msgstr ""
+"Metakirjelduse pikkus on optimaalne (130–160 tähemärki).<br>Praegune pikkus: "
+"%d"
+
+#: admin/ai_seo_optimization_score.php:245
+msgid "Non-optimal meta description length"
+msgstr "Mitteoptimaalne metakirjelduse pikkus"
+
+#: admin/ai_seo_optimization_score.php:247
+msgid ""
+"The length of the meta description is not optimal. It's recommended to keep "
+"the meta description between 130-160 characters.<br>Current Length: %d"
+msgstr ""
+"Metakirjelduse pikkus ei ole optimaalne. Soovitatav on jätta metakirjeldus "
+"vahemikku 130–160 tähemärki.<br>Praegune pikkus: %d"
+
+#: admin/ai_seo_optimization_score.php:292
+msgid "Keyword presence in URL"
+msgstr "Märksõna olemasolu URL-is"
+
+#: admin/ai_seo_optimization_score.php:296
+msgid ""
+"The keyword is found in the URL, which is good for SEO performance.<br>"
+"Keyword used: <strong>{keyword}</strong><br>URL: {url}"
+msgstr ""
+"Märksõna leidub URL-is, mis on SEO toimivuse jaoks hea.<br>Kasutatud "
+"märksõna: <strong>{keyword}</strong><br>URL: {url}"
+
+#: admin/ai_seo_optimization_score.php:304
+msgid "Keyword absence in URL"
+msgstr "Märksõna puudumine URL-is"
+
+#. translators: 1: URL
+#: admin/ai_seo_optimization_score.php:307
+msgid ""
+"The keyword is not found in the URL. It's recommended to include the keyword "
+"in the URL for better SEO performance.<br>URL: %s"
+msgstr ""
+"Märksõna URL-ist ei leitud. SEO parema toimivuse tagamiseks on soovitatav "
+"lisada URL-i märksõna.<br>URL: %s"
+
+#: admin/ai_seo_optimization_score.php:322
+msgid "Clean and short URL"
+msgstr "Puhas ja lühike URL"
+
+#. translators: 1: URL length, 2: URL
+#: admin/ai_seo_optimization_score.php:325
+msgid ""
+"The URL is clean and short (length: %1$s characters). Recommended URL length "
+"is less than 80 characters. You can modify the URL structure in <a "
+"href='options-permalink.php'>Permalink Settings</a>.<br>Current URL: %2$s"
+msgstr ""
+"URL on puhas ja lühike (pikkus: %1$s tähemärki). Soovitatav URL-i pikkus on "
+"alla 80 tähemärgi. URL-i struktuuri saate muuta jaotises <a href='options-"
+"permalink.php'>Püsilingi sätted</a> .<br> Praegune URL: %2$s"
+
+#: admin/ai_seo_optimization_score.php:330
+msgid "URL not clean or too long"
+msgstr "URL pole puhas või liiga pikk"
+
+#. translators: 1: URL length, 2: URL
+#: admin/ai_seo_optimization_score.php:333
+msgid ""
+"The URL is not clean or is too long (length: <strong>{length}</strong> "
+"characters). Consider shortening the URL and avoiding special characters for "
+"better SEO. You can modify the URL structure in <a href='options-permalink."
+"php'>Permalink Settings</a>.<br>Current URL: {url}"
+msgstr ""
+"URL ei ole puhas või on liiga pikk (pikkus: <strong>{length}</strong> "
+"tähemärki). Parema SEO jaoks kaaluge URL-i lühendamist ja erimärkide "
+"vältimist. URL-i struktuuri saate muuta jaotises <a href='options-permalink."
+"php'>Püsilingi sätted</a> .<br> Praegune URL: {url}"
+
+#: admin/ai_seo_optimization_score.php:370
+msgid "Only one H1"
+msgstr "Ainult üks H1"
+
+#: admin/ai_seo_optimization_score.php:372
+msgid "The content has only one H1 tag: {h1_content}."
+msgstr "Sisul on ainult üks H1 silt: {h1_content}."
+
+#: admin/ai_seo_optimization_score.php:375
+msgid "Multiple or no H1 tags"
+msgstr "Mitu või mitte ühtegi H1 silti"
+
+#: admin/ai_seo_optimization_score.php:377
+msgid ""
+"The content has %d H1 tags, which is not recommended. There should be "
+"exactly one H1 tag."
+msgstr ""
+"Sisul on %d H1 silti, mis pole soovitatav. Seal peaks olema täpselt üks H1 "
+"silt."
+
+#: admin/ai_seo_optimization_score.php:387
+msgid "Keyword presence in H1"
+msgstr "Märksõna olemasolu H1-s"
+
+#: admin/ai_seo_optimization_score.php:389
+msgid ""
+"The keyword is present in the H1 tag: {highlighted_title}. Keyword used: "
+"{highlighted_keyword}."
+msgstr ""
+"Märksõna on H1 sildis: {highlighted_title}. Kasutatud märksõna: "
+"{highlighted_keyword}."
+
+#: admin/ai_seo_optimization_score.php:394
+msgid "Keyword absence in H1"
+msgstr "Märksõna puudumine poolaastas"
+
+#: admin/ai_seo_optimization_score.php:396
+msgid "The keyword is not present in the H1 tag."
+msgstr "Märksõna H1 sildis puudub."
+
+#: admin/ai_seo_optimization_score.php:414
+msgid "Keyword presence in subheadings"
+msgstr "Märksõna olemasolu alamrubriikides"
+
+#: admin/ai_seo_optimization_score.php:419
+msgid ""
+"The keyword is found in {count} subheadings. The keyword is present in the "
+"following subheadings: {subheadings_list}"
+msgstr ""
+"Märksõna leidub {count} alampealkirjas. Märksõna esineb järgmistes "
+"alampealkirjades: {subheadings_list}"
+
+#: admin/ai_seo_optimization_score.php:422
+msgid "Keyword absence in subheadings"
+msgstr "Märksõna puudumine alapealkirjades"
+
+#: admin/ai_seo_optimization_score.php:424
+msgid "The keyword is not present in any of the subheadings."
+msgstr "Märksõna ei esine üheski alampealkirjas."
+
+#: admin/ai_seo_optimization_score.php:455
+msgid "Correct nesting of subheadings"
+msgstr "Alapealkirjade õige pesastamine"
+
+#: admin/ai_seo_optimization_score.php:457
+msgid ""
+"The subheadings are correctly nested. Correctly nested subheadings help in "
+"organizing the content and improving readability."
+msgstr ""
+"Alampealkirjad on õigesti pesastatud. Õigesti pesastatud alampealkirjad "
+"aitavad sisu korrastada ja loetavust parandada."
+
+#: admin/ai_seo_optimization_score.php:459
+msgid "Incorrect nesting of subheadings"
+msgstr "Alapealkirjade vale pesastamine"
+
+#: admin/ai_seo_optimization_score.php:461
+msgid ""
+"The subheadings are not correctly nested. Incorrect nesting may lead to poor "
+"content structure and affect readability. Correct structure should follow "
+"the pattern: H2 > H3 > H4, etc. Incorrect structure: {heading_structure}"
+msgstr ""
+"Alampealkirjad ei ole õigesti pesastatud. Vale pesastamine võib põhjustada "
+"kehva sisustruktuuri ja mõjutada loetavust. Õige struktuur peaks järgima "
+"mustrit: H2 > H3 > H4 jne. Vale struktuur: {heading_structure}"
+
+#: admin/ai_seo_optimization_score.php:490
+msgid "Presence of alt text for all images"
+msgstr "Kõigi piltide alternatiivse teksti olemasolu"
+
+#: admin/ai_seo_optimization_score.php:492
+msgid "All %d images have alt text. This is good for SEO and accessibility."
+msgstr ""
+"Kõigil %d pildil on alternatiivtekst. See on kasulik SEO ja "
+"juurdepääsetavuse jaoks."
+
+#: admin/ai_seo_optimization_score.php:495
+msgid "Missing alt text for some images"
+msgstr "Mõne pildi alternatiivtekst puudub"
+
+#: admin/ai_seo_optimization_score.php:497
+msgid ""
+"<strong>%d</strong> out of <strong>%d</strong> images are missing alt text. "
+"Consider adding descriptive alt text to all images for better SEO and "
+"accessibility."
+msgstr ""
+"<strong>%d</strong> pildil <strong>%d</strong>-st puudub alternatiivtekst. "
+"Parema SEO ja juurdepääsetavuse tagamiseks kaaluge kõikidele piltidele "
+"kirjeldava alternatiivteksti lisamist."
+
+#: admin/ai_seo_optimization_score.php:508
+msgid "Keyword presence in alt text of main image"
+msgstr "Märksõna olemasolu põhipildi alternatiivtekstis"
+
+#: admin/ai_seo_optimization_score.php:510
+msgid ""
+"The keyword is present in the alt text of the main image: \"<strong>"
+"%s</strong>\"."
+msgstr "Märksõna esineb põhipildi alternatiivtekstis: \"<strong>%s</strong>\"."
+
+#: admin/ai_seo_optimization_score.php:512
+msgid "Keyword absence in alt text of main image"
+msgstr "Märksõna puudumine põhipildi alternatiivtekstis"
+
+#: admin/ai_seo_optimization_score.php:514
+msgid ""
+"The keyword is not present in the alt text of the main image. Consider "
+"including the keyword."
+msgstr ""
+"Põhipildi alternatiivtekstis märksõna ei esine. Kaaluge märksõna lisamist."
+
+#: admin/ai_seo_optimization_score.php:532
+msgid "Keyword presence in alt text of other images"
+msgstr "Märksõna olemasolu muude piltide alternatiivtekstis"
+
+#: admin/ai_seo_optimization_score.php:534
+msgid "The keyword is present in the alt text of other images:<ul>%s</ul>"
+msgstr "Märksõna esineb teiste piltide alternatiivtekstis:<ul>%s</ul>"
+
+#: admin/ai_seo_optimization_score.php:536
+msgid "Keyword absence in alt text of other images"
+msgstr "Märksõna puudumine muude piltide alternatiivtekstis"
+
+#: admin/ai_seo_optimization_score.php:538
+msgid ""
+"The keyword is not present in the alt text of other images. Consider "
+"including the keyword."
+msgstr ""
+"Teiste piltide alternatiivtekstis märksõna ei esine. Kaaluge märksõna "
+"lisamist."
+
+#: admin/ai_seo_optimization_score.php:547
+msgid "Good ratio of images/media to text volume"
+msgstr "Hea piltide/meediumi ja teksti mahu suhe"
+
+#: admin/ai_seo_optimization_score.php:549
+msgid ""
+"The content has %d images and %d characters, providing a good ratio of "
+"images to text volume."
+msgstr ""
+"Sisul on %d pilti ja %d tähemärki, mis tagab hea piltide ja teksti mahu "
+"suhte."
+
+#: admin/ai_seo_optimization_score.php:551
+msgid "Poor ratio of images/media to text volume"
+msgstr "Kehv piltide/meediumi ja teksti mahu suhe"
+
+#: admin/ai_seo_optimization_score.php:553
+msgid ""
+"The content has %d images and %d characters. Consider adding more images to "
+"achieve the recommended ratio of at least 1 image per 3000 characters."
+msgstr ""
+"Sisul on %d pilti ja %d tähemärki. Kaaluge rohkemate piltide lisamist, et "
+"saavutada soovitatav suhe vähemalt 1 pilt 3000 tähemärgi kohta."
+
+#: admin/ai_seo_optimization_score.php:609
+msgid "Presence of external links"
+msgstr "Väliste linkide olemasolu"
+
+#. translators: 1: Number of external links, 2: List of external links with their anchor text
+#: admin/ai_seo_optimization_score.php:612
+msgid ""
+"Found %1$s external links. External links can add value and credibility to "
+"your content. Links:%2$s"
+msgstr ""
+"Leiti %1$s välist linki. Välised lingid võivad teie sisule väärtust ja "
+"usaldusväärsust lisada. Lingid:%2$s"
+
+#: admin/ai_seo_optimization_score.php:616
+msgid "No external links"
+msgstr "Väliseid linke pole"
+
+#: admin/ai_seo_optimization_score.php:618
+msgid "No external links found."
+msgstr "Väliseid linke ei leitud."
+
+#: admin/ai_seo_optimization_score.php:625
+msgid "Presence of internal links"
+msgstr "Sisemiste linkide olemasolu"
+
+#. translators: 1: Number of internal links, 2: List of internal links with their anchor text
+#: admin/ai_seo_optimization_score.php:628
+msgid ""
+"Found <strong>%d</strong> internal links. Internal links help in improving "
+"navigation and spreading link equity. Links:<br><ul>%s</ul>"
+msgstr ""
+"Leiti <strong>%d</strong> siselinki. Sisemised lingid aitavad parandada "
+"navigeerimist ja levitada linkide võrdsust. Lingid:<br><ul>%s</ul>"
+
+#: admin/ai_seo_optimization_score.php:630
+msgid "No internal links"
+msgstr "Sisemisi linke pole"
+
+#: admin/ai_seo_optimization_score.php:632
+msgid "No internal links found."
+msgstr "Sisemisi linke ei leitud."
+
+#: admin/ai_seo_optimization_score.php:650
+msgid "No links with nofollow attributes"
+msgstr "Nofollow atribuutidega linke pole"
+
+#: admin/ai_seo_optimization_score.php:652
+msgid ""
+"No links with nofollow attribute found. This is positive as it allows search "
+"engines to crawl and pass link equity to the linked pages. Consider linking "
+"to authoritative and trusted websites without the nofollow attribute, as it "
+"aligns with the best SEO practices."
+msgstr ""
+"Atribuudiga nofollow linke ei leitud. See on positiivne, kuna see võimaldab "
+"otsingumootoritel indekseerida ja lingitud lehtedele linkide osakaalu "
+"edastada. Kaaluge autoriteetsete ja usaldusväärsete veebisaitide linkimist "
+"ilma atribuudita nofollow, kuna see on kooskõlas parimate SEO tavadega."
+
+#: admin/ai_seo_optimization_score.php:654
+msgid "Presence of nofollow attributes"
+msgstr "Nofollow atribuutide olemasolu"
+
+#. translators: 1: Number of links with nofollow attribute, 2: List of nofollow links with their anchor text
+#: admin/ai_seo_optimization_score.php:657
+msgid ""
+"Found %d links with nofollow attribute. Review the usage and consider "
+"allowing followed links to trustworthy and authoritative websites. Here are "
+"the nofollow links found:<br><ul>%s</ul>"
+msgstr ""
+"Leiti %d linki nofollow atribuudiga. Vaadake kasutus üle ja kaaluge "
+"jälgitavate linkide lubamist usaldusväärsetele ja autoriteetsetele "
+"veebisaitidele. Siin on leitud nofollow lingid:<br><ul>%s</ul>"
+
+#: admin/ai_seo_optimization_score.php:714
+msgid "Keyword presence in content"
+msgstr "Märksõna olemasolu sisus"
+
+#: admin/ai_seo_optimization_score.php:716
+#: admin/ai_seo_optimization_score.php:722
+msgid ""
+"Keyword density is %1$.2f%%. Recommended optimal density is between %2$.2f%% "
+"and %3$.2f%%."
+msgstr ""
+"Märksõna tihedus on %1$.2f%%. Soovitatav optimaalne tihedus on %2$.2f%% ja "
+"%3$.2f%% vahel."
+
+#: admin/ai_seo_optimization_score.php:720
+#: admin/ai_seo_optimization_score.php:724
+msgid "Keyword presence in content (suboptimal density)"
+msgstr "Märksõna olemasolu sisus (mitteoptimaalne tihedus)"
+
+#: admin/ai_seo_optimization_score.php:726
+msgid ""
+"Keyword density is %1$.2f%%. Recommended optimal density is between %2$.2f%% "
+"and %3$.2f%%. No points awarded as density is out of range."
+msgstr ""
+"Märksõna tihedus on %1$.2f%%. Soovitatav optimaalne tihedus on %2$.2f%% ja "
+"%3$.2f%% vahel. Punkte ei anta, kuna tihedus on vahemikust väljas."
+
+#: admin/ai_seo_optimization_score.php:736
+msgid "Optimal content length"
+msgstr "Optimaalne sisu pikkus"
+
+#: admin/ai_seo_optimization_score.php:740
+msgid "Content length is not optimal"
+msgstr "Sisu pikkus pole optimaalne"
+
+#: admin/ai_seo_optimization_score.php:751
+msgid "Presence of media content"
+msgstr "Meedia sisu olemasolu"
+
+#: admin/ai_seo_optimization_score.php:753
+msgid ""
+"Found %d media items in content. Media items like images and videos can "
+"enhance user engagement."
+msgstr ""
+"Sisust leiti %d meediumiüksust. Meediaelemendid, nagu pildid ja videod, "
+"võivad suurendada kasutajate seotust."
+
+#: admin/ai_seo_optimization_score.php:755
+msgid "No media content found"
+msgstr "Meedia sisu ei leitud"
+
+#: admin/ai_seo_optimization_score.php:757
+msgid ""
+"No media items found in content. Consider adding images or videos to enhance "
+"user engagement."
+msgstr ""
+"Sisult ei leitud ühtegi meediaüksust. Kaaluge piltide või videote lisamist, "
+"et suurendada kasutajate seotust."
+
+#: admin/ai_seo_optimization_score.php:774
+msgid "No long sentences"
+msgstr "Ei mingeid pikki lauseid"
+
+#: admin/ai_seo_optimization_score.php:776
+msgid "No long sentences found in content."
+msgstr "Sisult ei leitud pikki lauseid."
+
+#: admin/ai_seo_optimization_score.php:778
+msgid "Presence of long sentences"
+msgstr "Pikkade lausete esinemine"
+
+#: admin/ai_seo_optimization_score.php:780
+msgid ""
+"Found %d long sentences. Consider breaking them down for better readability. "
+"Sentences:<br><ul style='background-color: #e0f2e9;'><li>%s</li></ul>"
+msgstr ""
+"Leiti %d pikka lauset. Parema loetavuse huvides kaaluge nende tükeldamist. "
+"Laused:<br><ul style='background-color: #e0f2e9;'><li> %s</li></ul>"
+
+#: admin/ai_seo_optimization_score.php:793
+msgid "No large paragraphs"
+msgstr "Ei mingeid suuri lõike"
+
+#: admin/ai_seo_optimization_score.php:795
+msgid "No large paragraphs found in content."
+msgstr "Sisult ei leitud suuri lõike."
+
+#: admin/ai_seo_optimization_score.php:797
+msgid "Presence of large paragraphs"
+msgstr "Suurte lõikude olemasolu"
+
+#: admin/ai_seo_optimization_score.php:799
+msgid ""
+"Found %d large paragraphs. Consider breaking them down for better "
+"readability. Paragraphs: <br>%s"
+msgstr ""
+"Leiti %d suurt lõiku. Parema loetavuse huvides kaaluge nende tükeldamist. "
+"Lõigud: <br>%s"
+
+#: admin/ai_seo_optimization_score.php:828
+#: admin/ai_seo_optimization_score.php:837
+msgid "List"
+msgstr "Nimekiri"
+
+#: admin/ai_seo_optimization_score.php:842
+msgid "Presence of lists"
+msgstr "Nimekirjade olemasolu"
+
+#: admin/ai_seo_optimization_score.php:846
+msgid "Found %1$s unordered lists and %2$s ordered lists.<br>%3$s%4$s"
+msgstr ""
+"Leiti %1$s järjestamata loendit ja %2$s järjestatud loendit.<br>%3$s%4$s"
+
+#: admin/ai_seo_optimization_score.php:868
+msgid "Use of italic or bold for keyword emphasis"
+msgstr "Kaldkirja või paksu kirja kasutamine märksõna rõhutamiseks"
+
+#: admin/ai_seo_optimization_score.php:872
+msgid ""
+"Found <strong>%d emphasis</strong> on keyword. Emphasis can enhance "
+"readability. Details:%s"
+msgstr ""
+"Märksõnale leiti <strong>%d rõhuasetus</strong>. Rõhuasetus võib parandada "
+"loetavust. Üksikasjad:%s"
+
+#: admin/ai_seo_optimization_score.php:877
+msgid ""
+"Keyword is not emphasized with bold or italic. Emphasizing important "
+"keywords can improve readability."
+msgstr ""
+"Märksõna ei rõhutata paksu või kaldkirjaga. Oluliste märksõnade rõhutamine "
+"võib parandada loetavust."
+
+#: admin/ai_seo_optimization_score.php:882
+msgid "Presence of tables"
+msgstr "Tabelite olemasolu"
+
+#: admin/ai_seo_optimization_score.php:886
+msgid "Found %d tables. Tables help to organize and present data effectively."
+msgstr ""
+"Leiti %d tabelit. Tabelid aitavad andmeid tõhusalt korrastada ja esitada."
+
+#: admin/ai_seo_optimization_score.php:887
+msgid ""
+"No tables found in content. Consider using tables to present data when "
+"applicable."
+msgstr ""
+"Sisult tabeleid ei leitud. Vajadusel kaaluge andmete esitamiseks tabelite "
+"kasutamist."
+
+#: admin/ai_seo_score_display.php:30
+msgid "AI SEO Content Analyzer Plugin Score"
+msgstr "AI SEO sisuanalüsaatori pistikprogrammi skoor"
+
+#: admin/ai_seo_score_display.php:34
+msgid "Overall Score"
+msgstr "Üldskoor"
+
+#: admin/ai_seo_score_display.php:106
+msgid "Current SEO score:"
+msgstr "Praegune SEO skoor:"
+
+#: admin/ai_seo_score_display.php:112 admin/console/mass-analysis.php:193
+msgid "SEO Optimize with artificial intelligence"
+msgstr "SEO Optimeerige tehisintellektiga"
+
+#: admin/ai_seo_score_display.php:123
+msgid "AI SEO Score for Post"
+msgstr "AI SEO skoor postitusele"
+
+#: admin/console/console.php:14
+msgid ""
+"Your go-to tool for comprehensive SEO content analysis. Brought to you by "
+"BuyReadySite, the AI SEO Content Analyzer helps you scrutinize and optimize "
+"your content like never before. Enhance your content's SEO score with "
+"detailed audits and intelligent recommendations."
+msgstr ""
+"Teie tööriist igakülgseks SEO sisuanalüüsiks. BuyReadySite'i pakutud "
+"tehisintellekti SEO sisuanalüsaator aitab teil sisu kontrollida ja "
+"optimeerida nagu kunagi varem. Täiustage oma sisu SEO skoori üksikasjalike "
+"auditite ja intelligentsete soovitustega."
+
+#: admin/console/console.php:15
+msgid "Plugin Advantages"
+msgstr "Plugina eelised"
+
+#: admin/console/console.php:20
+msgid "Content Analysis"
+msgstr "Sisu analüüs"
+
+#: admin/console/console.php:22
+msgid "Keyword density analysis"
+msgstr "Märksõnade tiheduse analüüs"
+
+#: admin/console/console.php:23
+msgid "Content readability score"
+msgstr "Sisu loetavuse skoor"
+
+#: admin/console/console.php:24
+msgid "Meta tags evaluation"
+msgstr "Metasiltide hindamine"
+
+#: admin/console/console.php:28
+msgid "SEO Auditing"
+msgstr "SEO auditeerimine"
+
+#: admin/console/console.php:30
+msgid "On-page SEO audit"
+msgstr "Lehesisene SEO audit"
+
+#: admin/console/console.php:31
+msgid "Backlink analysis"
+msgstr "Tagasilingi analüüs"
+
+#: admin/console/console.php:32
+msgid "Technical SEO evaluation"
+msgstr "Tehniline SEO hindamine"
+
+#: admin/console/console.php:36
+msgid "Performance"
+msgstr "Esitus"
+
+#: admin/console/console.php:38
+msgid "Fast content analysis"
+msgstr "Kiire sisuanalüüs"
+
+#: admin/console/console.php:39
+msgid "Easy integration"
+msgstr "Lihtne integreerimine"
+
+#: admin/console/console.php:40
+msgid "User-friendly dashboard"
+msgstr "Kasutajasõbralik armatuurlaud"
+
+#: admin/console/console.php:49
+msgid "Mass content Analyzer"
+msgstr "Massisisalduse analüsaator"
+
+#: admin/console/mass-analysis.php:72
+msgid ""
+"Use this page to perform mass analyzer of your content. Select the posts or "
+"products you wish to analyze, and the tool will provide detailed insights "
+"and suggestions."
+msgstr ""
+"Kasutage seda lehte oma sisu massianalüsaatori tegemiseks. Valige postitused "
+"või tooted, mida soovite analüüsida, ja tööriist pakub üksikasjalikke "
+"teadmisi ja soovitusi."
+
+#: admin/console/mass-analysis.php:82
+msgid "Legend:"
+msgstr "Legend:"
+
+#: admin/console/mass-analysis.php:84 admin/console/mass-analysis.php:128
+msgid "Poor"
+msgstr "Vaene"
+
+#: admin/console/mass-analysis.php:85 admin/console/mass-analysis.php:128
+msgid "Normal"
+msgstr "Tavaline"
+
+#: admin/console/mass-analysis.php:86 admin/console/mass-analysis.php:128
+msgid "Good"
+msgstr "Hea"
+
+#: admin/console/mass-analysis.php:87 admin/console/mass-analysis.php:128
+msgid "Excellent"
+msgstr "Suurepärane"
+
+#: admin/console/mass-analysis.php:103
+msgid "Average Score:"
+msgstr "Keskmine tulemus:"
+
+#: admin/console/mass-analysis.php:104
+msgid "Total Posts:"
+msgstr "Postitusi kokku:"
+
+#: admin/console/mass-analysis.php:105
+msgid "Products:"
+msgstr "Tooted:"
+
+#: admin/console/mass-analysis.php:106
+msgid "Poor Score:"
+msgstr "Kehv tulemus:"
+
+#: admin/console/mass-analysis.php:107
+msgid "Normal Score:"
+msgstr "Tavaline skoor:"
+
+#: admin/console/mass-analysis.php:108
+msgid "Good Score:"
+msgstr "Hea skoor:"
+
+#: admin/console/mass-analysis.php:109
+msgid "Excellent Score:"
+msgstr "Suurepärane skoor:"
+
+#: admin/console/mass-analysis.php:115
+msgid "Reanalyze"
+msgstr "Analüüsige uuesti"
+
+#: admin/console/mass-analysis.php:117
+msgid "Start Analysis"
+msgstr "Käivitage analüüs"
+
+#: admin/console/mass-analysis.php:170
+msgid "Title"
+msgstr "Pealkiri"
+
+#: admin/console/mass-analysis.php:171
+msgid "Type"
+msgstr "Tüüp"
+
+#: admin/console/mass-analysis.php:172
+msgid "Score"
+msgstr "Skoor"
+
+#: admin/console/mass-analysis.php:173
+msgid "Optimization"
+msgstr "Optimeerimine"
+
+#: admin/console/mass-analysis.php:187
+msgid "Product"
+msgstr "Toode"
+
+#: admin/console/mass-analysis.php:187
+msgid "Post"
+msgstr "Postita"
+
+#: admin/console/mass-analysis.php:196
+msgid "SEO Content Analyzer"
+msgstr "SEO sisuanalüsaator"
+
+#: admin/seo-plugins.php:38
+msgid ""
+"AI SEO AutoOptimize Pro requires an active SEO plugin (Yoast, Rank Math, or "
+"All in One SEO Pack) and Classic Editor. Please install and activate them."
+msgstr ""
+"AI SEO AutoOptimize Pro nõuab aktiivset SEO pistikprogrammi (Yoast, Rank "
+"Math või All in One SEO Pack) ja klassikalist redaktorit. Installige ja "
+"aktiveerige need."
+
+#: admin/seo-plugins.php:40
+msgid "Install Yoast SEO"
+msgstr "Installige Yoast SEO"
+
+#: admin/seo-plugins.php:41
+msgid "Install Rank Math"
+msgstr "Installige Rank Math"
+
+#: admin/seo-plugins.php:42
+msgid "Install All in One SEO Pack"
+msgstr "Installige kõik ühes SEO pakett"
+
+#: admin/seo-plugins.php:43
+msgid "Classic Editor"
+msgstr "Klassikaline redaktor"
+
+#: ai-seo-content-analyzer.php:62 ai-seo-content-analyzer.php:63
+msgid "Mass Analyzer"
+msgstr "Massi analüsaator"
+
+#: ai-seo-content-analyzer.php:71 ai-seo-content-analyzer.php:72
+msgid "AI SEO AutoOptimize Pro website"
+msgstr "AI SEO AutoOptimize Pro veebisait"
+
+#: ai-seo-content-analyzer.php:118
+msgid ""
+"AI SEO Content Analyzer requires <a href=\"https://wordpress."
+"org/plugins/wordpress-seo/\" target=\"_blank\">Yoast SEO</a>, <a "
+"href=\"https://wordpress.org/plugins/seo-by-rank-math/\" target=\"_blank\">"
+"Rank Math</a>, or <a href=\"https://wordpress.org/plugins/classic-editor/\" "
+"target=\"_blank\">Classic Editor</a> to be activated. Please activate one of "
+"these plugins to use AI SEO Content Analyzer."
+msgstr ""
+"AI SEO Content Analyzer nõuab <a href=\"https://wordpress."
+"org/plugins/wordpress-seo/\" target=\"_blank\">Yoast SEO</a> , <a "
+"href=\"https://wordpress.org/plugins/seo-by-rank-math/\" target=\"_blank\">"
+"Rank Math</a> või <a href=\"https://wordpress.org/plugins/classic-editor/\" "
+"target=\"_blank\">klassikalise redaktori</a> aktiveerimist. AI SEO "
+"sisuanalüsaatori kasutamiseks aktiveerige üks neist pistikprogrammidest."
+
+#: ai-seo-content-analyzer.php:129
+msgid "WIKI Plugin"
+msgstr "WIKI pistikprogramm"

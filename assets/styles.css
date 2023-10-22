@@ -1,0 +1,769 @@
+a.ai-seo-audit-button {
+    background: #6633cc;
+    color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: inline-flex;
+    margin: 10px;
+}
+
+.ai-seo-special-link {
+    color: #000000;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.ai-seo-audit-button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff; 
+    background-color: #0073aa;  /* цвет фона кнопки */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.ai-seo-audit-button:hover {
+    background-color: #005a87;  /* цвет фона кнопки при наведении */
+}
+
+
+        /* Новые стили для пагинации */
+        .ai-seo-logs-table td,
+        .ai-seo-logs-table th {
+            font-size: 1.1em;
+            color: black;
+        }
+        .ai-seo-pagination {
+            text-align: center;
+            margin: 20px 0;
+            overflow: hidden;
+            font-size: 1.2em;
+        }
+        .ai-seo-pagination a,
+        .ai-seo-pagination span {
+            display: inline-block;
+            margin-right: 4px;
+            padding: 8px 16px;
+            line-height: 1.7;
+            border-radius: 3px;
+            outline: none;
+            border: 1px solid #ddd;
+            text-decoration: none;
+            background-color: #e4e4e4;
+            color: #333;
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+        .ai-seo-pagination a:hover,
+        .ai-seo-pagination a:focus,
+        .ai-seo-pagination .current {
+            border-color: #6a0b93;
+            background-color: #6a0b93;
+            color: #fff;
+        }
+
+        .ai-seo-optimize-button {
+            background-color: #571693;
+            color: #ffffff;
+            padding: 5px 10px;
+            text-decoration: none;
+            border-radius: 3px;
+            display: inline-block;
+			text-align: center;
+			margin: 15px;
+        }
+		
+		.ai-seo-optimize-button:hover {
+			background-color: #732eb3;
+			color: #ffffff;
+		}
+		
+		.legend-color {
+			display: inline-block;
+			width: 12px;
+			height: 12px;
+		}
+		
+  
+	  .chart-container {
+		  display: flex;
+		  flex-direction: row;
+		  align-items: center; /* Вертикальное выравнивание по центру */
+		}
+		.chart-box {
+		  width: 250px;
+		  height: 250px;
+		}
+		.legend-container {
+		  padding-left: 15px;
+		}
+		.text-column {
+		  font-size: 20px;
+		  display: flex; /* Добавим flex */
+		  flex-direction: column;
+		  justify-content: center; /* Выравнивание по центру по вертикали */
+		}
+		.text-column strong {
+		  font-weight: bold;
+		}
+		
+		
+/* Table styles */
+
+.ai-seo-product-table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    color: #333; 
+    border: 1px solid #6a0b93;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ai-seo-product-table thead {
+    background: #6a0b93;
+    background: -webkit-linear-gradient(to right, #6a0b93, #9932CC);
+    background: linear-gradient(to right, #6a0b93, #9932CC);
+    animation: Gradient 15s linear infinite;
+}
+
+.ai-seo-product-table th {
+    padding: 25px;
+   /*  border-right: 1px solid #ddd; */
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 23px; /* Увеличение размера шрифта названий */
+}
+
+.ai-seo-product-table th:nth-child(1),
+.ai-seo-product-table th:nth-child(2) {
+    border-right: 1px solid #ddd;
+}
+
+.ai-seo-product-table td:nth-child(1),
+.ai-seo-product-table td:nth-child(2) {
+    border-right: 1px solid #ddd;
+}
+
+.ai-seo-product-table td:nth-child(3), .ai-seo-product-table td:nth-child(4), .ai-seo-product-table td:nth-child(5) {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.ai-seo-product-table thead tr {
+    background: linear-gradient(120deg, #ffffff00, rgb(168 0 64 / 47%) 50%, transparent);
+    animation: shine 2s infinite;
+    background-size: 200% 100%;
+}
+
+.ai-seo-product-table td {
+    border: 1px solid #740cc3;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.ai-seo-product-table tr:last-child td {
+    border-bottom: 1px solid #740cc3;
+}
+
+.ai-seo-product-table td:last-child {
+    border-right: 1px solid #740cc3;
+}
+
+.ai-seo-product-table tbody {
+    position: relative;
+    overflow: hidden;
+	font-size: 20px;
+    line-height: 30px;
+}
+
+.ai-seo-product-table tbody::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(135deg, #ede8e82e, rgb(148 16 205 / 11%), transparent);
+    background-size: 50% 100%;
+    filter: blur(100px);
+    transform: translateX(-100%);
+    pointer-events: none;
+    animation: tableShine 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes tableShine {
+    100% { transform: translateX(100%); }
+}
+
+@keyframes shine {
+    to {
+        background-position: -200% 100%;
+    }
+}
+
+
+
+
+
+/* 
+.ai-seo-product-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #333; 
+    border: 1px solid #6a0b93; 
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.ai-seo-product-table thead {
+    background: #6a0b93;  
+    background: -webkit-linear-gradient(to right, #6a0b93, #9932CC); 
+    background: linear-gradient(to right, #6a0b93, #9932CC); 
+    animation: Gradient 15s linear infinite;
+}
+
+
+
+
+.ai-seo-product-table tbody {
+    position: relative;
+    overflow: hidden;
+}
+
+.ai-seo-product-table tbody::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(135deg, #ede8e82e, rgb(148 16 205 / 11%), transparent);
+    background-size: 50% 100%;
+    filter: blur(100px);
+    transform: translateX(-100%);
+    pointer-events: none;
+    animation: tableShine 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes tableShine {
+    100% { transform: translateX(100%); }
+}
+
+
+
+
+
+.ai-seo-product-table thead tr {
+    background: linear-gradient(120deg, #ffffff00, rgb(168 0 64 / 47%) 50%, transparent);
+    animation: shine 2s infinite;
+}
+
+@keyframes shine {
+    0% { background-position: -100%; }
+    100% { background-position: 100%; }
+}
+
+
+
+.ai-seo-product-table th {
+    padding: 10px;
+    border-right: 1px solid #ddd;
+    color: #fff;
+    font-weight: bold; 
+    text-align: left;
+}
+
+
+.ai-seo-product-table thead tr {
+    animation: shine 2s linear infinite;
+    background-size: 200% 100%;
+}
+
+@keyframes shine {
+    to {
+        background-position: -200% 100%;
+    }
+} 
+
+
+.ai-seo-product-table thead tr th {
+    color: #fffc;
+}
+
+.ai-seo-product-table td {
+    border: 1px solid #740cc3;
+}
+ */
+
+
+
+
+
+
+#analysis-animation {
+    border: 5px solid rgba(0,0,0,.3);
+    border-radius: 50%;
+    border-top: 5px solid #0073aa;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    display: none;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.ai-seo-analysis-section {
+    text-align: center;
+}
+
+.ai-seo-main-button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.ai-seo-main-button:hover {
+    background-color: #005a87;
+}
+
+
+
+
+.ai-seo-main-purchase-pro {
+    margin: 20px 0;
+   
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; /* Учитывать padding в общей ширине */
+	padding-right: 20px;
+}
+
+.ai-seo-main-button-pro {
+    display: inline-block;
+    background-color: #6633cc;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%; /* Установим ширину кнопки в 100% родительского контейнера */
+    box-sizing: border-box; /* Учитывать padding в общей ширине */
+	border-radius: 10px;
+    padding: 15px !important;
+    font-size: 25px;
+}
+
+		
+.ai-seo-main-button-group {
+    margin-right: 20px;
+}
+
+.ai-seo-main-contact-info {
+    margin-right: 20px;
+}
+
+/*SEO score*/
+
+.ai_seo_score_details_wrapper {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    border: 1px solid #e0e0e0;
+}
+
+.ai_seo_score_details_wrapper h2 {
+    font-size: 2em; /* Увеличен размер шрифта */
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.total_score_bar {
+    width: 70%;
+    height: 30px;
+    background-color: #DD6C6C;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto 10px auto;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+}
+
+.current_score {
+    height: 100%;
+    transition: background 0.3s ease;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.ai_seo_score_details_accordion {
+    border: 1px solid #d0d0d0; /* Рамка вокруг аккордеона */
+    padding: 10px;
+}
+
+.accordion_header {
+    font-size: 1.2em;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #E7FFE7; /* Бледный зеленый */
+}
+
+.accordion_content {
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.accordion_content li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    background-color: #FFEEEE; /* Бледный красный */
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion_content li:last-child {
+    border-bottom: none;
+}
+
+.detail_score {
+    font-weight: bold;
+}
+
+.total_score_container {
+    margin-bottom: 20px;
+}
+
+
+.ai-seo-score-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-container {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.ai-seo-score-values {
+    display: flex;
+    justify-content: space-between;
+	width: 100%;
+}
+div#seo-score-range {
+    width: 90%;
+}
+
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #a80d8b;
+    background: #ae0d89;
+    font-weight: normal;
+    color: #454545;
+}
+
+
+#min_seo_score, #max_seo_score {
+    width: 50px;
+    border: 0;
+    background: transparent;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.ai-seo-score-label {
+	font-weight: bold;
+    margin-right: 10px;
+}
+
+
+.ai-seo-score-min {
+    display: flex;
+    flex-direction: column;
+}
+
+.ai-seo-score-max {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+/*страница о плагине*/
+
+.ai-seo-main-plugin-advantages-wrapper {
+    display: flex;
+    flex-direction: column;
+    /*gap: 20px;*/
+}
+
+.advantages-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ai-seo-main-plugin-advantages {
+    flex: 1 0 30%;
+	font-size: 18px;
+    line-height: 20px;
+    padding: 5px;
+}
+
+h4 {
+    color: #6633cc;
+    font-size: 22px;
+}
+
+.ai-h3-centered {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+
+.ai-seo-main-plugin-wrapper {
+    background: #f5f5f5;
+    border: 1px solid #6633cc;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    margin-top: 20px;
+	margin-right: 20px;
+}
+
+.ai-seo-main-logo {
+    display: block;
+    margin: 0 auto 15px;
+    width: 300px;
+    height: auto;
+}
+
+.ai-seo-main-plugin-info h2 {
+    text-align: center;
+    color: #6633cc;
+    font-size: 2em;
+}
+
+.ai-seo-main-plugin-description {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.ai-seo-main-plugin-advantages li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    break-inside: avoid;
+}
+
+.ai-seo-main-plugin-advantages li::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: #6633cc;
+    font-weight: 900;
+}
+
+.ai-seo-main-contact-info {
+    border: 1px solid #6633cc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.ai-seo-main-contact-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.ai-seo-main-contact-list a {
+    color: #333;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.1em;
+}
+
+.ai-seo-main-contact-list i {
+    margin-right: 5px;
+    color: #6633cc;
+}
+
+.ai-seo-main-button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ai-seo-main-button {
+    background: #6633cc;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    flex: 1;
+    margin-right: 10px;
+    transition: background 0.3s;
+}
+
+.ai-seo-main-button:last-child {
+    margin-right: 0;
+}
+
+.ai-seo-main-button:hover {
+    background: #9966ff;
+    color: #fff;
+}
+
+
+/* Серый фон для рекламных функций в Pro-версии */
+.ai-seo-main-plugin-pro-features {
+    background: #e0e0e0;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Оформление списка функций в Pro-версии */
+.ai-seo-main-plugin-pro-features ul {
+    padding-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* блок статистики в товаре*/
+
+.ai_seo_log_summary {
+    font-size: 14px;
+    color: #666;
+    background: linear-gradient(135deg, #aa69f6bf, rgb(205 16 129 / 14%), #e5aeffd1);
+    padding: 10px;
+    border-radius: 10px;
+    color: #000000fc;
+    position: relative;
+    overflow: hidden;
+}
+
+.ai_seo_log_summary::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(135deg, #ede8e82e, rgb(148 16 205 / 11%), transparent);
+    background-size: 50% 100%;
+    filter: blur(100px);
+    transform: translateX(-100%);
+    pointer-events: none;
+    animation: tableShine 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes tableShine {
+    100% { transform: translateX(100%); }
+}
+
+.ai_seo_log_summary p {
+    position: relative;
+    padding-left: 25px;
+}
+
+.ai_seo_log_summary .ai_seo_log_summary_heading {
+    font-size: 14px; 
+}
+
+.ai_seo_log_summary .ai_seo_log_summary_disclaimer {
+    font-size: 10px;
+}
+
+p.ai_seo_log_summary_footnote {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.ai_seo_log_summary strong {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.ai_seo_log_summary .img_proc:before {
+    font-family: "dashicons";
+    content: "\f128";
+    position: absolute;
+    left: 0;
+    top: 1px;
+	font-size: 22px;
+}
+
+.ai_seo_log_summary .desc_proc:before {
+    font-family: "dashicons";
+    content: "\f464";
+    position: absolute;
+    left: 0;
+    top: 1px;
+	font-size: 22px;
+}
+
+.ai_seo_log_summary .keyw_proc:before {
+    font-family: "dashicons";
+    content: "\f316";
+    position: absolute;
+    left: 0;
+    top: 1px;
+	font-size: 22px;
+}
+

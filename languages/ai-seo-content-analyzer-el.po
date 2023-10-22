@@ -1,0 +1,777 @@
+# Copyright (C) 2023 BuyReadySite.com
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AI SEO Content Analyzer 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ai-seo-content-"
+"analyzer\n"
+"Last-Translator: \n"
+"Language-Team: Greek\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-04T13:03:20+00:00\n"
+"PO-Revision-Date: 2023-09-04 13:08+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: ai-seo-content-analyzer\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.4; wp-6.3.1"
+
+#. Plugin Name of the plugin
+#: admin/console/mass-analysis.php:71
+msgid "AI SEO Content Analyzer"
+msgstr "AI SEO Content Analyzer"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://aiseoautooptimize.pro"
+msgstr "https://aiseoautooptimize.pro"
+
+#. Description of the plugin
+msgid ""
+"AI SEO Content Analyzer is a comprehensive SEO tool designed to scan and "
+"evaluate your content for potential SEO issues. By examining your content "
+"based on predefined parameters, it provides actionable recommendations and "
+"insights to improve its SEO optimization. Whether you're looking to increase "
+"your content's visibility, address common SEO mistakes, or just ensure that "
+"your website is on the right track, this plugin offers a streamlined and "
+"user-friendly solution."
+msgstr ""
+"Το AI SEO Content Analyzer είναι ένα ολοκληρωμένο εργαλείο SEO που έχει "
+"σχεδιαστεί για να σαρώνει και να αξιολογεί το περιεχόμενό σας για πιθανά "
+"προβλήματα SEO. Εξετάζοντας το περιεχόμενό σας με βάση προκαθορισμένες "
+"παραμέτρους, παρέχει χρήσιμες συστάσεις και πληροφορίες για τη βελτίωση της "
+"βελτιστοποίησης SEO. Είτε θέλετε να αυξήσετε την προβολή του περιεχομένου "
+"σας, είτε να αντιμετωπίσετε κοινά λάθη SEO ή απλώς να διασφαλίσετε ότι ο "
+"ιστότοπός σας βρίσκεται στο σωστό δρόμο, αυτή η προσθήκη προσφέρει μια "
+"βελτιωμένη και φιλική προς το χρήστη λύση."
+
+#. Author of the plugin
+msgid "BuyReadySite.com"
+msgstr "BuyReadySite.com"
+
+#: admin/ai_seo_optimization_score.php:129
+msgid "Keyword presence in title"
+msgstr "Παρουσία λέξης-κλειδιού στον τίτλο"
+
+#: admin/ai_seo_optimization_score.php:134
+msgid "Keyword absence in title"
+msgstr "Λέξη-κλειδί απουσία στον τίτλο"
+
+#. translators: 1: Keyword used, 2: Title with highlighted keyword
+#: admin/ai_seo_optimization_score.php:137
+msgid ""
+"Keyword used: %1$s<strong>%1$s</strong><br>Missing keyword in the title can "
+"affect search engine visibility. Implementing the keyword can enhance "
+"ranking.<br>Title: %2$s"
+msgstr ""
+"Λέξη-κλειδί που χρησιμοποιείται: %1$s<strong>%1$s</strong><br>Η λέξη-κλειδί "
+"που λείπει στον τίτλο μπορεί να επηρεάσει την ορατότητα της μηχανής "
+"αναζήτησης. Η εφαρμογή της λέξης-κλειδιού μπορεί να βελτιώσει την κατάταξη."
+"<br>Τίτλος: %2$s"
+
+#: admin/ai_seo_optimization_score.php:149
+msgid "Optimal title length"
+msgstr "Βέλτιστο μήκος τίτλου"
+
+#: admin/ai_seo_optimization_score.php:154
+msgid "Non-optimal title length"
+msgstr "Μη βέλτιστο μήκος τίτλου"
+
+#: admin/ai_seo_optimization_score.php:166
+msgid "Keyword at the beginning of the title"
+msgstr "Λέξη-κλειδί στην αρχή του τίτλου"
+
+#: admin/ai_seo_optimization_score.php:171
+msgid "Keyword not at the beginning of the title"
+msgstr "Λέξη-κλειδί όχι στην αρχή του τίτλου"
+
+#. translators: 1: Keyword used, 2: Beginning of the title, 3: Remaining part of the title
+#: admin/ai_seo_optimization_score.php:174
+msgid "Keyword used: %1$s<strong>%1$s</strong><br>Title: %2$s%3$s"
+msgstr ""
+"Λέξη-κλειδί που χρησιμοποιείται: %1$s<strong>%1$s</strong><br>Τίτλος: "
+"%2$s%3$s"
+
+#: admin/ai_seo_optimization_score.php:182
+#: admin/ai_seo_optimization_score.php:246
+#: admin/ai_seo_optimization_score.php:328
+msgid "Keyword is not set. Please provide a keyword for SEO analysis."
+msgstr "Η λέξη-κλειδί δεν έχει οριστεί. Δώστε μια λέξη-κλειδί για ανάλυση SEO."
+
+#: admin/ai_seo_optimization_score.php:192
+msgid "Presence of numbers, special Unicode characters, or emojis in title"
+msgstr "Παρουσία αριθμών, ειδικών χαρακτήρων Unicode ή emoji στον τίτλο"
+
+#: admin/ai_seo_optimization_score.php:197
+msgid "Absence of numbers, special Unicode characters, or emojis in title"
+msgstr "Απουσία αριθμών, ειδικών χαρακτήρων Unicode ή emoji στον τίτλο"
+
+#: admin/ai_seo_optimization_score.php:230
+msgid "Keyword presence in meta description"
+msgstr "Παρουσία λέξης-κλειδιού στη μετα-περιγραφή"
+
+#: admin/ai_seo_optimization_score.php:235
+msgid "Keyword absence in meta description"
+msgstr "Απουσία λέξης-κλειδιού στη μετα-περιγραφή"
+
+#. translators: 1: Keyword used, 2: Meta description
+#: admin/ai_seo_optimization_score.php:238
+msgid ""
+"The keyword was not found in the meta description. It's recommended to "
+"include the keyword for better SEO performance.<br>Keyword used: %1$s<strong>"
+"%1$s</strong><br>Meta Description: %2$s"
+msgstr ""
+"Η λέξη-κλειδί δεν βρέθηκε στη μετα-περιγραφή. Συνιστάται να συμπεριλάβετε τη "
+"λέξη-κλειδί για καλύτερη απόδοση SEO.<br>Λέξη-κλειδί που χρησιμοποιείται: "
+"%1$s<strong>%1$s</strong><br>Περιγραφή Meta: %2$s"
+
+#: admin/ai_seo_optimization_score.php:254
+msgid "Optimal meta description length"
+msgstr "Βέλτιστο μήκος περιγραφής μεταδεδομένων"
+
+#: admin/ai_seo_optimization_score.php:259
+msgid "Non-optimal meta description length"
+msgstr "Μη βέλτιστο μήκος περιγραφής μεταδεδομένων"
+
+#. translators: 1: Current meta description length
+#: admin/ai_seo_optimization_score.php:262
+msgid ""
+"The length of the meta description is not optimal. It's recommended to keep "
+"the meta description between 130-160 characters.<br>Current Length: %d"
+msgstr ""
+"Το μήκος της μετα-περιγραφής δεν είναι βέλτιστο. Συνιστάται να διατηρείτε τη "
+"μετα-περιγραφή μεταξύ 130-160 χαρακτήρων.<br>Τρέχον μήκος: %d"
+
+#: admin/ai_seo_optimization_score.php:311
+msgid "Keyword presence in URL"
+msgstr "Παρουσία λέξης-κλειδιού στη διεύθυνση URL"
+
+#: admin/ai_seo_optimization_score.php:317
+msgid "Keyword absence in URL"
+msgstr "Απουσία λέξης-κλειδιού στη διεύθυνση URL"
+
+#. translators: 1: URL
+#: admin/ai_seo_optimization_score.php:320
+msgid ""
+"The keyword is not found in the URL. It's recommended to include the keyword "
+"in the URL for better SEO performance.<br>URL: %s"
+msgstr ""
+"Η λέξη-κλειδί δεν βρίσκεται στη διεύθυνση URL. Συνιστάται να συμπεριλάβετε "
+"τη λέξη-κλειδί στη διεύθυνση URL για καλύτερη απόδοση SEO.<br>URL: %s"
+
+#: admin/ai_seo_optimization_score.php:335
+msgid "Clean and short URL"
+msgstr "Καθαρή και σύντομη διεύθυνση URL"
+
+#. translators: 1: URL length, 2: URL
+#: admin/ai_seo_optimization_score.php:338
+msgid ""
+"The URL is clean and short (length: %1$s characters). Recommended URL length "
+"is less than 80 characters. You can modify the URL structure in <a "
+"href='options-permalink.php'>Permalink Settings</a>.<br>Current URL: %2$s"
+msgstr ""
+"Η διεύθυνση URL είναι καθαρή και σύντομη (μήκος: %1$s χαρακτήρες). Το "
+"προτεινόμενο μήκος διεύθυνσης URL είναι μικρότερο από 80 χαρακτήρες. "
+"Μπορείτε να τροποποιήσετε τη δομή της διεύθυνσης URL στις <a href='options-"
+"permalink.php'>Ρυθμίσεις μόνιμου συνδέσμου</a> .<br> Τρέχουσα διεύθυνση URL: "
+"%2$s"
+
+#: admin/ai_seo_optimization_score.php:343
+msgid "URL not clean or too long"
+msgstr "Η διεύθυνση URL δεν είναι καθαρή ή πολύ μεγάλη"
+
+#: admin/ai_seo_optimization_score.php:378
+msgid "Only one H1"
+msgstr "Μόνο ένα Η1"
+
+#. translators: 1: H1 content
+#: admin/ai_seo_optimization_score.php:381
+msgid "The content has only one H1 tag: %s."
+msgstr "Το περιεχόμενο έχει μόνο μία ετικέτα H1: %s."
+
+#: admin/ai_seo_optimization_score.php:385
+msgid "Multiple or no H1 tags"
+msgstr "Πολλαπλές ή καθόλου ετικέτες H1"
+
+#: admin/ai_seo_optimization_score.php:397
+msgid "Keyword presence in H1"
+msgstr "Παρουσία λέξης-κλειδιού στο Η1"
+
+#: admin/ai_seo_optimization_score.php:404
+msgid "Keyword absence in H1"
+msgstr "Απουσία λέξης-κλειδιού στο Η1"
+
+#: admin/ai_seo_optimization_score.php:406
+msgid "The keyword is not present in the H1 tag."
+msgstr "Η λέξη-κλειδί δεν υπάρχει στην ετικέτα H1."
+
+#: admin/ai_seo_optimization_score.php:424
+msgid "Keyword presence in subheadings"
+msgstr "Παρουσία λέξεων-κλειδιών σε υποτίτλους"
+
+#: admin/ai_seo_optimization_score.php:433
+msgid "Keyword absence in subheadings"
+msgstr "Απουσία λέξεων-κλειδιών σε υποτίτλους"
+
+#: admin/ai_seo_optimization_score.php:435
+msgid "The keyword is not present in any of the subheadings."
+msgstr "Η λέξη-κλειδί δεν υπάρχει σε καμία από τις υπότιτλους."
+
+#: admin/ai_seo_optimization_score.php:475
+msgid "Correct nesting of subheadings"
+msgstr "Σωστή ένθεση των υποτίτλων"
+
+#. translators: 1: Heading structure
+#: admin/ai_seo_optimization_score.php:478
+msgid ""
+"The subheadings are correctly nested. Correctly nested subheadings help in "
+"organizing the content and improving readability."
+msgstr ""
+"Οι υπότιτλοι είναι σωστά ένθετες. Οι σωστά ένθετες υπότιτλοι βοηθούν στην "
+"οργάνωση του περιεχομένου και στη βελτίωση της αναγνωσιμότητας."
+
+#: admin/ai_seo_optimization_score.php:482
+msgid "Incorrect nesting of subheadings"
+msgstr "Λανθασμένη ένθεση των υποτίτλων"
+
+#: admin/ai_seo_optimization_score.php:513
+msgid "Presence of alt text for all images"
+msgstr "Παρουσία εναλλακτικού κειμένου για όλες τις εικόνες"
+
+#. translators: 1: Count of images with alt text
+#: admin/ai_seo_optimization_score.php:516
+msgid "All %1$s images have alt text. This is good for SEO and accessibility."
+msgstr ""
+"Όλες οι εικόνες %1$s έχουν εναλλακτικό κείμενο. Αυτό είναι καλό για SEO και "
+"προσβασιμότητα."
+
+#: admin/ai_seo_optimization_score.php:521
+msgid "Missing alt text for some images"
+msgstr "Λείπει εναλλακτικό κείμενο για ορισμένες εικόνες"
+
+#: admin/ai_seo_optimization_score.php:537
+msgid "Keyword presence in alt text of main image"
+msgstr "Παρουσία λέξης-κλειδιού στο εναλλακτικό κείμενο της κύριας εικόνας"
+
+#: admin/ai_seo_optimization_score.php:542
+msgid "Keyword absence in alt text of main image"
+msgstr "Απουσία λέξης-κλειδιού στο εναλλακτικό κείμενο της κύριας εικόνας"
+
+#: admin/ai_seo_optimization_score.php:544
+msgid ""
+"The keyword is not present in the alt text of the main image. Consider "
+"including the keyword."
+msgstr ""
+"Η λέξη-κλειδί δεν υπάρχει στο εναλλακτικό κείμενο της κύριας εικόνας. "
+"Σκεφτείτε να συμπεριλάβετε τη λέξη-κλειδί."
+
+#: admin/ai_seo_optimization_score.php:563
+msgid "Keyword presence in alt text of other images"
+msgstr "Παρουσία λέξης-κλειδιού σε εναλλακτικό κείμενο άλλων εικόνων"
+
+#: admin/ai_seo_optimization_score.php:568
+msgid "Keyword absence in alt text of other images"
+msgstr "Απουσία λέξης-κλειδιού σε εναλλακτικό κείμενο άλλων εικόνων"
+
+#: admin/ai_seo_optimization_score.php:570
+msgid ""
+"The keyword is not present in the alt text of other images. Consider "
+"including the keyword."
+msgstr ""
+"Η λέξη-κλειδί δεν υπάρχει στο εναλλακτικό κείμενο άλλων εικόνων. Σκεφτείτε "
+"να συμπεριλάβετε τη λέξη-κλειδί."
+
+#: admin/ai_seo_optimization_score.php:579
+msgid "Good ratio of images/media to text volume"
+msgstr "Καλή αναλογία εικόνων/μέσου προς όγκο κειμένου"
+
+#: admin/ai_seo_optimization_score.php:584
+msgid "Poor ratio of images/media to text volume"
+msgstr "Κακή αναλογία εικόνων/μέσου προς όγκο κειμένου"
+
+#. translators: 1: Count of images, 2: Content length
+#: admin/ai_seo_optimization_score.php:587
+msgid ""
+"The content has %1$s images and %2$s characters. Consider adding more images "
+"to achieve the recommended ratio of at least 1 image per 3000 characters."
+msgstr ""
+"Το περιεχόμενο έχει %1$s εικόνες και %2$s χαρακτήρες. Εξετάστε το ενδεχόμενο "
+"να προσθέσετε περισσότερες εικόνες για να επιτύχετε τη συνιστώμενη αναλογία "
+"τουλάχιστον 1 εικόνας ανά 3000 χαρακτήρες."
+
+#: admin/ai_seo_optimization_score.php:645
+msgid "Presence of external links"
+msgstr "Παρουσία εξωτερικών συνδέσμων"
+
+#. translators: 1: Number of external links, 2: List of external links with their anchor text
+#: admin/ai_seo_optimization_score.php:648
+msgid ""
+"Found %1$s external links. External links can add value and credibility to "
+"your content. Links:%2$s"
+msgstr ""
+"Βρέθηκαν %1$s εξωτερικοί σύνδεσμοι. Οι εξωτερικοί σύνδεσμοι μπορούν να "
+"προσθέσουν αξία και αξιοπιστία στο περιεχόμενό σας. Σύνδεσμοι:%2$s"
+
+#: admin/ai_seo_optimization_score.php:652
+msgid "No external links"
+msgstr "Δεν υπάρχουν εξωτερικοί σύνδεσμοι"
+
+#: admin/ai_seo_optimization_score.php:654
+msgid "No external links found."
+msgstr "Δεν βρέθηκαν εξωτερικοί σύνδεσμοι."
+
+#: admin/ai_seo_optimization_score.php:661
+msgid "Presence of internal links"
+msgstr "Παρουσία εσωτερικών συνδέσμων"
+
+#: admin/ai_seo_optimization_score.php:666
+msgid "No internal links"
+msgstr "Δεν υπάρχουν εσωτερικοί σύνδεσμοι"
+
+#: admin/ai_seo_optimization_score.php:668
+msgid "No internal links found."
+msgstr "Δεν βρέθηκαν εσωτερικοί σύνδεσμοι."
+
+#: admin/ai_seo_optimization_score.php:685
+msgid "No links with nofollow attributes"
+msgstr "Δεν υπάρχουν σύνδεσμοι με χαρακτηριστικά nofollow"
+
+#: admin/ai_seo_optimization_score.php:687
+msgid ""
+"No links with nofollow attribute found. This is positive as it allows search "
+"engines to crawl and pass link equity to the linked pages. Consider linking "
+"to authoritative and trusted websites without the nofollow attribute, as it "
+"aligns with the best SEO practices."
+msgstr ""
+"Δεν βρέθηκαν σύνδεσμοι με χαρακτηριστικό nofollow. Αυτό είναι θετικό, καθώς "
+"επιτρέπει στις μηχανές αναζήτησης να ανιχνεύουν και να μεταβιβάζουν το ίδιο "
+"κεφάλαιο στις συνδεδεμένες σελίδες. Εξετάστε το ενδεχόμενο σύνδεσης με "
+"έγκυρους και αξιόπιστους ιστότοπους χωρίς το χαρακτηριστικό nofollow, καθώς "
+"ευθυγραμμίζεται με τις βέλτιστες πρακτικές SEO."
+
+#: admin/ai_seo_optimization_score.php:689
+msgid "Presence of nofollow attributes"
+msgstr "Παρουσία χαρακτηριστικών nofollow"
+
+#: admin/ai_seo_optimization_score.php:748
+msgid "Keyword presence in content"
+msgstr "Παρουσία λέξης-κλειδιού στο περιεχόμενο"
+
+#. translators: 1: Keyword density, 2: Minimum recommended keyword density, 3: Maximum recommended keyword density
+#: admin/ai_seo_optimization_score.php:751
+#: admin/ai_seo_optimization_score.php:758
+msgid ""
+"Keyword density is <strong>%1$.2f%%</strong>. Recommended optimal density is "
+"between %2$.2f%% and %3$.2f%%."
+msgstr ""
+"Η πυκνότητα των λέξεων-κλειδιών είναι <strong>%1$.2f%%</strong>. Η "
+"συνιστώμενη βέλτιστη πυκνότητα είναι μεταξύ %2$.2f%% και %3$.2f%%."
+
+#: admin/ai_seo_optimization_score.php:755
+#: admin/ai_seo_optimization_score.php:760
+msgid "Keyword presence in content (suboptimal density)"
+msgstr "Παρουσία λέξης-κλειδιού στο περιεχόμενο (υπό βέλτιστη πυκνότητα)"
+
+#. translators: 1: Keyword density, 2: Minimum recommended keyword density, 3: Maximum recommended keyword density
+#: admin/ai_seo_optimization_score.php:763
+msgid ""
+"Keyword density is <strong>%1$.2f%%</strong>. Recommended optimal density is "
+"between %2$.2f%% and %3$.2f%%. No points awarded as density is out of range."
+msgstr ""
+"Η πυκνότητα των λέξεων-κλειδιών είναι <strong>%1$.2f%%</strong>. Η "
+"συνιστώμενη βέλτιστη πυκνότητα είναι μεταξύ %2$.2f%% και %3$.2f%%. Δεν "
+"δίνονται βαθμοί καθώς η πυκνότητα είναι εκτός εύρους."
+
+#: admin/ai_seo_optimization_score.php:773
+msgid "Optimal content length"
+msgstr "Βέλτιστο μήκος περιεχομένου"
+
+#. translators: 1: Number of words in content, 2: Recommended minimum number of words
+#: admin/ai_seo_optimization_score.php:776
+msgid ""
+"Content has %1$s words. A minimum of %2$d words is recommended for optimal "
+"SEO."
+msgstr ""
+"Το περιεχόμενο έχει %1$s λέξεις. Συνιστάται τουλάχιστον %2$d λέξεις για "
+"βέλτιστο SEO."
+
+#: admin/ai_seo_optimization_score.php:780
+msgid "Content length is not optimal"
+msgstr "Το μήκος περιεχομένου δεν είναι βέλτιστο"
+
+#: admin/ai_seo_optimization_score.php:791
+msgid "Presence of media content"
+msgstr "Παρουσία περιεχομένου μέσων"
+
+#. translators: 1: Number of media items in content
+#: admin/ai_seo_optimization_score.php:794
+msgid ""
+"Found %1$s media items in content. Media items like images and videos can "
+"enhance user engagement."
+msgstr ""
+"Βρέθηκαν %1$s στοιχεία πολυμέσων στο περιεχόμενο. Τα στοιχεία πολυμέσων, "
+"όπως εικόνες και βίντεο, μπορούν να ενισχύσουν την αφοσίωση των χρηστών."
+
+#: admin/ai_seo_optimization_score.php:798
+msgid "No media content found"
+msgstr "Δεν βρέθηκε περιεχόμενο πολυμέσων"
+
+#: admin/ai_seo_optimization_score.php:800
+msgid ""
+"No media items found in content. Consider adding images or videos to enhance "
+"user engagement."
+msgstr ""
+"Δεν βρέθηκαν στοιχεία πολυμέσων στο περιεχόμενο. Εξετάστε το ενδεχόμενο να "
+"προσθέσετε εικόνες ή βίντεο για να βελτιώσετε την αφοσίωση των χρηστών."
+
+#: admin/ai_seo_optimization_score.php:816
+msgid "No long sentences"
+msgstr "Όχι μεγάλες προτάσεις"
+
+#: admin/ai_seo_optimization_score.php:818
+msgid "No long sentences found in content."
+msgstr "Δεν βρέθηκαν μεγάλες προτάσεις στο περιεχόμενο."
+
+#: admin/ai_seo_optimization_score.php:820
+msgid "Presence of long sentences"
+msgstr "Παρουσία μεγάλων προτάσεων"
+
+#: admin/ai_seo_optimization_score.php:834
+msgid "No large paragraphs"
+msgstr "Χωρίς μεγάλες παραγράφους"
+
+#: admin/ai_seo_optimization_score.php:836
+msgid "No large paragraphs found in content."
+msgstr "Δεν βρέθηκαν μεγάλες παράγραφοι στο περιεχόμενο."
+
+#: admin/ai_seo_optimization_score.php:838
+msgid "Presence of large paragraphs"
+msgstr "Παρουσία μεγάλων παραγράφων"
+
+#: admin/ai_seo_optimization_score.php:869
+#: admin/ai_seo_optimization_score.php:878
+msgid "List"
+msgstr "Λίστα"
+
+#: admin/ai_seo_optimization_score.php:883
+msgid "Presence of lists"
+msgstr "Παρουσία λιστών"
+
+#: admin/ai_seo_optimization_score.php:887
+msgid "Found %1$s unordered lists and %2$s ordered lists.<br>%3$s%4$s"
+msgstr ""
+"Βρέθηκαν %1$s μη ταξινομημένες λίστες και %2$s ταξινομημένες λίστες.<br>"
+"%3$s%4$s"
+
+#: admin/ai_seo_optimization_score.php:909
+msgid "Use of italic or bold for keyword emphasis"
+msgstr "Χρήση πλάγιας ή έντονης γραφής για έμφαση στη λέξη-κλειδί"
+
+#: admin/ai_seo_optimization_score.php:914
+msgid ""
+"Keyword is not emphasized with bold or italic. Emphasizing important "
+"keywords can improve readability."
+msgstr ""
+"Η λέξη-κλειδί δεν τονίζεται με έντονη ή πλάγια γραφή. Η έμφαση σε σημαντικές "
+"λέξεις-κλειδιά μπορεί να βελτιώσει την αναγνωσιμότητα."
+
+#: admin/ai_seo_optimization_score.php:920
+msgid "Presence of tables"
+msgstr "Παρουσία τραπεζιών"
+
+#: admin/ai_seo_optimization_score.php:925
+msgid ""
+"No tables found in content. Consider using tables to present data when "
+"applicable."
+msgstr ""
+"Δεν βρέθηκαν πίνακες στο περιεχόμενο. Εξετάστε το ενδεχόμενο να "
+"χρησιμοποιήσετε πίνακες για να παρουσιάσετε δεδομένα, όταν αυτό ισχύει."
+
+#: admin/ai_seo_score_display.php:30
+msgid "AI SEO Content Analyzer Plugin Score"
+msgstr "Βαθμολογία προσθήκης AI SEO Content Analyzer"
+
+#: admin/ai_seo_score_display.php:34
+msgid "Overall Score"
+msgstr "Συνολική βαθμολογία"
+
+#: admin/ai_seo_score_display.php:106
+msgid "Current SEO score:"
+msgstr "Τρέχουσα βαθμολογία SEO:"
+
+#: admin/ai_seo_score_display.php:112
+msgid "Improve with Pro Version"
+msgstr "Βελτιώστε με την έκδοση Pro"
+
+#: admin/ai_seo_score_display.php:123
+msgid "AI SEO Score for Post"
+msgstr "Βαθμολογία AI SEO για ανάρτηση"
+
+#: admin/console/console.php:14
+msgid ""
+"Your go-to tool for comprehensive SEO content analysis. Brought to you by "
+"BuyReadySite, the AI SEO Content Analyzer Pro helps you scrutinize and "
+"optimize your content like never before. Enhance your content's SEO score "
+"with detailed audits and intelligent recommendations."
+msgstr ""
+"Το εργαλείο σας για ολοκληρωμένη ανάλυση περιεχομένου SEO. Το AI SEO Content "
+"Analyzer Pro που σας δόθηκε από το BuyReadySite, σας βοηθά να ελέγχετε και "
+"να βελτιστοποιείτε το περιεχόμενό σας όπως ποτέ πριν. Βελτιώστε τη "
+"βαθμολογία SEO του περιεχομένου σας με λεπτομερείς ελέγχους και έξυπνες "
+"προτάσεις."
+
+#: admin/console/console.php:15
+msgid "Plugin Advantages"
+msgstr "Πλεονεκτήματα πρόσθετων"
+
+#: admin/console/console.php:20
+msgid "Content Analysis"
+msgstr "Ανάλυση περιεχομένου"
+
+#: admin/console/console.php:22
+msgid "Keyword density analysis"
+msgstr "Ανάλυση πυκνότητας λέξεων-κλειδιών"
+
+#: admin/console/console.php:23
+msgid "Content readability score"
+msgstr "Βαθμολογία αναγνωσιμότητας περιεχομένου"
+
+#: admin/console/console.php:24
+msgid "Meta tags evaluation"
+msgstr "Αξιολόγηση μετα-ετικέτες"
+
+#: admin/console/console.php:28
+msgid "SEO Auditing"
+msgstr "Έλεγχος SEO"
+
+#: admin/console/console.php:30
+msgid "On-page SEO audit"
+msgstr "Έλεγχος SEO στη σελίδα"
+
+#: admin/console/console.php:31
+msgid "Backlink analysis"
+msgstr "Ανάλυση backlink"
+
+#: admin/console/console.php:32
+msgid "Technical SEO evaluation"
+msgstr "Τεχνική αξιολόγηση SEO"
+
+#: admin/console/console.php:36
+msgid "Performance"
+msgstr "Εκτέλεση"
+
+#: admin/console/console.php:38
+msgid "Fast content analysis"
+msgstr "Γρήγορη ανάλυση περιεχομένου"
+
+#: admin/console/console.php:39
+msgid "Easy integration"
+msgstr "Εύκολη ενσωμάτωση"
+
+#: admin/console/console.php:40
+msgid "User-friendly dashboard"
+msgstr "Φιλικό προς τον χρήστη πίνακα ελέγχου"
+
+#: admin/console/console.php:45
+msgid "Paid Version Advantages"
+msgstr "Πλεονεκτήματα έκδοσης επί πληρωμή"
+
+#: admin/console/console.php:50
+msgid "Data Security"
+msgstr "Ασφάλεια δεδομένων"
+
+#: admin/console/console.php:52
+msgid "Backup creation"
+msgstr "Δημιουργία αντιγράφων ασφαλείας"
+
+#: admin/console/console.php:53
+msgid "Logging"
+msgstr "Ξύλευση"
+
+#: admin/console/console.php:54
+msgid "Data encryption"
+msgstr "Κρυπτογράφηση δεδομένων"
+
+#: admin/console/console.php:58
+msgid "Linking Tools"
+msgstr "Εργαλεία σύνδεσης"
+
+#: admin/console/console.php:60
+msgid "Internal linking"
+msgstr "Εσωτερική σύνδεση"
+
+#: admin/console/console.php:61
+msgid "Search and removal of broken links from content"
+msgstr "Αναζήτηση και αφαίρεση κατεστραμμένων συνδέσμων από περιεχόμενο"
+
+#: admin/console/console.php:65
+msgid "Advanced Reporting"
+msgstr "Σύνθετη αναφορά"
+
+#: admin/console/console.php:67
+msgid "Weekly reports"
+msgstr "Εβδομαδιαίες αναφορές"
+
+#: admin/console/console.php:68
+msgid "Exportable PDF reports"
+msgstr "Εξαγώγιμες αναφορές PDF"
+
+#: admin/console/console.php:77
+msgid "Get Pro Version Now - Unlock Advanced Features!"
+msgstr "Αποκτήστε την έκδοση Pro τώρα - Ξεκλειδώστε προηγμένες λειτουργίες!"
+
+#: admin/console/console.php:82
+msgid "Go to products"
+msgstr "Μεταβείτε στα προϊόντα"
+
+#: admin/console/console.php:83
+msgid "Mass content analysis"
+msgstr "Μαζική ανάλυση περιεχομένου"
+
+#: admin/console/console.php:83
+msgid "Available in Pro Version"
+msgstr "Διατίθεται σε έκδοση Pro"
+
+#: admin/console/mass-analysis.php:72
+msgid ""
+"Use this page to perform mass analyzer of your content. Select the posts or "
+"products you wish to analyze, and the tool will provide detailed insights "
+"and suggestions."
+msgstr ""
+"Χρησιμοποιήστε αυτήν τη σελίδα για να εκτελέσετε μαζική ανάλυση του "
+"περιεχομένου σας. Επιλέξτε τις αναρτήσεις ή τα προϊόντα που θέλετε να "
+"αναλύσετε και το εργαλείο θα παρέχει λεπτομερείς πληροφορίες και προτάσεις."
+
+#: admin/console/mass-analysis.php:82
+msgid "Legend:"
+msgstr "Θρύλος:"
+
+#: admin/console/mass-analysis.php:84 admin/console/mass-analysis.php:128
+msgid "Poor"
+msgstr "Φτωχός"
+
+#: admin/console/mass-analysis.php:85 admin/console/mass-analysis.php:128
+msgid "Normal"
+msgstr "Κανονικός"
+
+#: admin/console/mass-analysis.php:86 admin/console/mass-analysis.php:128
+msgid "Good"
+msgstr "Καλός"
+
+#: admin/console/mass-analysis.php:87 admin/console/mass-analysis.php:128
+msgid "Excellent"
+msgstr "Εξοχος"
+
+#: admin/console/mass-analysis.php:103
+msgid "Average Score:"
+msgstr "Μέσος όρος:"
+
+#: admin/console/mass-analysis.php:104
+msgid "Total Posts:"
+msgstr "Σύνολο αναρτήσεων:"
+
+#: admin/console/mass-analysis.php:105
+msgid "Products:"
+msgstr "Προϊόντα:"
+
+#: admin/console/mass-analysis.php:106
+msgid "Poor Score:"
+msgstr "Κακή βαθμολογία:"
+
+#: admin/console/mass-analysis.php:107
+msgid "Normal Score:"
+msgstr "Κανονική βαθμολογία:"
+
+#: admin/console/mass-analysis.php:108
+msgid "Good Score:"
+msgstr "Καλή βαθμολογία:"
+
+#: admin/console/mass-analysis.php:109
+msgid "Excellent Score:"
+msgstr "Εξαιρετική βαθμολογία:"
+
+#: admin/console/mass-analysis.php:115
+msgid "Reanalyze"
+msgstr "Αναλύστε ξανά"
+
+#: admin/console/mass-analysis.php:117
+msgid "Start Analysis"
+msgstr "Ξεκινήστε την Ανάλυση"
+
+#: admin/console/mass-analysis.php:170
+msgid "Title"
+msgstr "Τίτλος"
+
+#: admin/console/mass-analysis.php:171
+msgid "Type"
+msgstr "Τύπος"
+
+#: admin/console/mass-analysis.php:172
+msgid "Score"
+msgstr "Σκορ"
+
+#: admin/console/mass-analysis.php:173
+msgid "Optimization"
+msgstr "Βελτιστοποίηση"
+
+#: admin/console/mass-analysis.php:187
+msgid "Product"
+msgstr "Προϊόν"
+
+#: admin/console/mass-analysis.php:187
+msgid "Post"
+msgstr "Θέση"
+
+#: admin/console/mass-analysis.php:188
+msgid "All good"
+msgstr "Ολα καλά"
+
+#: admin/console/mass-analysis.php:188
+msgid "AutoOptimize with Pro"
+msgstr "Auto Optimize with Pro"
+
+#: admin/console/mass-analysis.php:189
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: admin/seo-plugins.php:30
+msgid ""
+"AI SEO AutoOptimize Pro requires an active SEO plugin (Yoast, Rank Math, or "
+"All in One SEO Pack). Please install and activate one. However, we recommend "
+"using the RankMath plugin."
+msgstr ""
+"Το AI SEO AutoOptimize Pro απαιτεί ένα ενεργό πρόσθετο SEO (Yoast, Rank Math "
+"ή All in One SEO Pack). Εγκαταστήστε και ενεργοποιήστε ένα. Ωστόσο, "
+"συνιστούμε να χρησιμοποιήσετε την προσθήκη RankMath."
+
+#: admin/seo-plugins.php:32
+msgid "Install Yoast SEO"
+msgstr "Εγκαταστήστε το Yoast SEO"
+
+#: admin/seo-plugins.php:33
+msgid "Install Rank Math"
+msgstr "Εγκαταστήστε το Rank Math"
+
+#: admin/seo-plugins.php:34
+msgid "Install All in One SEO Pack"
+msgstr "Εγκαταστήστε το πακέτο SEO All in One"
+
+#: ai-seo-content-analyzer.php:61 ai-seo-content-analyzer.php:62
+msgid "Buy Pro Version"
+msgstr "Αγοράστε την έκδοση Pro"
+
+#: ai-seo-content-analyzer.php:68 ai-seo-content-analyzer.php:69
+msgid "Mass Analyzer"
+msgstr "Αναλυτής μάζας"
+
+#: ai-seo-content-analyzer.php:111
+msgid "AI SEO Content Analyzer requires Yoast SEO or Rank Math to be active!"
+msgstr ""
+"Το AI SEO Content Analyzer απαιτεί το Yoast SEO ή το Rank Math για να είναι "
+"ενεργό!"
+
+#: ai-seo-content-analyzer.php:121
+msgid "WIKI Plugin"
+msgstr "Πρόσθετο WIKI"
