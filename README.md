@@ -18,6 +18,12 @@ AI SEO Content Analyzer Lite is a lightweight, yet comprehensive SEO analysis to
 - Compatibility with Classic Editor
 - Introduction to the advanced features of [AI SEO AutoOptimize Pro](https://aiseo.buyreadysite.com)
 
+## Video Overview
+
+<a href="https://www.youtube.com/watch?v=e3S9ruUn4Gk" target="_blank">
+  <img src="https://img.youtube.com/vi/e3S9ruUn4Gk/0.jpg" alt="AI SEO Content Analyzer Video Overview" width="600"/>
+</a>
+
 ## Installation
 
 1. Upload the `ai-seo-content-analyzer-lite` folder to the `/wp-content/plugins/` directory.
